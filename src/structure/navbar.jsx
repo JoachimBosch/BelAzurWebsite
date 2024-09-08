@@ -6,9 +6,9 @@ import Azur from '../../public/media/img/Azur.png'
 
 const navigation = [
     { name: 'Home', href: '/'},
-    { name: 'Packages', href: '#'},
-    { name: 'Projects', href: '#'},
-    { name: 'Contact', href: '#'},
+    { name: 'Services', href: '/services'},
+    { name: 'Projects', href: '/portfolio'},
+    { name: 'Contact', href: '/contact'},
 ]
 
 const Navbar = () => {
