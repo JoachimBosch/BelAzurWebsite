@@ -23,6 +23,12 @@ button:hover {
     color: white;
 }
 
+input {
+    border-color: black;
+    border: 1px;
+    background-color: lightblue;
+}
+
 .intro {
     font-size: 26px;
     font-weight: bold;
@@ -54,4 +60,15 @@ button:hover {
 
 .footerLink:hover {
     text-decoration-line: underline;
+}
+
+.serviceItem {
+    border: 1px;
+    border-color: black;
+    border-style: double;
+    height: 200px;
+    width: 200px;
+    margin: 0 20px;
+    padding: 5px 10px;
+    text-align: center;
 }

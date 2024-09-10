@@ -13,7 +13,9 @@ const Footer = () => {
                         Privacy Policy - Cookie Policy - Terms & Conditions
                     </Link>
                 </div>
-                <div className="col-span-1">Social links</div>
+                <div className="col-span-1">
+                    Facebook
+                </div>
             </div>
         </>
     )
