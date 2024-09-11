@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 
 const Services = () => {
 
@@ -7,19 +7,26 @@ const Services = () => {
         <>
         <div className="container mt-28">
             <div className="flex justify-center mx-8">
-                <div className="serviceItem">
-                    <div>Vitrine</div>
-                    <div>Know more</div>
-                </div>
-                <div className="serviceItem">
-                    Website
-                </div>
-                <div className="serviceItem">
-                    E-commerce
-                </div>
-                <div className="serviceItem">
-                    App Development
-                </div>
+                <Link to="/services/vitrine">
+                    <div className="serviceItem">
+                        <div>Vitrine</div>
+                    </div>
+                </Link>
+                <Link to="/services/website">
+                    <div className="serviceItem">
+                        Website
+                    </div>
+                </Link>
+                <Link to="/services/e-commerce">
+                    <div className="serviceItem">
+                        E-commerce
+                    </div>
+                </Link>
+                <Link to="/services/apps">
+                    <div className="serviceItem">
+                        App Development
+                    </div>
+                </Link>
             </div>
             <div className="mt-10 text-center">
                 <h1>Technologies we use:</h1>

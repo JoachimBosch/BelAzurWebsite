@@ -26,7 +26,30 @@ button:hover {
 input {
     border-color: black;
     border: 1px;
+    border-style: solid;
     background-color: lightblue;
+}
+
+table {
+    width: 100%;
+    margin: 30px auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+  }
+
+th {
+    border-bottom: 1px;
+    border-style: solid;
+
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #d9d6d6;
 }
 
 .intro {
@@ -71,4 +94,16 @@ input {
     margin: 0 20px;
     padding: 5px 10px;
     text-align: center;
+}
+
+.aboutProfilePic {
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.comingSoon {
+    font-size: xx-large;
+    font-weight: bold;
 }

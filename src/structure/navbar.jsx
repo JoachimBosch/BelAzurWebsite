@@ -7,7 +7,7 @@ import Azur from '../../public/media/img/Azur.png'
 const navigation = [
     { name: 'Home', href: '/'},
     { name: 'Services', href: '/services'},
-    { name: 'Projects', href: '/portfolio'},
+    { name: 'About us', href: '/about'},
     { name: 'Contact', href: '/contact'},
 ]
 
@@ -47,9 +47,9 @@ const Navbar = () => {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <Link to=''>
-                <div className="cart px-4 relative">
-                
+            <Link to='/login'>
+                <div className="px-4 relative">
+                  Login
                 </div>
             </Link>          
           </div>
@@ -91,6 +91,7 @@ const Navbar = () => {
                   ))}
                 </div>
                 <div className="py-4">
+                  Login
                 </div>
               </div>
             </div>

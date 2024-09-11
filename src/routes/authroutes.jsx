@@ -14,6 +14,8 @@ import VitrineCheckout from "../assets/vitrinecheckout";
 import Policies from "../assets/policies";
 import Contact from "../assets/contact";
 import Portfolio from "../assets/portfolio";
+import Profile from "../assets/profile";
+import AppDevelopment from "../assets/appdevelopment";
 
 
 const AuthRoutes = () => {
@@ -32,9 +34,10 @@ const AuthRoutes = () => {
           <Route path="/services/vitrine/checkout" element={<VitrineCheckout />} />
           <Route path="/services/website" element={<Website />} />
           <Route path="/services/e-commerce" element={<Ecommerce />} />
+          <Route path="/services/apps" element={<AppDevelopment />} />
           <Route path="/policy" element={<Policies />} />
           <Route path="/portfolio" element={<Portfolio />} />
-
+          <Route path="/profile" element={<Profile />} />
 
           {/* Protected routes */}
           {/* <Route path="/profile" element={<ProtectedRoute />}>

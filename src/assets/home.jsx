@@ -19,7 +19,7 @@ const Home = () => {
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum corrupti necessitatibus, pariatur molestias in asperiores at dolores, recusandae incidunt illum odio sunt porro voluptatem numquam, repellendus delectus sint maxime rerum!
                 </span>
             </div>
-            <div className="pricing grid grid-cols-3 gap-2 my-20 mx-20">
+            <div className="pricing grid grid-cols-3 gap-2 my-20 mx-20 text-center">
                 <div className="border">
                     <h1>Vitrine</h1>
                     <ul>
@@ -33,7 +33,7 @@ const Home = () => {
                     <button className="button border mt-4">Click me</button>
                 </div>
                 <div className="border">
-                    <h1>Vitrine</h1>
+                    <h1>Website</h1>
                     <ul>
                         <li>Item</li>
                         <li>Item</li>
@@ -45,7 +45,8 @@ const Home = () => {
                     </ul>
                     <button className="button border mt-4">Click me</button>
                 </div>
-                <div className="border"><h1>Vitrine</h1>
+                <div className="border">
+                    <h1>E-commerce</h1>
                     <ul>
                         <li>Item</li>
                         <li>Item</li>
