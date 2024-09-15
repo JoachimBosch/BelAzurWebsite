@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom";
+import {useContext} from 'react'
+import MyContext from "../context/context";
 
 const Login = () => {
+    const { loggingIn, setLoggingIn } = useContext(MyContext);
+
+
+    
 
     return (
         <>
@@ -22,6 +28,10 @@ const Login = () => {
                             id="email"
                             name="email"
                             type="email"
+                            value={loggingIn.email}
+                            onChange={(e) => setLoggingIn({
+                                ...loggingIn,
+                                email: e.target.value})}
                             required
                             autoComplete="email"
                             className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -45,6 +55,10 @@ const Login = () => {
                             id="password"
                             name="password"
                             type="password"
+                            value={loggingIn.password}
+                            onChange={(e) => setLoggingIn({
+                                ...loggingIn,
+                                password: e.target.value})}
                             required
                             autoComplete="current-password"
                             className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -63,9 +77,10 @@ const Login = () => {
                     </form>
                     <p className="mt-10 text-center text-sm text-gray-500">
                         Don't have an account yet?{' '}
-                        <a href="/signup" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
-                        Sign up here
-                        </a>
+                        <Link to="/signup" style={{color:"#000"}}>
+                            Sign up here
+                        </Link>
+                        
                     </p>
                 </div>
             </div>

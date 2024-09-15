@@ -1,13 +1,13 @@
-
+import bg_video from '../../public/media/video/bg_video.mp4'
 
 const Home = () => {
 
     return (
         <>
         <div className="container mt-28">
-            <div className="border mx-4 grid grid-cols-4" style={{height: "20vw"}}>
-                <img src="" className="col-span-3"></img>
-                <div className="col-span-1 my-auto mr-4">
+            <div className="grid grid-cols-4 mx-4" style={{height: "auto", backgroundColor: "#E9F2F8"}}>
+                <video autoPlay loop muted src={bg_video} className="col-span-3"></video>
+                <div className="col-span-1 my-auto">
                     <h1>Bel'Azur coding</h1>
                     <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
                 </div>

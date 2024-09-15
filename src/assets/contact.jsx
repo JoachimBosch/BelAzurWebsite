@@ -1,49 +1,60 @@
+import { useContext } from "react";
+import MyContext from "../context/context";
 
 
 const Contact = () => {
+    const { form, setForm } = useContext(MyContext)
 
+    console.log(form)
 
     return (
         <>
-            <div className="my-28 mx-60 border">
-                <div className="form-header text-center">
+            <div className="mt-28 flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
+                <div className="sm:mx-auto sm:w-full sm:max-w-sm text-center">
                     <h1>Contact us</h1>
                 </div>
-                <div className="px-4 py-4">
-                    <form>
-                        <label for="firstName">First Name</label> &nbsp;
-                        <input type="text" id="fname" name="fname" />
-                            <br />
-                        <label for="lastName">Last name:</label> &nbsp;
-                        <input type="text" id="lname" name="lname" />
-                            <br />
-                        <label for="phone">Phone number:</label> &nbsp;
-                        <input type="text" id="phone" name="phone" />
-                            <br />
-                        <label for="email">Email address:</label> &nbsp;
-                        <input type="email" id="email" name="email" />
-                            <br />
-                        <label for="company">Company:</label> &nbsp;
-                        <input type="text" id="company" name="company" />
-                            <br />
-                        <label for="interest">I'm interested in:</label> &nbsp;
-                            <select>
+                <div className="sm:mx-auto sm:w-full sm:max-w-sm">
+                    <form className="flex flex-col">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="fname" name="fname" required onChange={(e) => setForm({
+                                ...form,
+                                fname: e.target.value})}/>
+                        <label for="lastName">Last name:</label>
+                        <input type="text" id="lname" name="lname" required onChange={(e) => setForm({
+                                ...form,
+                                lname: e.target.value})}/>
+                        <label for="phone">Phone number:</label>
+                        <input type="text" id="phone" name="phone" required onChange={(e) => setForm({
+                                ...form,
+                                phone: e.target.value})}/>
+                        <label for="email">Email address:</label>
+                        <input type="email" id="email" name="email" required onChange={(e) => setForm({
+                                ...form,
+                                email: e.target.value})}/>
+                        <label for="company">Company:</label>
+                        <input type="text" id="company" name="company" onChange={(e) => setForm({
+                                ...form,
+                                company: e.target.value})}/>
+                        <label for="interest">I'm interested in:</label>
+                            <select className="mb-2" onClick={(e) => setForm({
+                                ...form,
+                                interest: e.target.value})}>
+                                <option></option>
                                 <option>Vitrine</option>
                                 <option>Website</option>
                                 <option>E-commerce</option>
                                 <option>Other</option>
                             </select>
-                            <br />
-                        <label for="freeText">Company:</label> &nbsp;
-                        <textarea type="text" id="freeText" name="freeText" />
-                            <br />
+                        <label for="freeText">Additional information:</label>
+                        <textarea type="text" id="freeText" name="freeText" className="mb-4" onChange={(e) => setForm({
+                                ...form,
+                                freeText: e.target.value})}/>
                         <button>Submit</button>
                     </form>
                 </div>
             </div>
         
         </>
-
     )
 }
 

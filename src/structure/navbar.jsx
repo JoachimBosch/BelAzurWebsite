@@ -9,6 +9,7 @@ const navigation = [
     { name: 'Services', href: '/services'},
     { name: 'About us', href: '/about'},
     { name: 'Contact', href: '/contact'},
+    { name: 'Profile', href: '/profile'} /* Delete after */
 ]
 
 const Navbar = () => {

@@ -16,6 +16,7 @@ import Contact from "../assets/contact";
 import Portfolio from "../assets/portfolio";
 import Profile from "../assets/profile";
 import AppDevelopment from "../assets/appdevelopment";
+import VitrineBuild from "../assets/vitrinebuild";
 
 
 const AuthRoutes = () => {
@@ -31,6 +32,7 @@ const AuthRoutes = () => {
           <Route path="/signup" element={<Signup />} />
           <Route path="/services" element={<Services />} />
           <Route path="/services/vitrine" element={<Vitrine />} />
+          <Route path="/services/vitrine/build" element={<VitrineBuild />} />
           <Route path="/services/vitrine/checkout" element={<VitrineCheckout />} />
           <Route path="/services/website" element={<Website />} />
           <Route path="/services/e-commerce" element={<Ecommerce />} />

@@ -1,7 +1,25 @@
+import { useContext } from "react";
+import { Link } from "react-router-dom";
+import MyContext from "../context/context";
 
+const SignUp = () => {
+    const {subscribe, setSubscribe} = useContext(MyContext)
 
-const Signup = () => {
+    function DuplicateCheck(password1, password2) {
+        if (password1 === password2) {
+            return true
+        }
+        return false;
+    }
 
+    console.log(subscribe)
+
+    const register = async () => {
+        if (DuplicateCheck(subscribe.password1, subscribe.password2)) {
+            alert("OK")
+        }
+        else return alert("NOK")
+    }
 
     return (
         <>
@@ -13,7 +31,7 @@ const Signup = () => {
                 </div>
 
                 <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-                    <form action="#" method="POST" className="space-y-6">
+                    <div className="space-y-6">
                         <div>
                         <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">
                             Email address
@@ -23,6 +41,10 @@ const Signup = () => {
                             id="email"
                             name="email"
                             type="email"
+                            value={subscribe.email} 
+                            onChange={(e) => setSubscribe({
+                                ...subscribe,
+                                email: e.target.value})}
                             required
                             autoComplete="email"
                             className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -41,6 +63,10 @@ const Signup = () => {
                             id="password"
                             name="password"
                             type="password"
+                            value={subscribe.password1} 
+                            onChange={(e) => setSubscribe({
+                                ...subscribe,
+                                password1: e.target.value})}
                             required
                             autoComplete="current-password"
                             className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -59,6 +85,10 @@ const Signup = () => {
                             id="repeatPassword"
                             name="password"
                             type="password"
+                            value={subscribe.password2} 
+                            onChange={(e) => setSubscribe({
+                                ...subscribe,
+                                password2: e.target.value})}
                             required
                             className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                             />
@@ -68,18 +98,22 @@ const Signup = () => {
 
                         <div className="flex items-center">
                         <button
-                            type="submit"
+                            
+                            onClick={(e) => {
+                                e.preventDefault();
+                                register()
+                            }}
                             className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                         >
                             Register
                         </button>
                         </div>
-                    </form>
+                    </div>
                     <p className="mt-10 text-center text-sm text-gray-500">
                         Already have an account?{' '}
-                        <a href="/login" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
+                        <Link to="/login" style={{ color: "#000" }}>
                         Log in here
-                        </a>
+                        </Link>
                     </p>
                 </div>
             </div>
@@ -88,4 +122,4 @@ const Signup = () => {
     )
 }
 
-export default Signup;
+export default SignUp;
