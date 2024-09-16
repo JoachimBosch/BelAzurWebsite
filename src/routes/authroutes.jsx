@@ -17,6 +17,7 @@ import Portfolio from "../assets/portfolio";
 import Profile from "../assets/profile";
 import AppDevelopment from "../assets/appdevelopment";
 import VitrineBuild from "../assets/vitrinebuild";
+import Pricing from "../assets/pricing";
 
 
 const AuthRoutes = () => {

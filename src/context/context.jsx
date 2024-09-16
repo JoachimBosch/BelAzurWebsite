@@ -2,6 +2,7 @@ import { createContext, useState } from "react";
 
 const MyContext = createContext();
 
+
 export const MyProvider = ({ children }) => {
 
     const [language, setLanguage] = useState('English');
@@ -23,7 +24,6 @@ export const MyProvider = ({ children }) => {
       text1: "",
       text2: "",
     })
-
 
 
 

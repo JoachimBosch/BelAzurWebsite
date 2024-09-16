@@ -12,6 +12,13 @@ const navigation = [
     { name: 'Profile', href: '/profile'} /* Delete after */
 ]
 
+const servicesDropdown = [
+  { name: 'Vitrine', href: '/vitrine' },
+  { name: 'Webpage', href: '/webpage' },
+  { name: 'E-commerce', href: '/ecommerce' },
+  { name: 'App Development', href: '/app-development' },
+];
+
 const Navbar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
