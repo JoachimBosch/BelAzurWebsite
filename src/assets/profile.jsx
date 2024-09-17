@@ -5,10 +5,11 @@ const Profile = () => {
 
     return (
         <>
-            <div className="mt-28 mx-28">
-                <div className="grid grid-cols-2">
-                    <div className="cols-1 px-4">
-                        <h1 className="text-center">Contact information</h1>
+            <div className="mt-12 max-w-[1100px] mx-auto py-20">
+                <h1 className="text-center">Profile</h1>
+                <div className="flex flex-col mx-10 md:mx-16 py-6">
+                    <div className="px-4">
+                        <h1  className="text-center">Contact information</h1>
                         <div className="">
                             <label htmlFor="firstName" className="block text-sm font-medium leading-6 text-gray-900">
                                 First Name:
@@ -82,12 +83,12 @@ const Profile = () => {
                                 className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                 />
                             </div>
-                        </div>
-                        <div className="mt-4 text-center">
-                            <button>Update contact info</button>
+                            <div className="mt-4 text-center">
+                                <button >Update contact info</button>
+                            </div>
                         </div>
                     </div>
-                    <div className="cols-1 px-4">
+                    <div className="mt-10 px-4">
                         <h1 className="text-center">Address information</h1>
                         <div className="grid-cols-4">
                             <label htmlFor="street" className="block text-sm font-medium leading-6 text-gray-900">
@@ -97,6 +98,18 @@ const Profile = () => {
                                 <input
                                 id="street"
                                 name="street"
+                                type="text"
+                                disabled
+                                className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                />
+                            </div>
+                            <label htmlFor="city" className="mt-2 block text-sm font-medium leading-6 text-gray-900">
+                                Postal Code:
+                            </label>
+                            <div className="mt-2">
+                                <input
+                                id="city"
+                                name="city"
                                 type="text"
                                 disabled
                                 className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -132,7 +145,7 @@ const Profile = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mt-6 text-center">
+                <div className="mx-10 md:mx-16 py-6  text-center">
                     <h1>Quotes and invoices</h1>
                     <div>
                         <table>
@@ -157,7 +170,7 @@ const Profile = () => {
                         </table>
                     </div>
                 </div>
-                <div className="mt-6 text-center">
+                <div className="mx-10 md:mx-16 py-6 text-center">
                     <h1>Danger zone:</h1>
                     <button>
                         Delete profile

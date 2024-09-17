@@ -6,7 +6,7 @@ const Services = () => {
     return (
         <>
         <div className="container mt-28">
-            <div className="flex justify-center mx-8">
+            <div className="flex flex-row justify-center mx-8">
                 <Link to="/services/vitrine">
                     <div className="serviceItem">
                         <div>Vitrine</div>
