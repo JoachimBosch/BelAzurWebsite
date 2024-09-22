@@ -1,11 +1,10 @@
 from flask import Flask, request, jsonify
-from models import db, User, ItemData
+from models import db, User
 from flask_cors import CORS
-from flask_jwt_extended import JWTManager, create_access_token, unset_jwt_cookies, unset_jwt_cookies, jwt_required, get_jwt_identity, get_jwt, set_access_cookies, set_refresh_cookies
+from flask_jwt_extended import JWTManager, create_access_token, unset_jwt_cookies, unset_jwt_cookies, jwt_required, get_jwt_identity, get_jwt, set_access_cookies
 from argon2 import PasswordHasher
 from config import *
 from datetime import datetime, timedelta, timezone
-import json
 
 app = Flask(__name__, static_url_path='', static_folder='public')
 CORS(app, supports_credentials=True, resources={r"/*": {"origins": "*", "allow_headers": ["Authorization", "Content-Type"]}})
@@ -57,7 +56,7 @@ def subscribe():
         db.session.rollback()
         return f'Internal Server Error: {str(e)}', 500
 
-@app.route("/login", methods=['POST'])
+@app.route("/login", methods=['POST']) 
 def login():
     data = request.get_json()
     if not data or 'email' not in data or 'password' not in data:
@@ -90,7 +89,7 @@ def logout():
     unset_jwt_cookies(response)
     return response
 
-@app.route("/user/<int:user_id>/item_data", methods=['GET'])
+""" @app.route("/user/<int:user_id>/item_data", methods=['GET'])
 def get_user_all_item_data(user_id):
     user = User.query.get(user_id)
     if not user:
@@ -115,7 +114,7 @@ def get_user_all_item_data(user_id):
         } for item in item_data_list
     ]
     
-    return jsonify(items_response), 200
+    return jsonify(items_response), 200 """
 
 @app.route("/change-password", methods=['POST'])
 def change_password():
@@ -193,7 +192,7 @@ def delete_user(user_id):
     
     return f'Internal Server Error: {str(e)}', 500
 
-@app.route("/user/<int:user_id>/item_data", methods=["POST"])
+""" @app.route("/user/<int:user_id>/item_data", methods=["POST"])
 def add_user_item_data(user_id):
     try:
         data = request.get_json()
@@ -222,9 +221,9 @@ def add_user_item_data(user_id):
         return {"message": "ItemData created successfully"}, 201
     except Exception as e:
         db.session.rollback()
-        return f"Internal Server Error: {str(e)}", 500
+        return f"Internal Server Error: {str(e)}", 500 """
     
-@app.route("/user/<int:user_id>/item_data", methods=["GET"])
+""" @app.route("/user/<int:user_id>/item_data", methods=["GET"])
 def get_user_item_data(user_id):
     try:
         user = User.query.get(user_id)
@@ -238,9 +237,9 @@ def get_user_item_data(user_id):
 
         return {"item_data": [item.serialize() for item in item_data_list]}, 200
     except Exception as e:
-        return f"Internal Server Error: {str(e)}", 500
+        return f"Internal Server Error: {str(e)}", 500 """
 
-@app.route("/user/<int:user_id>/item_data/<int:item_id>", methods=['PUT'])
+""" @app.route("/user/<int:user_id>/item_data/<int:item_id>", methods=['PUT'])
 def modify_user_item_data(user_id, item_id):
     data = request.get_json()
 
@@ -273,9 +272,9 @@ def modify_user_item_data(user_id, item_id):
         return 'ItemData updated successfully', 200
     except Exception as e:
         db.session.rollback()
-        return f'Internal Server Error: {str(e)}', 500
+        return f'Internal Server Error: {str(e)}', 500 """
 
-@app.route("/user/<int:user_id>/item_data/<int:item_id>", methods=["DELETE"])
+""" @app.route("/user/<int:user_id>/item_data/<int:item_id>", methods=["DELETE"])
 def delete_user_item_data(user_id, item_id):
     try:
         user = User.query.get(user_id)
@@ -292,6 +291,6 @@ def delete_user_item_data(user_id, item_id):
         return {"message": "ItemData deleted successfully"}, 200
     except Exception as e:
         db.session.rollback()
-        return f"Internal Server Error: {str(e)}", 500
+        return f"Internal Server Error: {str(e)}", 500 """
 
 app.run(host='0.0.0.0', port=3000)

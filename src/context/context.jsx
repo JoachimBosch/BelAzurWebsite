@@ -17,18 +17,13 @@ export const MyProvider = ({ children }) => {
       interest: "",
       freeText: ""
     })
-    const [vitrineBuild, setVitrineBuild] = useState({
-      header: "",
-      subtext: "",
-      logo: "",
-      text1: "",
-      text2: "",
-    })
+    const [vitrineBuild, setVitrineBuild] = useState({})
+    const [file, setFile] = useState();
 
 
 
     /* Add all variables to appContext to sync them in the entire application */
-    let appContext = {language, setLanguage, loggingIn, setLoggingIn, subscribe, setSubscribe, form, setForm, vitrineBuild, setVitrineBuild}
+    let appContext = {language, setLanguage, loggingIn, setLoggingIn, subscribe, setSubscribe, form, setForm, vitrineBuild, setVitrineBuild, file, setFile}
 
     return (
         <MyContext.Provider value={appContext}>

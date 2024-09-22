@@ -1,5 +1,7 @@
+import { Link } from 'react-router-dom';
 import bg_video from '../../public/media/video/bg_video.mp4'
 import Pricing from './pricing';
+import Workflow from './workflow';
 
 const Home = () => {
 
@@ -29,13 +31,13 @@ const Home = () => {
                 <span>Img1</span>
                 <span>Img1</span>
             </div>
-            <div className="my-8 mx-4 flex flex-col content-center">
-                <h1 className="intro">How we work</h1>
-                <span>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum corrupti necessitatibus, pariatur molestias in asperiores at dolores, recusandae incidunt illum odio sunt porro voluptatem numquam, repellendus delectus sint maxime rerum!
-                </span>
+                <Workflow />
+            <div className="text-center">
+                <h1>Interested in having an open conversation?</h1>
+                <Link to="/contact">
+                    <button>Let's get in touch</button>
+                </Link>
             </div>
-
 
         </div>
         </>

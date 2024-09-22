@@ -38,7 +38,7 @@ class User(db.Model):
             "country": self.country
         }
 
-class ItemData(db.model):
+""" class ItemData(db.model):
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
     type = db.Column(db.String(20), unique=False)
@@ -60,9 +60,9 @@ class ItemData(db.model):
             "status": self.status,
             "price": self.price,
             "file_url": self.file_url,
-        }
+        } """
 
-class Vitrine(db.Model):
+""" class Vitrine(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
     logo_url = db.Column(db.String(255), unique=False)
@@ -92,7 +92,7 @@ class Vitrine(db.Model):
             "contact_open_hours": self.contact_open_hours,
             "img2_url": self.img2_url,
             "map": self.map,
-        }
+        } """
 
 if __name__ == '__main__':
     app.run(debug=True)

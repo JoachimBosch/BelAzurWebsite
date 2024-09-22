@@ -56,7 +56,9 @@ const Vitrine = () => {
                     </div>
                     <div className="flex flex-col text-center">
                         Proceed online
-                        <button>Build your site immediately</button>
+                        <Link to="/services/vitrine/build">
+                            <button>Build your site immediately</button>
+                        </Link>
                     </div>
                 </div>
             </div>

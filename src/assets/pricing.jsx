@@ -1,5 +1,6 @@
 import { faSquareCheck } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
 const Pricing = () => {
 
@@ -117,6 +118,13 @@ const Pricing = () => {
                 </div>
             </div>
         </section>
+        <div className="text-center mb-10">
+            <h2>Want to get your site up and running as soon as possible?</h2>
+            <Link to="/services/vitrine/build">
+                <button className="my-2">Build your vitrine immediately</button>
+            </Link>
+            
+        </div>
             </>
 
     )
