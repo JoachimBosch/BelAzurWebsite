@@ -1,7 +1,15 @@
+import { useContext, useState } from "react";
+import MyContext from "../context/context";
+import UpdatePersonModal from "../components/updatePersonModal";
+import UpdateAddressModal from "../components/updateAddressModal";
+import DeleteProfile from "../components/deleteModal";
 
 
 const Profile = () => {
-
+    const { personInfo, setPersonInfo, deleteProfile } = useContext(MyContext);
+    const [openPersonalModal, setOpenPersonalModal] = useState(false);
+    const [openAddressModal, setOpenAddressModal] = useState(false);
+    const [openDeleteModal, setOpenDeleteModal] = useState(false);
 
     return (
         <>
@@ -19,6 +27,7 @@ const Profile = () => {
                                 id="firstName"
                                 name="firstName"
                                 type="text"
+                                value={personInfo.first_name ? personInfo.first_name : ""}
                                 disabled
                                 className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                 />
@@ -31,6 +40,7 @@ const Profile = () => {
                                 id="lastName"
                                 name="lastName"
                                 type="text"
+                                value={personInfo.last_name ? personInfo.last_name : ""}
                                 disabled
                                 className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                 />
@@ -43,6 +53,7 @@ const Profile = () => {
                                 id="companyName"
                                 name="companyName"
                                 type="text"
+                                value={personInfo.company_name ? personInfo.company_name : ""}
                                 disabled
                                 className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                 />
@@ -55,6 +66,7 @@ const Profile = () => {
                                 id="vat"
                                 name="vat"
                                 type="text"
+                                value={personInfo.vat_id ? personInfo.vat_id : ""}
                                 disabled
                                 className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                 />
@@ -67,6 +79,7 @@ const Profile = () => {
                                 id="phone"
                                 name="phone"
                                 type="text"
+                                value={personInfo.phone ? personInfo.phone : ""}
                                 disabled
                                 className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                 />
@@ -79,12 +92,19 @@ const Profile = () => {
                                 id="email"
                                 name="email"
                                 type="email"
+                                value={personInfo.email ? personInfo.email : ""}
                                 disabled
                                 className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                 />
                             </div>
-                            <div className="mt-4 text-center">
-                                <button >Update contact info</button>
+                            <div className="mt-4 flex justify-center">
+                                <div>
+                                    <button onClick={() => setOpenPersonalModal(true)}>Update contact info</button>
+                                </div>
+                                <div>
+                                    <button>Update email address</button>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -99,18 +119,20 @@ const Profile = () => {
                                 id="street"
                                 name="street"
                                 type="text"
+                                value={personInfo.street || personInfo.street_number ? personInfo.street + " " + personInfo.street_number : ""}
                                 disabled
                                 className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                 />
                             </div>
-                            <label htmlFor="city" className="mt-2 block text-sm font-medium leading-6 text-gray-900">
+                            <label htmlFor="postal_code" className="mt-2 block text-sm font-medium leading-6 text-gray-900">
                                 Postal Code:
                             </label>
                             <div className="mt-2">
                                 <input
-                                id="city"
-                                name="city"
+                                id="postal_code"
+                                name="postal_code"
                                 type="text"
+                                value={personInfo.postal_code ? personInfo.postal_code : ""}
                                 disabled
                                 className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                 />
@@ -123,6 +145,7 @@ const Profile = () => {
                                 id="city"
                                 name="city"
                                 type="text"
+                                value={personInfo.postal_code ? personInfo.postal_code : ""}
                                 disabled
                                 className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                 />
@@ -135,13 +158,14 @@ const Profile = () => {
                                 id="country"
                                 name="country"
                                 type="text"
+                                value={personInfo.country ? personInfo.country : ""}
                                 disabled
                                 className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                 />
                             </div>
                         </div>
                         <div className="mt-4 text-center">
-                            <button>Update address info</button>
+                            <button onClick={() => setOpenAddressModal(true)}>Update address info</button>
                         </div>
                     </div>
                 </div>
@@ -172,11 +196,31 @@ const Profile = () => {
                 </div>
                 <div className="mx-10 md:mx-16 py-6 text-center">
                     <h1>Danger zone:</h1>
-                    <button>
+                    <button onClick={() => setOpenDeleteModal(true)}>
                         Delete profile
                     </button>
                 </div>
             </div>
+
+            <UpdatePersonModal
+                show={openPersonalModal}
+                onClose={() => setOpenPersonalModal(false)}
+                personInfo={personInfo}
+                setPersonInfo={setPersonInfo}
+            />
+
+            <UpdateAddressModal
+                show={openAddressModal}
+                onClose={() => setOpenAddressModal(false)}
+                personInfo={personInfo}
+                setPersonInfo={setPersonInfo}
+            />
+            
+            <DeleteProfile
+                show={openDeleteModal}
+                onClose={() => setOpenDeleteModal(false)}
+                personInfo={personInfo}
+            />
         </>
 
     )

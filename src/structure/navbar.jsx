@@ -1,10 +1,11 @@
 import { Dialog, DialogPanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Link } from 'react-router-dom';
-import { useState, useRef } from 'react';
+import { useState, useRef, useContext } from 'react';
 import Azur from '../../public/media/img/Azur.png'
 import { faRightToBracket } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import MyContext from '../context/context';
 
 const navigation = [
     { name: 'Home', href: '/' },
@@ -23,6 +24,7 @@ const servicesDropdown = [
 ];
 
 const Navbar = () => {
+    const { token, logout } = useContext(MyContext);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const [isServicesOpen, setIsServicesOpen] = useState(false);
     const hideTimeout = useRef(null); 
@@ -94,11 +96,25 @@ const Navbar = () => {
                         ))}
                     </div>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end" style={{color: "#83c5be",}}>
+                        { !token ? 
+                        <div>
                         <Link to='/login'>
                             <div className="px-4 relative font-semibold text-xl">
                             <FontAwesomeIcon icon={faRightToBracket} /> Login
                             </div>
                         </Link>
+                        </div>
+                        :
+                        <div>
+                            <div className="px-4 relative font-semibold text-xl">
+                              <button onClick={logout}>
+                              <FontAwesomeIcon icon={faRightToBracket} /> Logout
+                              </button>
+                            
+                            </div>
+                        </div>
+                        }
+                        
                     </div>
                 </nav>
 

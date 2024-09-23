@@ -138,6 +138,17 @@ def change_password():
     except Exception as e:
         db.session.rollback()
         return f'Internal Server Error: {str(e)}', 500
+    
+@app.route("/user/<int:user_id>", methods=['GET'])
+def get_user(user_id):
+    user = User.query.get(user_id)
+
+    if not user:
+        return 'User not found', 404
+
+    user_data = user.serialize()
+    
+    return jsonify(user_data), 200
 
 @app.route("/user/<int:user_id>", methods=['PUT'])
 def modify_user(user_id):
