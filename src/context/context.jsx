@@ -41,6 +41,10 @@ export const MyProvider = ({ children }) => {
     const [vitrineBuild, setVitrineBuild] = useState({})
     const [file, setFile] = useState();
     const [pass, setPass] = useState();
+    const [page, setPage] = useState(1);
+    
+    const handleNext = () => setPage((prevPage) => prevPage + 1);
+    const handlePrev = () => setPage((prevPage) => prevPage - 1);
 
 
     const saveToken = (userToken) => {
@@ -50,6 +54,7 @@ export const MyProvider = ({ children }) => {
     const clearAll = async () => {
       localStorage.deleteItem('personInfo');
     }
+    
 
     const login = async () => {
       try {
@@ -111,7 +116,7 @@ export const MyProvider = ({ children }) => {
 
 
     /* Add all variables to appContext to sync them in the entire application */
-    let appContext = {language, setLanguage, loggingIn, setLoggingIn, subscribe, setSubscribe, form, setForm, vitrineBuild, setVitrineBuild, file, setFile, login, personInfo, setPersonInfo, token, setToken_, updatePersonInfo, deleteProfile, pass, setPass}
+    let appContext = {language, setLanguage, loggingIn, setLoggingIn, subscribe, setSubscribe, form, setForm, vitrineBuild, setVitrineBuild, file, setFile, login, personInfo, setPersonInfo, token, setToken_, updatePersonInfo, deleteProfile, pass, setPass, handleNext, handlePrev, page, setPage}
 
     return (
         <MyContext.Provider value={appContext}>

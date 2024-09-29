@@ -1,36 +1,42 @@
-import { useContext, useState } from "react";
-import MyContext from "../context/context";
-import VitrineModal from "./vitrinemodal";
-
+import React, { useState, useContext } from 'react';
+import MyContext from '../context/context';
+import VitrinePage1 from '../components/vitrinepage1';
+import VitrinePage2 from '../components/vitrinepage2';
+import VitrinePage3 from '../components/vitrinepage3';
+import VitrinePage4 from '../components/vitrinepage4';
+import VitrinePage5 from '../components/vitrinepage5';
 
 const VitrineBuild = () => {
+  const {vitrineBuild, setVitrineBuild, file, setFile, handleNext, handlePrev, page, setPage} = useContext(MyContext)
+  
+    function saveImage(e) {
+        setFile(URL.createObjectURL(e.target.files[0]));
+    } 
 
-    const {vitrineBuild, setVitrineBuild} = useContext(MyContext)
-    
-    
-    console.log(vitrineBuild)
+  console.log(vitrineBuild)
 
-    return (
-        <>
-        <div className="mt-28 text-center">
-            <VitrineModal />
+  return (
+    <>
+        <div className="mt-20">
+            {/* Page 1 */}
+            {page === 1 && <VitrinePage1 />}
+
+            {/* Page 2 */}
+            {page === 2 && <VitrinePage2 />}
+
+            {/* Page 3 */}
+            {page === 3 && <VitrinePage3 />}
+
+            {/* Page 4 */}
+            {page === 4 && <VitrinePage4 />}
+
+            {/* Page 5 */}
+            {page === 5 && <VitrinePage5 />}
         </div>
+            
 
-        <div className="mx-4">
-
-            <div className="border mt-10 px-5 py-5">
-                <div className="text-center">
-                    <h1>{vitrineBuild.header ? vitrineBuild.header : "Header text"}</h1>
-                    <h3>{vitrineBuild.subtext ? vitrineBuild.subtext : "Subtext"}</h3>
-                </div>
-                <div style={{width: "100px", height: "100px"}} className="border ml-8">
-                    <img src={vitrineBuild.logo} alt="Your logo here" />
-                </div>
-            </div>
-        </div>
-        </>
-
-    )
-}
+    </>
+  );
+};
 
 export default VitrineBuild;
