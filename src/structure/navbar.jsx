@@ -42,7 +42,7 @@ const Navbar = () => {
         hideTimeout.current = setTimeout(() => {
             setIsServicesOpen(false);
             setIsNavbarExpanded(false);
-        }, 200);
+        }, 1000);
     };
 
     return (

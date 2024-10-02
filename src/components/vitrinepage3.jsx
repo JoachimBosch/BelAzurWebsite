@@ -11,15 +11,15 @@ const VitrinePage3 = () => {
             <h2 className="text-xl font-bold mb-4">Now, how can customers reach you?</h2>
                 <div className="flex flex-col">
                   <label for="contact_email">Contact email: </label>
-                  <input type="text" name="contact_email" value={vitrineBuild.contact_email} onChange={(e) => setVitrineBuild({
+                  <input type="text" name="contact_email" onChange={(e) => setVitrineBuild({
                                   ...vitrineBuild,
                                   contact_email: e.target.value})}/>
                   <label for="contact_phone">Contact phone: </label>
-                  <input type="subtext" name="contact_phone" value={vitrineBuild.contact_phone} onChange={(e) => setVitrineBuild({
+                  <input type="text" name="contact_phone" onChange={(e) => setVitrineBuild({
                                   ...vitrineBuild,
                                   contact_phone: e.target.value})}/>
                   <label for="contact_address">Your address: </label>
-                  <input type="subtext" name="contact_address" value={vitrineBuild.contact_address} onChange={(e) => setVitrineBuild({
+                  <input type="text" name="contact_address" onChange={(e) => setVitrineBuild({
                                   ...vitrineBuild,
                                   contact_address: e.target.value})}/>
                   <legend>Your opening hours:</legend>
@@ -86,16 +86,16 @@ const VitrinePage3 = () => {
                 </div>
                 <div className="mt-4 flex justify-between">
                   <button
-                    onClick={handlePrev}
-                    className="bg-gray-500 text-white px-4 py-2 rounded"
-                  >
-                    Go Back
-                  </button>
-                  <button
                     onClick={handleNext}
                     className="bg-blue-500 text-white px-4 py-2 rounded"
                   >
                     Next
+                  </button>
+                  <button
+                    onClick={handlePrev}
+                    className="bg-gray-500 text-white px-4 py-2 rounded"
+                  >
+                    Go Back
                   </button>
                 </div>
             </div>

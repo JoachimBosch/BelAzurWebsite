@@ -21,7 +21,7 @@ const Pricing = () => {
                         </p>
                     <div className="flex justify-center items-baseline my-8">
                         <span className="text-gray-500 dark:text-gray-400 pr-2">As from</span>
-                        <span className="mr-2 text-5xl font-bold">€850</span>
+                        <span className="mr-2 text-5xl font-bold">€849</span>
                     </div>
                     <ul role="list" className="mb-8 space-y-4 text-left flex-grow">
                         <li className="flex items-center space-x-3">
@@ -53,7 +53,7 @@ const Pricing = () => {
                         </p>
                         <div className="flex justify-center items-baseline my-8">
                             <span className="text-gray-500 dark:text-gray-400 pr-2">Starts at</span>
-                            <span className="mr-2 text-5xl font-bold">€1750</span>
+                            <span className="mr-2 text-5xl font-bold">€1799</span>
                         </div>
                         <ul role="list" className="mb-8 space-y-4 text-left flex-grow">
                             <li className="flex items-center space-x-3">
@@ -92,7 +92,7 @@ const Pricing = () => {
                         </p>
                         <div className="flex justify-center items-baseline my-8">
                             <span className="text-gray-500 dark:text-gray-400 pr-2">Starts at</span>
-                            <span className="mr-2 text-5xl font-bold">€2950</span>
+                            <span className="mr-2 text-5xl font-bold">€2949</span>
                         </div>
                         <ul role="list" className="mb-8 space-y-4 text-left flex-grow">
                             <li className="flex items-center space-x-3">

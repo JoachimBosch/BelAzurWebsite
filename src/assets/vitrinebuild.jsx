@@ -9,15 +9,14 @@ import VitrinePage5 from '../components/vitrinepage5';
 const VitrineBuild = () => {
   const {vitrineBuild, setVitrineBuild, file, setFile, handleNext, handlePrev, page, setPage} = useContext(MyContext)
   
-    function saveImage(e) {
-        setFile(URL.createObjectURL(e.target.files[0]));
-    } 
+    
 
-  console.log(vitrineBuild)
 
   return (
     <>
         <div className="mt-20">
+            {/* Page launch */}
+
             {/* Page 1 */}
             {page === 1 && <VitrinePage1 />}
 
