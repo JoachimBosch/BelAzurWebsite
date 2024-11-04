@@ -25,7 +25,7 @@ const UpdateAddressModal = ({ show, onClose, personInfo, setPersonInfo }) => {
     return (
         <Modal dismissible show={show} onClose={onClose} className="mt-12 max-w-[1100px] mx-auto p-6">
             <Modal.Header className="space-between p-2">
-                <h2 className="text-lg">Edit personal information</h2>
+                <h2 className="text-lg">Edit address information</h2>
             </Modal.Header>
             <Modal.Body>
                 <div className="space-y-1 modal-text">

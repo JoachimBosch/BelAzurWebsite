@@ -1,106 +1,173 @@
-import React, { useState, useContext } from 'react';
-import MyContext from '../context/context';
+import React, { useState, useContext } from "react";
+import MyContext from "../context/context";
+import { Link } from "react-router-dom";
 
 const VitrinePage3 = () => {
-    const {vitrineBuild, setVitrineBuild, file, setFile, handleNext, handlePrev, page, setPage} = useContext(MyContext)
-    const [isOpen, setIsOpen] = useState(false);
+    const {
+        vitrineBuild,
+        setVitrineBuild,
+    } = useContext(MyContext);
 
     return (
         <>
-            <div className="mt-12 max-w-[800px] mx-auto p-6">
-            <h2 className="text-xl font-bold mb-4">Now, how can customers reach you?</h2>
+            <div className="mx-auto mt-28" style={{ maxWidth: "1280px" }}>
+                <h2 className="text-xl font-bold mb-4">
+                    Now, how can customers reach you?
+                </h2>
                 <div className="flex flex-col">
-                  <label for="contact_email">Contact email: </label>
-                  <input type="text" name="contact_email" onChange={(e) => setVitrineBuild({
-                                  ...vitrineBuild,
-                                  contact_email: e.target.value})}/>
-                  <label for="contact_phone">Contact phone: </label>
-                  <input type="text" name="contact_phone" onChange={(e) => setVitrineBuild({
-                                  ...vitrineBuild,
-                                  contact_phone: e.target.value})}/>
-                  <label for="contact_address">Your address: </label>
-                  <input type="text" name="contact_address" onChange={(e) => setVitrineBuild({
-                                  ...vitrineBuild,
-                                  contact_address: e.target.value})}/>
-                  <legend>Your opening hours:</legend>
-                  <p>example: 09:00 to 18:00</p>
-                  <div className="flex flex-col">
-                    <div className="flex justify-between">
-                      <div>
-                        <input type="checkbox" id="scales" name="scales" />
-                        <label for="scales" className="ml-2">Monday</label>
-                      </div>
-                      <input type="text"></input>
+                    <label for="contact_email">Contact email: </label>
+                    <input
+                        type="text"
+                        name="contact_email"
+                        onChange={(e) =>
+                            setVitrineBuild({
+                                ...vitrineBuild,
+                                contact_email: e.target.value,
+                            })
+                        }
+                    />
+                    <label for="contact_phone">Contact phone: </label>
+                    <input
+                        type="text"
+                        name="contact_phone"
+                        onChange={(e) =>
+                            setVitrineBuild({
+                                ...vitrineBuild,
+                                contact_phone: e.target.value,
+                            })
+                        }
+                    />
+                    <label for="contact_address">Your address: </label>
+                    <input
+                        type="text"
+                        name="contact_address"
+                        onChange={(e) =>
+                            setVitrineBuild({
+                                ...vitrineBuild,
+                                contact_address: e.target.value,
+                            })
+                        }
+                    />
+                    <legend>Your opening hours:</legend>
+                    <p>example: 09:00 to 18:00</p>
+                    <div className="flex flex-col">
+                        <div className="flex justify-between">
+                            <div>
+                                <input
+                                    type="checkbox"
+                                    id="scales"
+                                    name="scales"
+                                />
+                                <label for="scales" className="ml-2">
+                                    Monday
+                                </label>
+                            </div>
+                            <input type="text"></input>
+                        </div>
+                        <div className="flex justify-between">
+                            <div>
+                                <input
+                                    type="checkbox"
+                                    id="scales"
+                                    name="scales"
+                                />
+                                <label for="scales" className="ml-2">
+                                    Tuesday
+                                </label>
+                            </div>
+                            <input type="text"></input>
+                        </div>
+                        <div className="flex justify-between">
+                            <div>
+                                <input
+                                    type="checkbox"
+                                    id="scales"
+                                    name="scales"
+                                />
+                                <label for="scales" className="ml-2">
+                                    Wednesday
+                                </label>
+                            </div>
+                            <input type="text"></input>
+                        </div>
+                        <div className="flex justify-between">
+                            <div>
+                                <input
+                                    type="checkbox"
+                                    id="scales"
+                                    name="scales"
+                                />
+                                <label for="scales" className="ml-2">
+                                    Thursday
+                                </label>
+                            </div>
+                            <input type="text"></input>
+                        </div>
+                        <div className="flex justify-between">
+                            <div>
+                                <input
+                                    type="checkbox"
+                                    id="scales"
+                                    name="scales"
+                                />
+                                <label for="scales" className="ml-2">
+                                    Friday
+                                </label>
+                            </div>
+                            <input type="text"></input>
+                        </div>
+                        <div className="flex justify-between">
+                            <div>
+                                <input
+                                    type="checkbox"
+                                    id="scales"
+                                    name="scales"
+                                />
+                                <label for="scales" className="ml-2">
+                                    Saturday
+                                </label>
+                            </div>
+                            <input type="text"></input>
+                        </div>
+                        <div className="flex justify-between">
+                            <div>
+                                <input
+                                    type="checkbox"
+                                    id="scales"
+                                    name="scales"
+                                />
+                                <label for="scales" className="ml-2">
+                                    Sunday
+                                </label>
+                            </div>
+                            <input type="text"></input>
+                        </div>
+                        <div className="flex justify-between">
+                            <div>
+                                <input
+                                    type="checkbox"
+                                    id="scales"
+                                    name="scales"
+                                />
+                                <label for="scales" className="ml-2">
+                                    Holidays
+                                </label>
+                            </div>
+                            <input type="text"></input>
+                        </div>
                     </div>
-                    <div className="flex justify-between">
-                      <div>
-                        <input type="checkbox" id="scales" name="scales" />
-                        <label for="scales" className="ml-2">Tuesday</label>
-                      </div>
-                      <input type="text"></input>
-                    </div>
-                    <div className="flex justify-between">
-                      <div>
-                        <input type="checkbox" id="scales" name="scales" />
-                        <label for="scales" className="ml-2">Wednesday</label>
-                      </div>
-                      <input type="text"></input>
-                    </div>
-                    <div className="flex justify-between">
-                      <div>
-                        <input type="checkbox" id="scales" name="scales" />
-                        <label for="scales" className="ml-2">Thursday</label>
-                      </div>
-                      <input type="text"></input>
-                    </div>
-                    <div className="flex justify-between">
-                      <div>
-                        <input type="checkbox" id="scales" name="scales" />
-                        <label for="scales" className="ml-2">Friday</label>
-                      </div>
-                      <input type="text"></input>
-                    </div>
-                    <div className="flex justify-between">
-                      <div>
-                        <input type="checkbox" id="scales" name="scales" />
-                        <label for="scales" className="ml-2">Saturday</label>
-                      </div>
-                      <input type="text"></input>
-                    </div>
-                    <div className="flex justify-between">
-                      <div>
-                        <input type="checkbox" id="scales" name="scales" />
-                        <label for="scales" className="ml-2">Sunday</label>
-                      </div>
-                      <input type="text"></input>
-                    </div>
-                    <div className="flex justify-between">
-                      <div>
-                        <input type="checkbox" id="scales" name="scales" />
-                        <label for="scales" className="ml-2">Holidays</label>
-                      </div>
-                      <input type="text"></input>
-                    </div>
-                  </div>
-                  
                 </div>
                 <div className="mt-4 flex justify-between">
-                  <button
-                    onClick={handleNext}
-                    className="bg-blue-500 text-white px-4 py-2 rounded"
-                  >
-                    Next
-                  </button>
-                  <button
-                    onClick={handlePrev}
-                    className="bg-gray-500 text-white px-4 py-2 rounded"
-                  >
-                    Go Back
-                  </button>
+                    <Link to="/services/vitrine/build/4">
+                        <button>Next page</button>
+                    </Link>
+                    <Link to="/services/vitrine/build/2">
+                        <button>Previous page</button>
+                    </Link>
                 </div>
             </div>
         </>
-    )
+    );
 };
 
 export default VitrinePage3;
