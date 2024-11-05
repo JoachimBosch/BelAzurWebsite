@@ -10,7 +10,7 @@ const VitrinePage1 = () => {
 
     return (
         <>
-            <div className="mx-auto mt-28" style={{ maxWidth: "1280px" }}>
+            <div className="mx-auto mt-28" style={{ maxWidth: "800px" }}>
                 <h2 className="text-xl font-bold mb-4">
                     Let's start with the basics...
                 </h2>

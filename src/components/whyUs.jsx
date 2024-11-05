@@ -2,9 +2,11 @@ const WhyUs = () => {
     return (
         <>
             <div className="border mt-8 p-12">
-                <h1 className="pb-2">Why choose us?</h1>
+                <h1 className="pb-2">Why us?</h1>
                 <div>
-                    <h2 className="pb-2">Tailored Development</h2>
+                    <h2 className="pb-2">
+                        {"<"}Tailored Development {"/>"}
+                    </h2>
                     <p className="ps-8 pb-6">
                         We don't rely on cookie-cutter templates. Every line of
                         code we write is thoughtfully crafted to fit your unique
@@ -18,7 +20,9 @@ const WhyUs = () => {
                     </p>
                 </div>
                 <div>
-                    <h2 className="pb-2">Manual Coding Experts</h2>
+                    <h2 className="pb-2">
+                        {"<"}Manual Coding Experts {"/>"}
+                    </h2>
                     <p className="ps-8 pb-6">
                         Unlike many agencies that heavily depend on WordPress or
                         other ready-made platforms, we pride ourselves on our
@@ -32,7 +36,9 @@ const WhyUs = () => {
                     </p>
                 </div>
                 <div>
-                    <h2 className="pb-2">Future-Ready Apps</h2>
+                    <h2 className="pb-2">
+                        {"<"}Future-Ready Apps {"/>"}
+                    </h2>
                     <p className="ps-8 pb-6">
                         Our expertise doesn’t stop at websites. We are also
                         preparing to offer mobile application development for
@@ -47,7 +53,9 @@ const WhyUs = () => {
                     </p>
                 </div>
                 <div>
-                    <h2 className="pb-2">Multilingual Service</h2>
+                    <h2 className="pb-2">
+                        {"<"}Multilingual Service {"/>"}
+                    </h2>
                     <p className="ps-8 pb-6">
                         Communication is key to any successful project, and at
                         Bel'Azur Coding, we make it effortless. Based in

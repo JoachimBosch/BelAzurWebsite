@@ -18,6 +18,7 @@ const Home = () => {
                         muted
                         src={bg_video}
                         className="col-span-3"
+                        style={{ width: "800px"}}
                     ></video>
                     <div className="col-span-1 my-auto">
                         <h1>Bel'Azur coding</h1>
@@ -34,7 +35,8 @@ const Home = () => {
                         flair for elegant, hand-coded solutions.
                     </h2>
                     <h2 className="intro text-center mt-4">
-                        Together, we turn your digital dreams into reality.
+                        Together, we turn your digital dreams into
+                        reality.
                     </h2>
                 </div>
                 <div>
@@ -43,14 +45,18 @@ const Home = () => {
                 <div>
                     <Pricing />
                 </div>
-                <div
-                    className="clientBanner flex justify-center border gap-20"
-                    style={{ height: "100px" }}
-                >
-                    <span>Img1</span>
-                    <span>Img1</span>
-                    <span>Img1</span>
-                    <span>Img1</span>
+                <div className="philosophy px-8 py-12">
+                    <h1 className="text-center">Our philosophy</h1>
+                    <p className="text-center">
+                        We believe in clean code, clean design, and clear
+                        communication. Every project we take on is a
+                        collaborative journey, and your satisfaction is our
+                        ultimate goal.
+                    </p>
+                    <p className="text-center">
+                        From concept to launch, we're here to ensure your
+                        digital presence makes a powerful impact.
+                    </p>
                 </div>
                 <Workflow />
                 <div className="text-center">

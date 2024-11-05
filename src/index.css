@@ -5,6 +5,8 @@
 body {
     margin: 0;
     overflow-x: hidden;
+    /* background-color: black;
+    color: white; */
 }
 
 h1 {
@@ -105,7 +107,7 @@ tr:hover {
     height: 200px;
     width: 200px;
     margin: 0 20px;
-    padding: 5px 10px;
+    padding: auto;
     text-align: center;
 }
 
@@ -158,4 +160,10 @@ tr:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.philosophy {
+    background-color: #eeeeeea8;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }

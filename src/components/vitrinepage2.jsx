@@ -12,7 +12,7 @@ const VitrinePage2 = () => {
     console.log(vitrineBuild)
     return (
         <>
-            <div className="mx-auto mt-28" style={{ maxWidth: "1280px" }}>
+            <div className="mx-auto mt-28" style={{ maxWidth: "800px" }}>
                 <h2 className="text-xl font-bold mb-4">Now, some content:</h2>
                 <div className="flex flex-col">
                     <label for="logo">Upload your logo: </label>

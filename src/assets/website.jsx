@@ -1,41 +1,38 @@
-
-
 const Website = () => {
-
-
     return (
         <>
             <div className="mx-auto mt-28" style={{ maxWidth: "1280px" }}>
-                <div className="flex flex-col items-center">
-                    <h1>Website</h1>
-                    <h2>
-                        Complete online visibility.{" "}
-                        <strong>Completely tailored to your wishes</strong>
-                    </h2>
+                <div className="flex flex-col items-center text-center">
+                    <h1 className="mb-4">Multi-Pager Website</h1>
+
+                    <p>
+                        For businesses that need a comprehensive online
+                        presence, our custom multi-pager websites offer a robust
+                        and flexible solution. We take a strategic approach,
+                        building a site that can accommodate a wide range of
+                        content while guiding users smoothly from page to page.
+                        Our designs emphasize functionality and aesthetics,
+                        ensuring that your brand is well-represented across
+                        every page.
+                    </p>
                 </div>
-                <div className="mt-10">
-                    <h1 className="text-center">What's included:</h1>
-                    <div className="grid grid-cols-2 gap-2 my-20 mx-20">
-                        <div className="border px-4 py-4">
-                            <ul>
-                                <li>Item</li>
-                                <li>Item</li>
-                                <li>Item</li>
-                                <li>Item</li>
-                                <li>Item</li>
-                                <li>Item</li>
-                            </ul>
-                        </div>
-                        <div className="border px-4 py-4">
-                            <ul>
-                                <li>Item</li>
-                                <li>Item</li>
-                                <li>Item</li>
-                                <li>Item</li>
-                                <li>Item</li>
-                                <li>Item</li>
-                            </ul>
-                        </div>
+                <div className="mt-10 mx-10 flex justify-center">
+                    <div
+                        className="border "
+                        style={{ height: "400px", width: "400px" }}
+                    ></div>
+                    <div
+                        className="border ms-8 p-8"
+                        style={{ height: "400px", width: "400px" }}
+                    >
+                        <h1>Simple, Effective, Impactful</h1>
+                        <p>
+                            Multi-pager websites are ideal for businesses that
+                            need to present extensive information, such as
+                            service-based companies, organizations, or
+                            content-driven platforms. They offer the flexibility
+                            to grow and evolve as your business expands.
+                        </p>
                     </div>
                 </div>
                 <div className="mt-10 text-center">
@@ -58,6 +55,6 @@ const Website = () => {
             </div>
         </>
     );
-}
+};
 
 export default Website;
