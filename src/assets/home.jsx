@@ -29,9 +29,9 @@ const Home = () => {
                 </div>
                 <div className="mt-8 mx-4 flex flex-col content-center">
                     <h2 className="intro text-center">
-                        At Bel'Azur Coding, we specialize in creating bespoke,
+                        At Bel'Azur Coding, we specialize in creating tailored,
                         high-performance websites that are as unique as your
-                        business. With a strong commitment to quality and a
+                        business. We offer a strong commitment to quality and a
                         flair for elegant, hand-coded solutions.
                     </h2>
                     <h2 className="intro text-center mt-4">

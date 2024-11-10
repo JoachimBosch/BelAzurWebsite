@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
 const Vitrine = () => {
     return (
@@ -19,7 +21,7 @@ const Vitrine = () => {
                 </div>
                 <div className="mt-10 mx-10 flex justify-center">
                     <div
-                        className="border me-8 p-8"
+                        className="border me-8 p-8 flex flex-col place-content-evenly"
                         style={{ height: "400px", width: "400px" }}
                     >
                         <h1>What’s a One-Page Website?</h1>
@@ -41,11 +43,15 @@ const Vitrine = () => {
                 <div className="mt-10 text-center">
                     <h1>Perfect for</h1>
                     <div className="mx-auto">
-                        Highlighting one main product or service.
+                        <FontAwesomeIcon icon={faCheck} /> An online storefront
                         <br />
-                        Showing off your work or achievements in a simple
-                        portfolio. <br />
-                        Promoting an event or special offer. <br />
+                        <FontAwesomeIcon icon={faCheck} /> Highlighting a main
+                        product or service.
+                        <br />
+                        <FontAwesomeIcon icon={faCheck} /> Showing off your work
+                        or achievements in a simple portfolio. <br />
+                        <FontAwesomeIcon icon={faCheck} /> Promoting an event or
+                        special offer. <br />
                     </div>
                 </div>
                 <div className="mt-10">

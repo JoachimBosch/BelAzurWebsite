@@ -15,23 +15,23 @@ const Contact = () => {
                 </div>
                 <div className="sm:mx-auto sm:w-full sm:max-w-sm">
                     <form className="flex flex-col">
-                        <label for="firstName">First Name:</label>
+                        <label for="firstName">First Name: *</label>
                         <input type="text" id="fname" name="fname" required onChange={(e) => setForm({
                                 ...form,
                                 fname: e.target.value})}/>
-                        <label for="lastName">Last name:</label>
+                        <label for="lastName">Last name: *</label>
                         <input type="text" id="lname" name="lname" required onChange={(e) => setForm({
                                 ...form,
                                 lname: e.target.value})}/>
-                        <label for="phone">Phone number:</label>
+                        <label for="phone">Phone number: *</label>
                         <input type="text" id="phone" name="phone" required onChange={(e) => setForm({
                                 ...form,
                                 phone: e.target.value})}/>
-                        <label for="email">Email address:</label>
+                        <label for="email">Email address: *</label>
                         <input type="email" id="email" name="email" required onChange={(e) => setForm({
                                 ...form,
                                 email: e.target.value})}/>
-                        <label for="company">Company:</label>
+                        <label for="company">Company: *</label>
                         <input type="text" id="company" name="company" onChange={(e) => setForm({
                                 ...form,
                                 company: e.target.value})}/>
@@ -40,9 +40,9 @@ const Contact = () => {
                                 ...form,
                                 interest: e.target.value})}>
                                 <option></option>
-                                <option>Vitrine</option>
-                                <option>Website</option>
-                                <option>E-commerce</option>
+                                <option>One-Page Website</option>
+                                <option>Multi-Page Website</option>
+                                <option>E-commerce Website</option>
                                 <option>Other</option>
                             </select>
                         <label for="freeText">Additional information:</label>
