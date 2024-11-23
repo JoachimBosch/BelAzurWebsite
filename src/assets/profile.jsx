@@ -13,9 +13,9 @@ const Profile = () => {
 
     return (
         <>
-            <div className="mt-12 max-w-[1100px] mx-auto py-20">
+            <div className="mt-12 max-w-[1100px] mx-auto pt-20">
                 <h1 className="text-center">Profile</h1>
-                <div className="flex flex-col mx-10 md:mx-16 py-6">
+                <div className="flex flex-col mx-10 md:mx-16 pt-6">
                     <div className="px-4">
                         <h1 className="text-center">Contact information</h1>
                         <div className="">
@@ -245,38 +245,8 @@ const Profile = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mx-10 md:mx-16 py-6  text-center">
-                    <h1>Quotes and invoices</h1>
-                    <div>
-                        <table>
-                            <tr>
-                                <th>Date</th>
-                                <th>Description</th>
-                                <th>Status</th>
-                                <th>Download</th>
-                            </tr>
-                            <tr>
-                                <td>08/09/2024</td>
-                                <td>
-                                    Quote for website with 7 pages and login
-                                    functionality
-                                </td>
-                                <td>Sent</td>
-                                <td>BUTTON</td>
-                            </tr>
-                            <tr>
-                                <td>11/09/2024</td>
-                                <td>
-                                    Invoice for website with 7 pages and login
-                                    functionality
-                                </td>
-                                <td>Awaiting payment</td>
-                                <td>BUTTON</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div className="mx-10 md:mx-16 py-6 text-center">
+                
+                <div className="mx-10 md:mx-16 pt-6 text-center">
                     <h1>Danger zone:</h1>
                     <button onClick={() => setOpenDeleteModal(true)}>
                         Delete profile

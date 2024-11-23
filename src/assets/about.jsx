@@ -7,7 +7,7 @@ const About = () => {
         <>
             <div className="mx-auto mt-28" style={{ maxWidth: "1280px" }}>
                 <div className="text-center">
-                    <h1>Meet the team:</h1>
+                    <h1>About us</h1>
                 </div>
                 <div className="mt-8">
                     <h1>Lisa Lowagie</h1>
