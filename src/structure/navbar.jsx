@@ -17,13 +17,10 @@ const navigation = [
 
 const Navbar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-    const [isNavbarExpanded, setIsNavbarExpanded] = useState(false);
 
     return (
         <header
-            className={`absolute inset-x-0 top-0 z-100 transition-all duration-300 ${
-                isNavbarExpanded ? "h-36" : "h-24"
-            }`}
+            className="absolute inset-x-0 top-0 z-100 transition-all duration-300 "
             style={{ backgroundColor: "#f2bb05" }}
         >
             <nav

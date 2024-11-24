@@ -17,8 +17,9 @@ body {
 }
 
 h1 {
-    font-size: 22px;
-    margin: 0 0 10px 0;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: bold;
 }
 
 h2 {
@@ -91,10 +92,11 @@ tr:hover {
 }
 
 .reference {
+    padding-top: 10px;
     font-size: 12px;
     font-weight: bold;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -161,15 +163,6 @@ tr:hover {
     justify-content: flex-start;
     align-items: center;
 }
-
-.blank-flow {
-    width: 400px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 ::-webkit-scrollbar {
     width: 8px;

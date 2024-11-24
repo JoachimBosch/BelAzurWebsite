@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import ServiceButton from "../components/serviceButton";
+import GetInTouch from "../components/getintouch";
 
 const Ecommerce = () => {
     return (
         <>
-            <div className="mx-auto mt-28" style={{ maxWidth: "1280px" }}>
+            <ServiceButton />
+            <div className="mx-auto pt-18" style={{ maxWidth: "1280px" }}>
                 <div className="flex flex-col items-center text-center">
                     <h1 className="mb-4">E-commerce websites</h1>
 
@@ -21,10 +24,9 @@ const Ecommerce = () => {
                 <div className="mt-10 mx-10 flex justify-center">
                     <div
                         className="border me-8 p-8 flex flex-col place-content-evenly"
-                        style={{ height: "400px", width: "400px" }}
+                        style={{ width: "400px", backgroundColor: "white" }}
                     >
-                        <h1>What's a E-Commerce Website?</h1>
-                        <p>
+                        <p className="text-justify">
                             It's your complete online store where you can sell
                             your own products or services. We can set it up
                             using Shopify for a simple, ready-made solution or
@@ -44,29 +46,19 @@ const Ecommerce = () => {
                     <h1>Perfect for</h1>
                     <div className="mx-auto">
                         <FontAwesomeIcon icon={faCheck} /> Small businesses
-                        launching their first online store
-                        <br />
+                        launching their first online store &nbsp;&nbsp;
                         <FontAwesomeIcon icon={faCheck} /> Retailers looking to
-                        expand their reach and sell more products
-                        <br />
+                        expand their reach and sell more products &nbsp;&nbsp;
                         <FontAwesomeIcon icon={faCheck} /> Businesses that need
-                        a tailored e-commerce experience <br />
+                        a tailored e-commerce experience &nbsp;&nbsp;
                         <FontAwesomeIcon icon={faCheck} /> Shops wanting to
-                        offer easy, secure payment options<br />
-                    </div>
-                </div>
-                <div className="mt-10">
-                    <h1 className="text-center">Proceed:</h1>
-                    <div className="">
-                        <div className="flex flex-col text-center">
-                            Proceed offline
-                            <Link to="/contact">
-                                <button>Contact us</button>
-                            </Link>
-                        </div>
+                        offer easy, secure payment options
+                        <br />
                     </div>
                 </div>
             </div>
+            <GetInTouch />
+            <ServiceButton />
         </>
     );
 };
