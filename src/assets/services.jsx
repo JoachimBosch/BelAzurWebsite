@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Technologies from "../components/technologyBanner";
 
 const Services = () => {
     return (
@@ -108,10 +107,6 @@ const Services = () => {
                             <div className="serviceItem">App development</div>
                         </Link>
                     </div>
-                </div>
-                <div className="mt-10 text-center">
-                    <h1>Technologies we use:</h1>
-                    <Technologies />
                 </div>
             </div>
         </>

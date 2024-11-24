@@ -6,18 +6,25 @@ import WorkflowCarousel from "../components/workflowCarousel";
 const Home = () => {
     return (
         <>
-            <div className="mx-auto mt-28" style={{ maxWidth: "1280px" }}>
-
-                <div className="my-80 mx-4 flex flex-col content-center">
-                    <h2 className="intro text-center">
+            <div
+                className="mx-auto
+            "
+            >
+                <div className="intro py-80 flex flex-col content-center">
+                    <h2
+                        className="intro text-center"
+                        style={{ background: "none" }}
+                    >
                         At Bel'Azur Coding, we specialize in creating tailored,
                         high-performance websites that are as unique as your
                         business. We offer a strong commitment to quality and a
                         flair for elegant, hand-coded solutions.
                     </h2>
-                    <h2 className="intro text-center mt-4">
-                        Together, we turn your digital dreams into
-                        reality.
+                    <h2
+                        className="intro text-center mt-4"
+                        style={{ background: "none" }}
+                    >
+                        Together, we turn your digital dreams into reality.
                     </h2>
                 </div>
                 <div>
