@@ -2,9 +2,9 @@ import { useContext } from "react";
 import MyContext from "../context/context";
 
 const Contact = () => {
-	const { form, setForm } = useContext(MyContext);
+    const { form, setForm } = useContext(MyContext)
 
-	console.log(form);
+    console.log(form)
 
 	return (
 		<>

@@ -6,13 +6,12 @@ import GetInTouch from "../components/getintouch";
 const Website = () => {
     return (
         <>
-            <ServiceButton />
             <div className="mx-auto pt-18" style={{ maxWidth: "1280px" }}>
                 <div className="flex flex-col items-center text-center">
-                    <h1 className="mb-4">Multi-Pager Website</h1>
+                    <h1 className="mb-4">Multi-Page Website</h1>
 
                     <p>
-                        Our multi-pager websites are ideal for businesses that
+                        A multi-page website is ideal for businesses that
                         need to present a lot of information in an organized,
                         engaging way. Whether you're an event planner outlining
                         your services, a construction firm showcasing your past
@@ -34,10 +33,10 @@ const Website = () => {
                             Think of it as a full digital experience. Instead of
                             packing everything onto one page, we spread your
                             content across several well-organized pages, like
-                            “About Us,” “Services,” “Portfolio,” or “Contact.”
+                            “About Us”, “Services”, “Portfolio”, or “Contact”
                             This layout helps guide visitors through your site,
                             giving them the details they need without
-                            overwhelming them. It’s flexible and built to grow
+                            overwhelming them. It's flexible and built to grow
                             as your business evolves.
                         </p>
                     </div>
