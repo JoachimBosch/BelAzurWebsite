@@ -39,6 +39,7 @@ button:hover {
 
 .intro {
 	background-image: url("../../public/media/img/1.png");
+	background-size: cover;
 }
 
 input {
