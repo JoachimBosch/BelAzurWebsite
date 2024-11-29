@@ -19,6 +19,9 @@ const Contact = () => {
 							type="text"
 							id="fname"
 							name="fname"
+							class="border-none
+                            rounded-md
+                            shadow-md"
 							required
 							onChange={(e) =>
 								setForm({
@@ -32,6 +35,9 @@ const Contact = () => {
 							type="text"
 							id="lname"
 							name="lname"
+							class="border-none
+                            rounded-md
+                            shadow-md"
 							required
 							onChange={(e) =>
 								setForm({
@@ -45,6 +51,9 @@ const Contact = () => {
 							type="text"
 							id="phone"
 							name="phone"
+							class="border-none
+                            rounded-md
+                            shadow-md"
 							required
 							onChange={(e) =>
 								setForm({
@@ -58,6 +67,9 @@ const Contact = () => {
 							type="email"
 							id="email"
 							name="email"
+							class="border-none
+                            rounded-md
+                            shadow-md"
 							required
 							onChange={(e) =>
 								setForm({
@@ -71,6 +83,9 @@ const Contact = () => {
 							type="text"
 							id="company"
 							name="company"
+							class="border-none
+                            rounded-md
+                            shadow-md"
 							onChange={(e) =>
 								setForm({
 									...form,
@@ -81,6 +96,9 @@ const Contact = () => {
 						<label for="interest">I'm interested in:</label>
 						<select
 							className="mb-2"
+							class="border-none
+                            rounded-md
+                            shadow-md"
 							onClick={(e) =>
 								setForm({
 									...form,
@@ -99,6 +117,9 @@ const Contact = () => {
 							type="text"
 							id="freeText"
 							name="freeText"
+							class="border-none
+                            rounded-md
+                            shadow-md"
 							className="mb-4"
 							onChange={(e) =>
 								setForm({
