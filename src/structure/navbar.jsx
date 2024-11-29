@@ -54,8 +54,8 @@ const Navbar = () => {
 			>
 				<div className="fixed inset-0 z-50" />
 				<DialogPanel
-					className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
-					style={{ backgroundColor: "#f2bb05" }}
+					className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 navbar-background"
+					/*style={{ backgroundColor: "#f2bb05" }}*/
 				>
 					<div className="flex items-center justify-between">
 						<button
@@ -64,7 +64,10 @@ const Navbar = () => {
 							className="-m-2.5 rounded-md p-2.5 text-gray-700"
 						>
 							<span className="sr-only">Close menu</span>
-							<XMarkIcon aria-hidden="true" className="h-6 w-6" />
+							<XMarkIcon
+								aria-hidden="true"
+								className="h-6 w-6 social-links"
+							/>
 						</button>
 					</div>
 					<div className="mt-6 flow-root">
@@ -74,13 +77,13 @@ const Navbar = () => {
 									<a
 										key={item.name}
 										href={item.href}
-										className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:text-white"
+										className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:text-belazurblue"
 									>
 										{item.name}
 									</a>
 								))}
 							</div>
-							<div className="flex justify-evenly pt-4">
+							<div className="flex justify-evenly pt-4 social-links">
 								<button>
 									<Link
 										to="https://www.facebook.com"
