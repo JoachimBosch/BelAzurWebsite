@@ -13,7 +13,7 @@ const Services = () => {
 
     return (
         <>
-            <div className="intro mx-auto py-24">
+            <div className="intro mx-auto pt-32">
                 {page === "allServices" && <AllServices />}
                 {page === "onepager" && <Vitrine />}
                 {page === "multipager" && <Website />}

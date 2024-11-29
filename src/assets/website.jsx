@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import ServiceButton from "../components/serviceButton";
@@ -6,9 +7,9 @@ import GetInTouch from "../components/getintouch";
 const Website = () => {
     return (
         <>
-            <div className="mx-auto pt-18" style={{ maxWidth: "1280px" }}>
+            <div className="mx-auto px-4 pt-28">
                 <div className="flex flex-col items-center text-center">
-                    <h1 className="mb-4">Multi-Page Website</h1>
+                    <h1 className="mb-4">Tailored Multi-Page Websites That Grow With Your Business</h1>
 
                     <p>
                         A multi-page website is ideal for businesses that
@@ -29,11 +30,11 @@ const Website = () => {
                         className="border ms-8 p-8 flex flex-col place-content-evenly"
                         style={{ width: "400px", backgroundColor: "white" }}
                     >
-                        <p className="text-justify">
+                        <p className="text-justify text-belazurblue">
                             Think of it as a full digital experience. Instead of
                             packing everything onto one page, we spread your
                             content across several well-organized pages, like
-                            “About Us”, “Services”, “Portfolio”, or “Contact”
+                            “About Us”, “Services”, “Portfolio”, or “Contact”.
                             This layout helps guide visitors through your site,
                             giving them the details they need without
                             overwhelming them. It's flexible and built to grow
@@ -41,21 +42,46 @@ const Website = () => {
                         </p>
                     </div>
                 </div>
-                <div className="mt-10 mx-auto text-center">
-                    <h1>Perfect for</h1>
-                    <div className="mx-auto text-center pt-4">
-                        <FontAwesomeIcon icon={faCheck} /> Service-based
-                        companies that need to describe various offerings
-                        &nbsp;&nbsp;
-                        <FontAwesomeIcon icon={faCheck} /> Organizations sharing
-                        resources, news, or events &nbsp;&nbsp;
-                        <FontAwesomeIcon icon={faCheck} /> Businesses with a
-                        large portfolio of work to showcase &nbsp;&nbsp;
-                        <FontAwesomeIcon icon={faCheck} /> Content-driven
-                        platforms that provide regular updates
-                        <br />
+                <div className="button-home text-center">
+						<Link to="/contact">
+							<button class="bg-white hover:bg-white text-belazurblue font-semibold hover:text-belazurblue py-2 px-4 border-none border-blue-500 hover:border-transparent rounded button-home">
+								Let's set up a meeting
+							</button>
+						</Link>
+				</div>
+                <div class="grid grid-cols-2 gap-4 mx-auto" style={{ maxWidth: "1240px"}}>
+                    <div className="border my-12 p-4" >
+                        <h2>Perfect for</h2>
+                        <div className="mx-auto ">
+                            <FontAwesomeIcon icon={faCheck} /> Service-based
+                            companies that need to describe various offerings
+                            <br />
+                            <FontAwesomeIcon icon={faCheck} /> Organizations sharing
+                            resources, news, or events 
+                            <br />
+                            <FontAwesomeIcon icon={faCheck} /> Businesses with a
+                            large portfolio of work to showcase 
+                            <br />
+                            <FontAwesomeIcon icon={faCheck} /> Content-driven
+                            platforms that provide regular updates <br />
+                        </div>
+                    </div>
+                    <div className="border my-12 p-4" >
+                        <h2>Benefits</h2>
+                        <div className="mx-auto ">
+                            <FontAwesomeIcon icon={faCheck} /> Helps visitors find information quickly and easily 
+                            <br />
+                            <FontAwesomeIcon icon={faCheck} /> Reflects a polished, credible image for your brand
+                            <br />
+                            <FontAwesomeIcon icon={faCheck} /> Allows for rich, detailed content like blogs, galleries, and portfolios 
+                            <br />
+                            <FontAwesomeIcon icon={faCheck} /> Perfect for businesses that plan to grow and add more services or pages 
+                            <br />
+                            
+                        </div>
                     </div>
                 </div>
+                
             </div>
             <GetInTouch />
             <ServiceButton />
