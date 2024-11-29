@@ -13,12 +13,7 @@ const Ecommerce = () => {
                     <h1 className="mb-4">E-commerce websites</h1>
 
                     <p>
-                        Our e-commerce websites are designed to help you start
-                        selling online easily and effectively. Whether you’re a
-                        local artisan launching your first online shop or a
-                        retail business ready to go global, we build a secure,
-                        beautiful site that makes shopping easy for your
-                        customers and managing orders a breeze for you.
+                    E-commerce websites are designed to help you start selling online easily and effectively. Whether you're a local artisan launching your first online shop, or a retail business ready to go global, we build a secure, beautiful online store that makes shopping easy for your customers and managing orders a breeze for you.
                     </p>
                 </div>
                 <div className="mt-10 mx-10 flex justify-center">
@@ -27,14 +22,7 @@ const Ecommerce = () => {
                         style={{ width: "400px", backgroundColor: "white" }}
                     >
                         <p className="text-justify">
-                            It's your complete online store where you can sell
-                            your own products or services. We can set it up
-                            using Shopify for a simple, ready-made solution or
-                            custom-build it for more control and flexibility.
-                            From displaying your products in an attractive
-                            layout to offering multiple payment options, we make
-                            sure your store is easy to use and optimized for
-                            sales.
+                        It's your complete online store where you can sell your own products or services. We can set it up using Shopify for a simple, ready-made solution or custom-build it for more control and flexibility. From displaying your products in an attractive layout to offering multiple payment options, we make sure your store is easy to use and optimized for sales.
                         </p>
                     </div>
                     <div

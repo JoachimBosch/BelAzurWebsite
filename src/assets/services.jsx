@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import AllServices from "../components/allservices";
+import AllServices from "./allservices";
 import MyContext from "../context/context";
 import Vitrine from "./vitrine";
 import Website from "./website";

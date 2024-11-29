@@ -6,10 +6,9 @@ const AllServices = () => {
 
     return (
         <>
-            <h1 className="text-center py-8">
-                Click on a service to find out more
-            </h1>
-            <div className="flex flex-wrap justify-center">
+        <div style={{ height: "100vh"}}>
+        
+            <div className="flex flex-wrap justify-center py-8">
                 <button
                     onClick={() => {
                         setPage("onepager");
@@ -39,8 +38,11 @@ const AllServices = () => {
                     <div className="serviceItem">App Development</div>
                 </button>
             </div>
-            <div className="p-14 text-center mx-auto" style={{ maxWidth: "1000px" }}>
-                <p>
+            <div className="text-center mx-auto" style={{ maxWidth: "1280px" }}>
+                <h1 className="text-center pt-8">
+                    Services based on your actual needs
+                </h1>
+                <p className="p-14">
                     At Bel'Azur Coding, we are passionate about delivering
                     exceptional web and app development solutions that help your
                     business stand out in the digital landscape. We take a
@@ -48,9 +50,12 @@ const AllServices = () => {
                     final product aligns perfectly with your goals and vision.
                     From single-page websites to complex e-commerce platforms
                     and cutting-edge mobile apps, we are equipped to bring your
-                    ideas to life.
+                    ideas to life
+                    
                 </p>
             </div>
+        </div>
+            
         </>
     );
 };

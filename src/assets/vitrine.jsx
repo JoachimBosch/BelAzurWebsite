@@ -8,18 +8,15 @@ const Vitrine = () => {
     return (
         <>
             <div className="mx-auto pt-18" style={{ maxWidth: "1280px" }}>
-                <ServiceButton />
+
                 <div className="flex flex-col items-center text-center">
-                    <h1 className="mb-4">One-Page websites</h1>
+                    <h1 className="mb-4">Simple, Impactful One-Page Websites for Your Business.</h1>
 
                     <p>
-                        Perfect for small businesses, freelancers, or events,
-                        our one-page websites make a big impact with minimal
-                        fuss. Everything your customers need to know is
-                        presented on one easy-to-navigate page. It's quick to
-                        set up, loads fast, and works smoothly on both computers
-                        and phones. Get your business noticed with a beautiful,
-                        straightforward site that tells your story in seconds.
+                        A ”one-page” website is a simple concept, even though it actually consists of two pages: a front page and a contact page. 
+                        On your front page, you introduce yourself to the public. You can tell who you are, what you do - and maybe why you do it, and so much more.  
+                        Your contact page provides a way for people to get in touch with you. This can be a contact form, an address link, a link to your social media page, etc. <br />
+                        The possibilities are endless.
                     </p>
                 </div>
                 <div
@@ -51,14 +48,14 @@ const Vitrine = () => {
                 <div className="mt-10 text-center">
                     <h1>Perfect for</h1>
                     <div className="mx-auto ">
-                        <FontAwesomeIcon icon={faCheck} /> An online storefront
+                        <FontAwesomeIcon icon={faCheck} /> Promoting an event or
+                        special offer
                         &nbsp;&nbsp;
                         <FontAwesomeIcon icon={faCheck} /> Highlighting a main
                         product or service &nbsp;&nbsp;
                         <FontAwesomeIcon icon={faCheck} /> Showing off your work
                         or achievements in a simple portfolio <br />
-                        <FontAwesomeIcon icon={faCheck} /> Promoting an event or
-                        special offer <br />
+                        <FontAwesomeIcon icon={faCheck} /> Setting your first steps online <br />
                     </div>
                 </div>
                 <GetInTouch />
