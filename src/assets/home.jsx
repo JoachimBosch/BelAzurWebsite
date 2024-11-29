@@ -10,16 +10,27 @@ const Home = () => {
 				className="mx-auto
             "
 			>
-				<div className="intro py-80 flex flex-col content-center">
+				<div className="intro py-60 flex flex-col content-center">
+					<h1 className="text-center">Hello & Welcome</h1>
 					<h2 className="text-center">
 						At Bel'Azur Coding, we specialize in creating tailored,
 						high-performance websites that are as unique as your
-						business. We offer a strong commitment to quality and a
-						flair for elegant, hand-coded solutions.
+						business.
+					</h2>
+					<h2 className="text-center">
+						We offer a strong commitment to quality and a flair for
+						elegant, hand-coded solutions.
 					</h2>
 					<h2 className=" text-center mt-4">
 						Together, we turn your digital dreams into reality.
 					</h2>
+					<div className="button-home text-center">
+						<Link to="/contact">
+							<button class="bg-white hover:bg-white text-belazurblue font-semibold hover:text-belazurblue py-2 px-4 border-none border-blue-500 hover:border-transparent rounded button-home">
+								Contact us
+							</button>
+						</Link>
+					</div>
 				</div>
 				<div>
 					<WhyUs />
