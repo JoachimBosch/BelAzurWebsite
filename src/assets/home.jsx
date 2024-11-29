@@ -11,7 +11,7 @@ const Home = () => {
             "
 			>
 				<div className="intro py-60 flex flex-col content-center">
-					<h1 className="text-center">Hello & Welcome</h1>
+					<h1 className="welcome text-center">Hello & Welcome</h1>
 					<h2 className="text-center">
 						At Bel'Azur Coding, we specialize in creating tailored,
 						high-performance websites that are as unique as your
