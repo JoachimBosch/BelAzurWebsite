@@ -52,7 +52,7 @@ const Vitrine = () => {
 							</button>
 						</Link>
 				</div>
-                <div class="grid grid-cols-2 gap-4 mx-auto" style={{ maxWidth: "1240px"}}>
+                <div className="grid grid-cols-2 gap-4 mx-auto" style={{ maxWidth: "1240px"}}>
                     <div className="border my-12 p-4" >
                         <h2>Perfect for</h2>
                         <div className="mx-auto ">

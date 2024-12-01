@@ -7,10 +7,9 @@ import GetInTouch from "../components/getintouch";
 const Ecommerce = () => {
     return (
         <>
-            <ServiceButton />
             <div className="mx-auto pt-18" style={{ maxWidth: "1280px" }}>
                 <div className="flex flex-col items-center text-center">
-                    <h1 className="mb-4">E-commerce websites</h1>
+                    <h1 className="mb-4">Drive Sales and Reach New Customers with a Seamless Online Shopping Experience</h1>
 
                     <p>
                     E-commerce websites are designed to help you start selling online easily and effectively. Whether you're a local artisan launching your first online shop, or a retail business ready to go global, we build a secure, beautiful online store that makes shopping easy for your customers and managing orders a breeze for you.

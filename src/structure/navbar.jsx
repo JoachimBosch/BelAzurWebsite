@@ -42,6 +42,7 @@ const Navbar = () => {
 						<span className="sr-only">Open main menu</span>
 						<img
 							src={MENU}
+							className="menu"
 							style={{ width: "50px", height: "50px" }}
 						/>
 					</button>

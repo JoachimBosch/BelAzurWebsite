@@ -1,17 +1,24 @@
 import { Link } from "react-router-dom";
-import Pricing from "../components/pricing";
 import WhyUs from "../components/whyUs";
-import test1 from "../../public/media/img/1.png";
+import Typewriter from 'typewriter-effect';
+import GetInTouch from "../components/getintouch";
 
 const Home = () => {
+
 	return (
 		<>
 			<div
 				className="mx-auto
             "
 			>
-				<div className="intro py-60 flex flex-col content-center">
-					<h1 className="text-center">Hello & Welcome</h1>
+				<div className="intro px-4 pt-60 pb-20 flex flex-col content-center">
+					<h1 className="text-center"><Typewriter
+						options={{
+							strings: ['Hello & Welcome,', 'Bonjour & Bienvenue,'],
+							autoStart: true,
+							loop: true,
+						}}
+					/></h1>
 					<h2 className="text-center">
 						At Bel'Azur Coding, we specialize in creating tailored,
 						high-performance websites that are as unique as your
@@ -25,20 +32,13 @@ const Home = () => {
 						Together, we turn your digital dreams into reality.
 					</h2>
 					<div className="button-home text-center">
-						<Link to="/contact">
-							<button class="bg-white hover:bg-white text-belazurblue font-semibold hover:text-belazurblue py-2 px-4 border-none border-blue-500 hover:border-transparent rounded button-home">
-								Contact us
-							</button>
-						</Link>
+						<GetInTouch />
 					</div>
 				</div>
 				<div>
 					<WhyUs />
 				</div>
-				<div>
-					<Pricing />
-				</div>
-				<div className="philosophy px-8 py-12">
+				<div className="px-8 py-12">
 					<h1 className="text-center">OUR PHILOSOPHY</h1>
 					<p className="text-center">
 						We believe in clean code, clean design, and clear
@@ -56,12 +56,8 @@ const Home = () => {
 						Let's transform your ideas into an exceptional online
 						experience.
 					</h2>
-					<h2 className="mb-4">
-						Place your order for a one-pager today or contact us to
-						discuss a custom project.
-					</h2>
 					<Link to="/contact">
-						<button>Let's get in touch</button>
+						<button className="bg-white hover:bg-white text-belazurblue font-semibold hover:text-belazurblue py-2 px-4 border-none border-blue-500 hover:border-transparent rounded button-home">Let's get in touch</button>
 					</Link>
 				</div>
 			</div>
