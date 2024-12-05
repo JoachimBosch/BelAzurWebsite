@@ -145,7 +145,7 @@ label {
 }
 
 .whyUs {
-	background-color: rgba(255, 255, 255, 0.6);
+	background-color: rgba(255, 255, 255, 0.8);
 }
 
 .whyUs h1 {
@@ -153,13 +153,7 @@ label {
 	text-align: center;
 }
 
-.whyUsAbout {
-	border-left: solid;
-	border-color: white;
-	padding-left: 25px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
+
 
 .allServices {
 	font-size: 20px;

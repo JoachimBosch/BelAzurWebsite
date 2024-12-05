@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import WhyUs from "../components/whyUs";
 import Typewriter from 'typewriter-effect';
 import GetInTouch from "../components/getintouch";
+import MailUs from "../components/mailUs";
 
 const Home = () => {
 
@@ -38,7 +39,7 @@ const Home = () => {
 				<div>
 					<WhyUs />
 				</div>
-				<div className="px-8 py-12">
+				<div className="intro px-8">
 					<h1 className="text-center">OUR PHILOSOPHY</h1>
 					<p className="text-center">
 						We believe in clean code, clean design, and clear
@@ -50,15 +51,14 @@ const Home = () => {
 						From concept to launch, we're here to ensure your
 						digital presence makes a powerful impact.
 					</p>
+					<br />
+					<h2 className="text-center">
+						{"< "}Let's transform your ideas into an exceptional online
+						experience{" />"}
+					</h2>
 				</div>
 				<div className="text-center">
-					<h2>
-						Let's transform your ideas into an exceptional online
-						experience.
-					</h2>
-					<Link to="/contact">
-						<button className="bg-white hover:bg-white text-belazurblue font-semibold hover:text-belazurblue py-2 px-4 border-none border-blue-500 hover:border-transparent rounded button-home">Let's get in touch</button>
-					</Link>
+					<MailUs />
 				</div>
 			</div>
 		</>
