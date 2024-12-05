@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import ServiceButton from "../components/serviceButton";
 import GetInTouch from "../components/getintouch";
+import MailUs from "../components/mailUs";
 
 const Vitrine = () => {
     return (
@@ -14,8 +15,9 @@ const Vitrine = () => {
 
                     <p>
                         A one-page website is a simple concept. It's an affordable web design that actually consists of two pages: a front page and a contact page. 
+                        <br />
                         On your front page, you introduce yourself to the public. You can tell who you are, what you do - and maybe why you do it, and so much more.  
-                        Your contact page provides a way for people to get in touch with you. This can be a contact form, an address link, a link to your social media page, etc. <br />
+                        <br />Your contact page provides a way for people to get in touch with you. This can be a contact form, an address link, a link to your social media page, etc. <br />
                         The possibilities are endless.
                     </p>
                 </div>
@@ -45,12 +47,8 @@ const Vitrine = () => {
                         style={{ height: "400px", width: "400px" }}
                     ></div>
                 </div>
-                <div className="button-home text-center">
-						<Link to="/contact">
-							<button class="bg-white hover:bg-white text-belazurblue font-semibold hover:text-belazurblue py-2 px-4 border-none border-blue-500 hover:border-transparent rounded button-home">
-								Get Your Business Online Today
-							</button>
-						</Link>
+                <div className="text-center">
+						<MailUs />
 				</div>
                 <div className="grid grid-cols-2 gap-4 mx-auto" style={{ maxWidth: "1240px"}}>
                     <div className="border my-12 p-4" >
