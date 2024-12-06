@@ -6,9 +6,9 @@ const AllServices = () => {
 
     return (
         <>
-        <div style={{ height: "100vh"}}>
+        <div style={{ height: "90vh"}}>
         
-            <div className="flex flex-wrap justify-center py-8">
+            <div className="flex flex-wrap justify-center py-8 mt-32">
                 <button
                     onClick={() => {
                         setPage("onepager");

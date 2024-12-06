@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import ServiceButton from "../components/serviceButton";
 import GetInTouch from "../components/getintouch";
+import MailUs from "../components/mailUs";
 
 const Website = () => {
     return (
@@ -14,10 +15,11 @@ const Website = () => {
                     <p>
                         A multi-page website is ideal for businesses that
                         need to present a lot of information in an organized,
-                        engaging way. Whether you're an event planner outlining
+                        engaging way. 
+                        <br />Whether you're an event planner outlining
                         your services, a construction firm showcasing your past
-                        projects, or a community organization sharing resources,
-                        we create a website that's easy to navigate and
+                        projects, or a community organization sharing resources.
+                        <br /> We create a website that's easy to navigate and
                         enjoyable for visitors to explore.
                     </p>
                 </div>
@@ -42,12 +44,8 @@ const Website = () => {
                         </p>
                     </div>
                 </div>
-                <div className="button-home text-center">
-						<Link to="/contact">
-							<button class="bg-white hover:bg-white text-belazurblue font-semibold hover:text-belazurblue py-2 px-4 border-none border-blue-500 hover:border-transparent rounded button-home">
-								Let's set up a meeting
-							</button>
-						</Link>
+                <div className="text-center">
+						<MailUs />
 				</div>
                 <div class="grid grid-cols-2 gap-4 mx-auto" style={{ maxWidth: "1240px"}}>
                     <div className="border my-12 p-4" >
