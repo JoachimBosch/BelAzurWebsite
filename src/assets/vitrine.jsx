@@ -13,12 +13,13 @@ const Vitrine = () => {
     return (
         <>
             <div className="mx-auto px-4 pt-28">
-
                 <div className="flex flex-col items-center text-center">
-                    <h1 className="mb-4">{_LANGUAGE_[language].vitrineHeader}</h1>
+                    <h1 className="mb-4">
+                        {_LANGUAGE_[language].vitrineHeader}
+                    </h1>
 
                     <p>
-                    {_LANGUAGE_[language].vitrineIntro1}
+                        {_LANGUAGE_[language].vitrineIntro1}
                         <br />
                         {_LANGUAGE_[language].vitrineIntro2}
                         <br />
@@ -39,7 +40,7 @@ const Vitrine = () => {
                         }}
                     >
                         <p className="text-justify text-belazurblue">
-                        {_LANGUAGE_[language].vitrineBox1}
+                            {_LANGUAGE_[language].vitrineBox1}
                         </p>
                     </div>
                     <div
@@ -48,39 +49,47 @@ const Vitrine = () => {
                     ></div>
                 </div>
                 <div className="text-center">
-						<MailUs />
-				</div>
-                <div className="grid grid-cols-2 gap-4 mx-auto" style={{ maxWidth: "1240px"}}>
-                    <div className="border my-12 p-4" >
+                    <MailUs />
+                </div>
+                <div
+                    className="grid grid-cols-2 gap-4 mx-auto"
+                    style={{ maxWidth: "1240px" }}
+                >
+                    <div className="border my-12 p-4">
                         <h2>{_LANGUAGE_[language].vitrinePerfect}</h2>
                         <div className="mx-auto ">
-                            <FontAwesomeIcon icon={faCheck} /> {_LANGUAGE_[language].vitrinePerfectFor[0]}
+                            <FontAwesomeIcon icon={faCheck} />{" "}
+                            {_LANGUAGE_[language].vitrinePerfectFor[0]}
                             <br />
-                            <FontAwesomeIcon icon={faCheck} /> {_LANGUAGE_[language].vitrinePerfectFor[1]} 
+                            <FontAwesomeIcon icon={faCheck} />{" "}
+                            {_LANGUAGE_[language].vitrinePerfectFor[1]}
                             <br />
-                            <FontAwesomeIcon icon={faCheck} /> {_LANGUAGE_[language].vitrinePerfectFor[2]} 
+                            <FontAwesomeIcon icon={faCheck} />{" "}
+                            {_LANGUAGE_[language].vitrinePerfectFor[2]}
                             <br />
-                            <FontAwesomeIcon icon={faCheck} /> {_LANGUAGE_[language].vitrinePerfectFor[3]} <br />
+                            <FontAwesomeIcon icon={faCheck} />{" "}
+                            {_LANGUAGE_[language].vitrinePerfectFor[3]} <br />
                         </div>
                     </div>
-                    <div className="border my-12 p-4" >
+                    <div className="border my-12 p-4">
                         <h2>Benefits</h2>
                         <div className="mx-auto ">
-                            <FontAwesomeIcon icon={faCheck} /> {_LANGUAGE_[language].vitrineBenefits[0]} 
+                            <FontAwesomeIcon icon={faCheck} />{" "}
+                            {_LANGUAGE_[language].vitrineBenefits[0]}
                             <br />
-                            <FontAwesomeIcon icon={faCheck} /> {_LANGUAGE_[language].vitrineBenefits[1]}
+                            <FontAwesomeIcon icon={faCheck} />{" "}
+                            {_LANGUAGE_[language].vitrineBenefits[1]}
                             <br />
-                            <FontAwesomeIcon icon={faCheck} /> {_LANGUAGE_[language].vitrineBenefits[2]} 
+                            <FontAwesomeIcon icon={faCheck} />{" "}
+                            {_LANGUAGE_[language].vitrineBenefits[2]}
                             <br />
-                            <FontAwesomeIcon icon={faCheck} /> {_LANGUAGE_[language].vitrineBenefits[3]} 
+                            <FontAwesomeIcon icon={faCheck} />{" "}
+                            {_LANGUAGE_[language].vitrineBenefits[3]}
                             <br />
-                            
                         </div>
                     </div>
                 </div>
-                <div className="mt-10 text-center">
-                    
-                </div>
+                <div className="mt-10 text-center"></div>
                 <GetInTouch />
                 <ServiceButton />
             </div>

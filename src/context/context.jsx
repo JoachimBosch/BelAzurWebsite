@@ -48,6 +48,7 @@ const _LANGUAGE_ = {
             "Your contact page provides a way for people to get in touch with you. This can be a contact form, an address link, a link to your social media page, etc.",
         vitrineIntro4: "The possibilities are endless.",
         vitrinePerfect: "Perfect for",
+        vitrineBenefits: "Benefits",
         vitrineBox1:
             "Think of it as a beautifully designed online brochure. All the important information about your business is on one single page, making it easy for your customers to understand who you are and what you offer without clicking around too much. It's simple, but it packs a punch—delivering your message in a way that grabs attention and encourages action.",
         vitrinePerfectFor: [
@@ -61,6 +62,81 @@ const _LANGUAGE_ = {
             "Fast setup with minimal costs",
             "Perfect for small businesses or individuals starting out online",
             "Mobile-friendly design ensures a great experience for all users",
+        ],
+        websiteHeader:
+            "Tailored Multi-Page Websites That Grow With Your Business",
+        websiteIntro1:
+            "A multi-page website is ideal for businesses that need to present a lot of information in an organized, engaging way.",
+        websiteIntro2:
+            "Whether you're an event planner outlining your services, a construction firm showcasing your past projects, or a community organization sharing resources.",
+        websiteIntro3:
+            "We create a website that's easy to navigate and enjoyable for visitors to explore.",
+        websitePerfect: "Perfect for",
+        websiteBenefitsHeader: "Benefits",
+        websiteBox1:
+            "Think of it as a full digital experience. Instead of packing everything onto one page, we spread your content across several well-organized pages, like “About Us”, “Services”, “Portfolio”, or “Contact”. This layout helps guide visitors through your site, giving them the details they need without overwhelming them. It's flexible and built to grow as your business evolves.",
+        websitePerfectFor: [
+            "Service-based companies that need to describe various offerings",
+            "Organizations sharing resources, news, or events",
+            "Businesses with a large portfolio of work to showcase",
+            "Content-driven platforms that provide regular updates",
+        ],
+        websiteBenefits: [
+            "Helps visitors find information quickly and easily",
+            "Reflects a polished, credible image for your brand",
+            "Allows for rich, detailed content like blogs, galleries, and portfolios",
+            "Perfect for businesses that plan to grow and add more services or pages",
+        ],
+        ecommerceHeader:
+            "Drive Sales and Reach New Customers with a Seamless Online Shopping Experience",
+        ecommerceIntro1:
+            "E-commerce websites are designed to help you start selling online easily and effectively.",
+        ecommerceIntro2:
+            "Whether you're a local artisan launching your first online shop, or a retail business ready to go global,",
+        ecommerceIntro3:
+            "we build a secure, beautiful online store that makes shopping easy for your customers and managing orders a breeze for you.",
+        ecommerceIntro4: "Your options are limitless.",
+        ecommercePerfect: "Perfect for",
+        ecommerceBenefitsHeader: "Benefits",
+        ecommerceBox1:
+            "It's your complete online store where you can sell your own products or services. We can set it up using Shopify for a simple, ready-made solution or custom-build it for more control and flexibility. From displaying your products in an attractive layout to offering multiple payment options, we make sure your store is easy to use and optimized for sales.",
+        ecommercePerfectFor: [
+            "Businesses launching their first online store",
+            "Retailers looking to expand their reach and sell more products",
+            "Businesses that need a tailored e-commerce experience",
+            "Shops wanting to offer easy, secure payment options",
+        ],
+        ecommerceBenefits: [
+            "Sell to customers locally, nationally, or globally",
+            "Generate revenue even when your physical store is closed",
+            "Safe and diverse payment options build customer trust",
+            "Tailored designs to match your brand and attract buyers",
+        ],
+        appDevHeader:
+            "Build Your Brand's Presence in the Palm of Your Customers' Hands",
+        appDevIntro1:
+            "Our app development services are perfect for businesses ready to make a big impact on mobile.",
+        appDevIntro2:
+            "Whether you want to create a food ordering app, streamline your booking process, or launch something entirely unique,",
+        appDevIntro3:
+            "we design and build apps that are fast, reliable, and easy to use.",
+        appDevIntro4:
+            "Your customers will enjoy a smooth experience on both iOS and Android, and you’ll have the tech to support your business growth.",
+        appDevPerfect: "Perfect for",
+        appDevBenefitsHeader: "Benefits",
+        appDevBox1:
+            "It's about bringing your ideas to life in the palm of your customers' hands. We use React Native, a powerful technology stack that allows us to build apps efficiently for both iOS and Android with just one codebase. This means faster development, fewer maintenance headaches, and consistent performance across devices. Our apps are custom-made to fit your business, ensuring they look great and work perfectly.",
+        appDevPerfectFor: [
+            "Businesses wanting to connect with customers through mobile",
+            "Companies looking to streamline processes",
+            "Brands with unique app ideas that require a tailored experience",
+            "Startups aiming for efficient development and long-term scalability",
+        ],
+        appDevBenefits: [
+            "Keep customers connected with your business anytime, anywhere",
+            "Automate bookings, payments, and other key functions for improved efficiency",
+            "One app that works perfectly on both iOS and Android",
+            "A user-friendly app keeps customers coming back",
         ],
     },
     french: {
@@ -109,6 +185,7 @@ const _LANGUAGE_ = {
             "Votre page de contact fournit un moyen pour les gens de vous contacter. Cela peut être un formulaire de contact, un lien d'adresse, un lien vers votre page de médias sociaux, etc.",
         vitrineIntro4: "Les possibilités sont infinies.",
         vitrinePerfect: "Parfait pour",
+        vitrineBenefits: "Avantages",
         vitrineBox1:
             "Considérez-le comme une brochure en ligne magnifiquement conçue. Toutes les informations importantes sur votre entreprise sont sur une seule page, ce qui permet à vos clients de comprendre facilement qui vous êtes et ce que vous proposez sans trop de clics. C'est simple, mais ça a de l'impact—transmettant votre message de manière à capter l'attention et encourager l'action.",
         vitrinePerfectFor: [
@@ -122,6 +199,81 @@ const _LANGUAGE_ = {
             "Mise en place rapide avec des coûts minimes",
             "Parfait pour les petites entreprises ou les particuliers débutant en ligne",
             "Un design adapté aux mobiles garantit une excellente expérience pour tous les utilisateurs",
+        ],
+        websiteHeader:
+            "Des sites web multi-pages sur mesure qui évoluent avec votre entreprise",
+        websiteIntro1:
+            "Un site Web multi-pages est idéal pour les entreprises qui ont besoin de présenter beaucoup d'informations d'une manière organisée et attrayante,",
+        websiteIntro2:
+            "Qu'il s'agisse d'un organisateur d'événements qui présente ses services, d'une entreprise de construction qui présente ses projets antérieurs ou d'un organisme communautaire qui partage ses ressources,",
+        websiteIntro3:
+            "Nous créons un site web facile à parcourir et agréable à explorer pour les visiteurs.",
+        websitePerfect: "Parfait pour",
+        websiteBenefitsHeader: "Avantages",
+        websiteBox1:
+            "Il s'agit d'une expérience numérique complète. Au lieu de tout mettre sur une seule page, nous répartissons votre contenu sur plusieurs pages bien organisées, comme « À propos de nous », « Services », « Portfolio » ou « Contact ». Cette disposition permet de guider les visiteurs à travers votre site, en leur donnant les détails dont ils ont besoin sans les submerger. Le site est flexible et conçu pour s'adapter à l'évolution de votre entreprise",
+        websitePerfectFor: [
+            "Les entreprises de services qui ont besoin de décrire leurs différentes offres",
+            "Les organisations qui partagent des ressources, des nouvelles ou des événements",
+            "Les entreprises ayant un large portefeuille de travaux à présenter",
+            "Plateformes axées sur le contenu qui fournissent des mises à jour régulières",
+        ],
+        websiteBenefits: [
+            "Aide les visiteurs à trouver des informations rapidement et facilement",
+            "Reflète une image soignée et crédible de votre marque",
+            "Permet un contenu riche et détaillé comme des blogs, des galeries et des portfolios",
+            "Parfait pour les entreprises qui prévoient de se développer et d'ajouter des services ou des pages",
+        ],
+        ecommerceHeader:
+            "Stimuler les ventes et atteindre de nouveaux clients grâce à une expérience d'achat en ligne transparente",
+        ecommerceIntro1:
+            "Les sites de commerce électronique sont conçus pour vous aider à vendre en ligne facilement et efficacement.",
+        ecommerceIntro2:
+            "Que vous soyez un artisan local qui lance sa première boutique en ligne ou une entreprise de vente au détail prête à s'internationaliser,",
+        ecommerceIntro3:
+            "nous créons une boutique en ligne sécurisée et esthétique qui facilite les achats de vos clients et la gestion des commandes pour vous.",
+        ecommerceIntro4: "Vos options sont illimitées.",
+        ecommercePerfect: "Parfait pour",
+        ecommerceBenefitsHeader: "Avantages",
+        ecommerceBox1:
+            "Il s'agit d'une boutique en ligne complète où vous pouvez vendre vos propres produits ou services. Nous pouvons l'installer à l'aide de Shopify pour une solution simple et prête à l'emploi ou la construire sur mesure pour plus de contrôle et de flexibilité. De l'affichage de vos produits dans une présentation attrayante à l'offre de plusieurs options de paiement, nous veillons à ce que votre boutique soit facile à utiliser et optimisée pour les ventes",
+        ecommercePerfectFor: [
+            "Les entreprises qui lancent leur première boutique en ligne",
+            "Les détaillants qui cherchent à étendre leur portée et à vendre plus de produits",
+            "Les entreprises qui ont besoin d'une expérience de commerce électronique sur mesure",
+            "Boutiques souhaitant offrir des options de paiement faciles et sûres",
+        ],
+        ecommerceBenefits: [
+            "Vendre à des clients au niveau local, national ou mondial",
+            "Générer des revenus même lorsque votre magasin physique est fermé",
+            "Des options de paiement sûres et diversifiées renforcent la confiance des clients",
+            "Des designs sur mesure pour correspondre à votre marque et attirer les acheteurs",
+        ],
+        appDevHeader:
+            "Construisez la présence de votre marque dans la paume de la main de vos clients",
+        appDevIntro1:
+            "Nos services de développement d'applications sont parfaits pour les entreprises prêtes à avoir un impact important sur le mobile,",
+        appDevIntro2:
+            "Que vous souhaitiez créer une application de commande de nourriture, rationaliser votre processus de réservation ou lancer quelque chose de tout à fait unique,",
+        appDevIntro3:
+            "nous concevons et réalisons des applications rapides, fiables et faciles à utiliser.",
+        appDevIntro4:
+            "Vos clients bénéficieront d'une expérience fluide sur iOS et Android, et vous disposerez de la technologie nécessaire pour soutenir la croissance de votre entreprise",
+        appDevPerfect: "Parfait pour",
+        appDevBenefitsHeader: "Avantages",
+        appDevBox1:
+            "Il s'agit de donner vie à vos idées dans la paume des mains de vos clients. Nous utilisons React Native, une pile technologique puissante qui nous permet de construire efficacement des applications pour iOS et Android avec une seule base de code. Cela signifie un développement plus rapide, moins de maux de tête liés à la maintenance et des performances cohérentes sur tous les appareils. Nos applications sont conçues sur mesure pour s'adapter à votre entreprise, ce qui garantit qu'elles sont belles et qu'elles fonctionnent parfaitement.",
+        appDevPerfectFor: [
+            "Des entreprises qui veulent se connecter avec leurs clients par le biais de la téléphonie mobile",
+            "Des entreprises qui cherchent à rationaliser les processus",
+            "Des marques ayant des idées d'applications uniques qui nécessitent une expérience sur mesure",
+            "Startups visant un développement efficace et une évolutivité à long terme",
+        ],
+        appDevBenefits: [
+            "Gardez vos clients en contact avec votre entreprise à tout moment et en tout lieu",
+            "Automatiser les réservations, les paiements et d'autres fonctions clés pour une meilleure efficacité",
+            "Une seule application qui fonctionne parfaitement sur iOS et Android",
+            "Une application conviviale fait revenir les clients",
         ],
     },
 
@@ -170,6 +322,7 @@ const _LANGUAGE_ = {
             "Je contactpagina biedt mensen een manier om met je in contact te komen. Dit kan een contactformulier zijn, een adreslink, een link naar je social media-pagina, enzovoort.",
         vitrineIntro4: "De mogelijkheden zijn eindeloos.",
         vitrinePerfect: "Perfect voor",
+        vitrineBenefits: "Voordelen",
         vitrineBox1:
             "Zie het als een prachtig ontworpen online brochure. Alle belangrijke informatie over uw bedrijf staat op één enkele pagina, waardoor uw klanten gemakkelijk begrijpen wie u bent en wat u aanbiedt zonder al te veel rond te hoeven klikken. Het is eenvoudig, maar het heeft een grote impact - het overbrengen van uw boodschap op een manier die de aandacht trekt en aanzet tot actie.",
         vitrinePerfectFor: [
@@ -183,6 +336,81 @@ const _LANGUAGE_ = {
             "Snelle installatie met minimale kosten",
             "Perfect voor kleine bedrijven of particulieren die online beginnen",
             "Mobielvriendelijk ontwerp zorgt voor een geweldige ervaring voor alle gebruikers",
+        ],
+        websiteHeader:
+            "Op maat gemaakte Multi-Page Websites die meegroeien met uw bedrijf",
+        websiteIntro1:
+            "Een website met meerdere pagina's is ideaal voor bedrijven die veel informatie op een georganiseerde, boeiende manier moeten presenteren.",
+        websiteIntro2:
+            "Of u nu een evenementenplanner bent die uw diensten uiteenzet, een bouwbedrijf dat uw eerdere projecten laat zien of een gemeenschapsorganisatie die hulpbronnen deelt.",
+        websiteIntro3:
+            "Een website met meerdere pagina's is ideaal voor bedrijven die veel informatie op een aantrekkelijke manier moeten presenteren.",
+        websitePerfect: "Perfect voor",
+        websiteBenefitsHeader: "Voordelen",
+        websiteBox1:
+            "Zie het als een volledige digitale ervaring. In plaats van alles op één pagina te zetten, verdelen we uw inhoud over verschillende goed georganiseerde pagina's, zoals “Over ons”, “Diensten”, “Portfolio” of “Contact”. Deze lay-out leidt bezoekers door je site en geeft ze de details die ze nodig hebben zonder ze te overweldigen. Het is flexibel en gebouwd om mee te groeien met de ontwikkeling van je bedrijf.",
+        websitePerfectFor: [
+            "Dienstverlenende bedrijven die verschillende aanbiedingen moeten beschrijven",
+            "Organisaties die middelen, nieuws of evenementen delen",
+            "Bedrijven met een groot portfolio aan werk om te laten zien",
+            "Platformen met inhoud die regelmatig updates geven",
+        ],
+        websiteBenefits: [
+            "Helpt bezoekers snel en gemakkelijk informatie te vinden",
+            "Weerspiegelt een gepolijst, geloofwaardig imago voor uw merk",
+            "Biedt ruimte voor rijke, gedetailleerde inhoud zoals blogs, galerijen en portfolio's",
+            "Perfect voor bedrijven die van plan zijn te groeien en meer diensten of pagina's toe te voegen",
+        ],
+        ecommerceHeader:
+            "Verkoop stimuleren en nieuwe klanten bereiken met een naadloze online winkelervaring",
+        ecommerceIntro1:
+            "E-commerce websites zijn ontworpen om u te helpen eenvoudig en effectief te beginnen met online verkopen.",
+        ecommerceIntro2:
+            "Of u nu een lokale ambachtsman bent die een eerste online winkel lanceert, of een detailhandelsbedrijf dat klaar is om wereldwijd te gaan,",
+        ecommerceIntro3:
+            "wij bouwen een veilige, mooie online winkel die winkelen makkelijk maakt voor uw klanten en het beheren van bestellingen een koud kunstje voor u.",
+        ecommerceIntro4: "De opties zijn grenzeloos.",
+        ecommercePerfect: "Perfect voor",
+        ecommerceBenefitsHeader: "Voordelen",
+        ecommerceBox1:
+            "Het is uw complete online winkel waar u uw eigen producten of diensten kunt verkopen. We kunnen het opzetten met Shopify voor een eenvoudige, kant-en-klare oplossing of het op maat bouwen voor meer controle en flexibiliteit. Van het weergeven van je producten in een aantrekkelijke lay-out tot het aanbieden van meerdere betaalopties, wij zorgen ervoor dat je winkel gemakkelijk te gebruiken is en geoptimaliseerd is voor de verkoop.",
+        ecommercePerfectFor: [
+            "Bedrijven die hun eerste online winkel lanceren",
+            "Detailhandelaren die hun bereik willen vergroten en meer producten willen verkopen",
+            "Bedrijven die een e-commerce-ervaring op maat nodig hebben",
+            "Winkels die eenvoudige, veilige betalingsopties willen bieden",
+        ],
+        ecommerceBenefits: [
+            "Verkoop aan klanten lokaal, nationaal of wereldwijd",
+            "Genereer inkomsten, zelfs als uw fysieke winkel gesloten is",
+            "Veilige en diverse betalingsopties bouwen vertrouwen bij de klant op",
+            "Ontwerpen op maat die bij je merk passen en kopers aantrekken",
+        ],
+        appDevHeader:
+            "Bouw de aanwezigheid van uw merk in de handpalm van uw klanten",
+        appDevIntro1:
+            "Onze app-ontwikkelingsservices zijn perfect voor bedrijven die klaar zijn om een grote impact te maken op mobile.",
+        appDevIntro2:
+            "Of je nu een app voor het bestellen van eten wilt maken, je boekingsproces wilt stroomlijnen of iets heel unieks wilt lanceren,",
+        appDevIntro3:
+            "wij ontwerpen en bouwen apps die snel, betrouwbaar en gebruiksvriendelijk zijn.",
+        appDevIntro4:
+            "Uw klanten zullen genieten van een soepele ervaring op zowel iOS als Android, en u beschikt over de technologie om de groei van uw bedrijf te ondersteunen.",
+        appDevPerfect: "Perfect voor",
+        appDevBenefitsHeader: "Voordelen",
+        appDevBox1:
+            "Het gaat erom je ideeën tot leven te brengen in de palm van de hand van je klanten. We gebruiken React Native, een krachtige technologiestack waarmee we efficiënt apps kunnen bouwen voor zowel iOS als Android met slechts één codebase. Dit betekent snellere ontwikkeling, minder onderhoudsproblemen en consistente prestaties op verschillende apparaten. Onze apps worden op maat gemaakt voor jouw bedrijf, zodat ze er geweldig uitzien en perfect werken.",
+        appDevPerfectFor: [
+            "Bedrijven die via mobiel in contact willen komen met klanten",
+            "Bedrijven die processen willen stroomlijnen",
+            "Merken met unieke app-ideeën die een ervaring op maat vereisen",
+            "Startups die streven naar efficiënte ontwikkeling en schaalbaarheid op lange termijn",
+        ],
+        appDevBenefits: [
+            "Houd klanten altijd en overal verbonden met uw bedrijf",
+            "Automatiseer boekingen, betalingen en andere belangrijke functies voor verbeterde efficiëntie",
+            "Eén app die perfect werkt op zowel iOS als Android",
+            "Een gebruiksvriendelijke app zorgt ervoor dat klanten terugkomen",
         ],
     },
 };
