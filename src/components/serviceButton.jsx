@@ -5,7 +5,8 @@ import { faBackward } from "@fortawesome/free-solid-svg-icons"
 
 
 const ServiceButton = () => {
-    const { setPage } = useContext(MyContext)
+    const { setPage, language, _LANGUAGE_ } = useContext(MyContext)
+
 
     return (
         <div className="text-center py-6
@@ -15,7 +16,7 @@ const ServiceButton = () => {
                     setPage("allServices");
                 }}
             >
-                <FontAwesomeIcon icon={faBackward} /> &nbsp; BACK TO ALL SERVICES
+                <FontAwesomeIcon icon={faBackward} /> &nbsp; {_LANGUAGE_[language].serviceButton}
             </button>
         </div>
     );

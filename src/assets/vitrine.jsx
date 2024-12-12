@@ -4,21 +4,27 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import ServiceButton from "../components/serviceButton";
 import GetInTouch from "../components/getintouch";
 import MailUs from "../components/mailUs";
+import { useContext } from "react";
+import MyContext from "../context/context";
 
 const Vitrine = () => {
+    const { language, _LANGUAGE_ } = useContext(MyContext);
+
     return (
         <>
             <div className="mx-auto px-4 pt-28">
 
                 <div className="flex flex-col items-center text-center">
-                    <h1 className="mb-4">Simple, Impactful One-Page Websites for Your Business.</h1>
+                    <h1 className="mb-4">{_LANGUAGE_[language].vitrineHeader}</h1>
 
                     <p>
-                        A one-page website is a simple concept. It's an affordable web design that actually consists of two pages: a front page and a contact page. 
+                    {_LANGUAGE_[language].vitrineIntro1}
                         <br />
-                        On your front page, you introduce yourself to the public. You can tell who you are, what you do - and maybe why you do it, and so much more.  
-                        <br />Your contact page provides a way for people to get in touch with you. This can be a contact form, an address link, a link to your social media page, etc. <br />
-                        The possibilities are endless.
+                        {_LANGUAGE_[language].vitrineIntro2}
+                        <br />
+                        {_LANGUAGE_[language].vitrineIntro3}
+                        <br />
+                        {_LANGUAGE_[language].vitrineIntro4}
                     </p>
                 </div>
                 <div
@@ -33,13 +39,7 @@ const Vitrine = () => {
                         }}
                     >
                         <p className="text-justify text-belazurblue">
-                            Think of it as a beautifully designed online
-                            brochure. All the important information about your
-                            business is on one single page, making it easy for
-                            your customers to understand who you are and what
-                            you offer without clicking around too much. It's
-                            simple, but it packs a punch—delivering your message
-                            in a way that grabs attention and encourages action.
+                        {_LANGUAGE_[language].vitrineBox1}
                         </p>
                     </div>
                     <div
@@ -52,30 +52,27 @@ const Vitrine = () => {
 				</div>
                 <div className="grid grid-cols-2 gap-4 mx-auto" style={{ maxWidth: "1240px"}}>
                     <div className="border my-12 p-4" >
-                        <h2>Perfect for</h2>
+                        <h2>{_LANGUAGE_[language].vitrinePerfect}</h2>
                         <div className="mx-auto ">
-                            <FontAwesomeIcon icon={faCheck} /> Promoting an event or
-                            special offer
+                            <FontAwesomeIcon icon={faCheck} /> {_LANGUAGE_[language].vitrinePerfectFor[0]}
                             <br />
-                            <FontAwesomeIcon icon={faCheck} /> Highlighting a main
-                            product or service 
+                            <FontAwesomeIcon icon={faCheck} /> {_LANGUAGE_[language].vitrinePerfectFor[1]} 
                             <br />
-                            <FontAwesomeIcon icon={faCheck} /> Showing off your work
-                            or achievements in a simple portfolio 
+                            <FontAwesomeIcon icon={faCheck} /> {_LANGUAGE_[language].vitrinePerfectFor[2]} 
                             <br />
-                            <FontAwesomeIcon icon={faCheck} /> Setting your first steps online <br />
+                            <FontAwesomeIcon icon={faCheck} /> {_LANGUAGE_[language].vitrinePerfectFor[3]} <br />
                         </div>
                     </div>
                     <div className="border my-12 p-4" >
                         <h2>Benefits</h2>
                         <div className="mx-auto ">
-                            <FontAwesomeIcon icon={faCheck} /> A domain name reflecting the name of your business 
+                            <FontAwesomeIcon icon={faCheck} /> {_LANGUAGE_[language].vitrineBenefits[0]} 
                             <br />
-                            <FontAwesomeIcon icon={faCheck} /> Fast setup with minimal costs
+                            <FontAwesomeIcon icon={faCheck} /> {_LANGUAGE_[language].vitrineBenefits[1]}
                             <br />
-                            <FontAwesomeIcon icon={faCheck} /> Perfect for small businesses or individuals starting out online 
+                            <FontAwesomeIcon icon={faCheck} /> {_LANGUAGE_[language].vitrineBenefits[2]} 
                             <br />
-                            <FontAwesomeIcon icon={faCheck} /> Mobile-friendly design ensures a great experience for all users 
+                            <FontAwesomeIcon icon={faCheck} /> {_LANGUAGE_[language].vitrineBenefits[3]} 
                             <br />
                             
                         </div>
