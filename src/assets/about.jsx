@@ -5,7 +5,7 @@ const About = () => {
 		<>
 			<div className="intro mx-auto pt-28">
 				<div className="text-center">
-					<h1>Meet the team:</h1>
+					<h1>Meet the team</h1>
 				</div>
 				<div className="py-8 mx-auto" style={{ maxWidth: "1280px"}}>
 					<h1 className="text-center">Lisa Lowagie</h1>

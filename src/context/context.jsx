@@ -48,7 +48,7 @@ const _LANGUAGE_ = {
             "Your contact page provides a way for people to get in touch with you. This can be a contact form, an address link, a link to your social media page, etc.",
         vitrineIntro4: "The possibilities are endless.",
         vitrinePerfect: "Perfect for",
-        vitrineBenefits: "Benefits",
+        vitrineBenefitsHeader: "Benefits",
         vitrineBox1:
             "Think of it as a beautifully designed online brochure. All the important information about your business is on one single page, making it easy for your customers to understand who you are and what you offer without clicking around too much. It's simple, but it packs a punch—delivering your message in a way that grabs attention and encourages action.",
         vitrinePerfectFor: [
@@ -138,9 +138,12 @@ const _LANGUAGE_ = {
             "One app that works perfectly on both iOS and Android",
             "A user-friendly app keeps customers coming back",
         ],
+        aboutUsHeader: "Meet the team",
+        aboutLisa: "",
+        aboutJoachim: "",
     },
     french: {
-        serviceButton: "RETOUR VERS TOUS LES SERVICES",
+        serviceButton: "RETOURNEZ VERS TOUS LES SERVICES",
         getInTouch: "Contactez-nous pour commencer",
         mailUs: "Pourquoi ne pas prendre rendez-vous ?",
         navbarItem1: "ACCEUIL",
@@ -185,7 +188,7 @@ const _LANGUAGE_ = {
             "Votre page de contact fournit un moyen pour les gens de vous contacter. Cela peut être un formulaire de contact, un lien d'adresse, un lien vers votre page de médias sociaux, etc.",
         vitrineIntro4: "Les possibilités sont infinies.",
         vitrinePerfect: "Parfait pour",
-        vitrineBenefits: "Avantages",
+        vitrineBenefitsHeader: "Avantages",
         vitrineBox1:
             "Considérez-le comme une brochure en ligne magnifiquement conçue. Toutes les informations importantes sur votre entreprise sont sur une seule page, ce qui permet à vos clients de comprendre facilement qui vous êtes et ce que vous proposez sans trop de clics. C'est simple, mais ça a de l'impact—transmettant votre message de manière à capter l'attention et encourager l'action.",
         vitrinePerfectFor: [
@@ -270,11 +273,14 @@ const _LANGUAGE_ = {
             "Startups visant un développement efficace et une évolutivité à long terme",
         ],
         appDevBenefits: [
-            "Gardez vos clients en contact avec votre entreprise à tout moment et en tout lieu",
+            "Gardez vos clients en contact avec votre entreprise partout",
             "Automatiser les réservations, les paiements et d'autres fonctions clés pour une meilleure efficacité",
             "Une seule application qui fonctionne parfaitement sur iOS et Android",
             "Une application conviviale fait revenir les clients",
         ],
+        aboutUsHeader: "Présentation de l'équipe",
+        aboutLisa: "",
+        aboutJoachim: "",
     },
 
     dutch: {
@@ -322,7 +328,7 @@ const _LANGUAGE_ = {
             "Je contactpagina biedt mensen een manier om met je in contact te komen. Dit kan een contactformulier zijn, een adreslink, een link naar je social media-pagina, enzovoort.",
         vitrineIntro4: "De mogelijkheden zijn eindeloos.",
         vitrinePerfect: "Perfect voor",
-        vitrineBenefits: "Voordelen",
+        vitrineBenefitsHeader: "Voordelen",
         vitrineBox1:
             "Zie het als een prachtig ontworpen online brochure. Alle belangrijke informatie over uw bedrijf staat op één enkele pagina, waardoor uw klanten gemakkelijk begrijpen wie u bent en wat u aanbiedt zonder al te veel rond te hoeven klikken. Het is eenvoudig, maar het heeft een grote impact - het overbrengen van uw boodschap op een manier die de aandacht trekt en aanzet tot actie.",
         vitrinePerfectFor: [
@@ -412,6 +418,9 @@ const _LANGUAGE_ = {
             "Eén app die perfect werkt op zowel iOS als Android",
             "Een gebruiksvriendelijke app zorgt ervoor dat klanten terugkomen",
         ],
+        aboutUsHeader: "Het team",
+        aboutLisa: "",
+        aboutJoachim: "",
     },
 };
 

@@ -72,7 +72,7 @@ const Vitrine = () => {
                         </div>
                     </div>
                     <div className="border my-12 p-4">
-                        <h2>Benefits</h2>
+                        <h2>{_LANGUAGE_[language].vitrineBenefitsHeader}</h2>
                         <div className="mx-auto ">
                             <FontAwesomeIcon icon={faCheck} />{" "}
                             {_LANGUAGE_[language].vitrineBenefits[0]}
