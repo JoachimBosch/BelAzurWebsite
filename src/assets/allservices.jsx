@@ -1,5 +1,9 @@
 import { useContext } from "react";
 import MyContext from "../context/context";
+import Onepager from "../../public/media/img/website developing.png";
+import Website from "../../public/media/img/webdeveloping 2.png";
+import Ecommerce from "../../public/media/img/Key.png";
+import Apps from "../../public/media/img/webdeveloping 3.png";
 
 const AllServices = () => {
     const { page, setPage, language, _LANGUAGE_ } = useContext(MyContext);
@@ -12,29 +16,38 @@ const AllServices = () => {
                         onClick={() => {
                             setPage("onepager");
                         }}
+                        style={{ width: "300px", height: "350px" }}
                     >
-                        <div className="serviceItem">One Page Website</div>
+                        <img src={Onepager} />
+                        <p>One Page Website</p>
                     </button>
                     <button
                         onClick={() => {
                             setPage("multipager");
                         }}
+                        style={{ width: "300px", height: "350px" }}
                     >
-                        <div className="serviceItem">Multi Page Website</div>
+                        <img src={Website} />
+                        <p>Multi Page Website</p>
                     </button>
                     <button
                         onClick={() => {
                             setPage("ecommerce");
                         }}
+                        style={{ width: "300px", height: "350px" }}
                     >
-                        <div className="serviceItem">E-commerce Website</div>
+                        <img src={Ecommerce} />
+                        <p>E-commerce Website</p>
                     </button>
                     <button
                         onClick={() => {
                             setPage("apps");
                         }}
+
+                        style={{ width: "300px", height: "350px" }}
                     >
-                        <div className="serviceItem">App Development</div>
+                        <img src={Apps} />
+                        <p>Mobile apps</p>
                     </button>
                 </div>
                 <div

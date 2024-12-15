@@ -10,6 +10,7 @@ module.exports = {
 		extend: {
 			colors: {
 				belazurblue: "#125E8A",
+				belazurpink: "#a13d63"
 			},
 		},
 	},

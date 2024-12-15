@@ -82,7 +82,7 @@ const Navbar = () => {
                                     <a
                                         key={item.name}
                                         href={item.href}
-                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:text-black"
+                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:text-belazurpink"
                                     >
                                         {item.name}
                                     </a>
@@ -107,6 +107,11 @@ const Navbar = () => {
                                         Instagram
                                     </Link>
                                 </button>
+                            </div>
+                            <div className="pt-8">
+                                <p className="-mx-3 block text-center rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white">
+                                    {_LANGUAGE_[language].navbarLanguage}
+                                </p>
                             </div>
                             <div className="flex justify-evenly pt-4 social-links">
                                 <button

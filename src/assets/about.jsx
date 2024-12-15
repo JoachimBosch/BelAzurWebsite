@@ -53,7 +53,9 @@ const About = () => {
                             </Link>
                         </div>
                         <div className="flex md:text-left mt-4 mb-4 aboutUs border-none md:border-2">
-                            <p className="text-justify sm:text-lg">{_LANGUAGE_[language].aboutJoachim}</p>
+                            <p className="text-justify sm:text-lg">
+                                {_LANGUAGE_[language].aboutJoachim}
+                            </p>
                         </div>
                     </div>
                 </div>
