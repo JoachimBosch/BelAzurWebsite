@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import MyContext from "../context/context";
 
 const About = () => {
+	const { language, _LANGUAGE_ } = useContext(MyContext);
+
 	return (
 		<>
 			<div className="intro mx-auto pt-28">
 				<div className="text-center">
-					<h1>Meet the team</h1>
+					<h1>{_LANGUAGE_[language].aboutUsHeader}</h1>
 				</div>
 				<div className="py-8 mx-auto" style={{ maxWidth: "1280px"}}>
 					<h1 className="text-center">Lisa Lowagie</h1>
@@ -23,12 +27,7 @@ const About = () => {
 						<div className="flex mt-4 mb-4 aboutUs">
 							<div className="content-center">
 								<p>
-									Lorem ipsum dolor sit amet consectetur
-									adipisicing elit. Delectus, nemo facilis
-									deleniti optio modi voluptate, beatae quia
-									ex ratione expedita dolores a cumque, et
-									dolor laborum velit magnam. Temporibus,
-									debitis?
+								{_LANGUAGE_[language].aboutLisa}
 								</p>
 							</div>
 						</div>
@@ -49,12 +48,7 @@ const About = () => {
 						<div className="flex mt-4 mb-4 aboutUs">
 							<div className="content-center">
 								<p>
-									Lorem ipsum dolor sit amet consectetur
-									adipisicing elit. Delectus, nemo facilis
-									deleniti optio modi voluptate, beatae quia
-									ex ratione expedita dolores a cumque, et
-									dolor laborum velit magnam. Temporibus,
-									debitis?
+								{_LANGUAGE_[language].aboutJoachim}
 								</p>
 							</div>
 						</div>
