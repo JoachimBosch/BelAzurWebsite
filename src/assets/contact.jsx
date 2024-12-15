@@ -1,8 +1,12 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import emailjs from "emailjs-com";
+import { useContext } from "react";
+import MyContext from "../context/context";
 
 const Contact = () => {
+  const { language, _LANGUAGE_ } = useContext(MyContext);
+
   const initialValues = {
     fname: "",
     lname: "",
@@ -14,14 +18,14 @@ const Contact = () => {
   };
 
   const validationSchema = Yup.object({
-    fname: Yup.string().required("First Name is required"),
-    lname: Yup.string().required("Last Name is required"),
+    fname: Yup.string().required(`${_LANGUAGE_[language].contactFirstName} ${_LANGUAGE_[language].contactIsRequired}`),
+    lname: Yup.string().required(`${_LANGUAGE_[language].contactLastName} ${_LANGUAGE_[language].contactIsRequired}`),
     phone: Yup.string()
-      .required("Phone number is required")
-      .matches(/^[0-9]+$/, "Phone number must be numeric"),
+      .required(`${_LANGUAGE_[language].contactPhone} ${_LANGUAGE_[language].contactIsRequired}`)
+      .matches(/^[0-9]+$/, `${_LANGUAGE_[language].contactNumeric}`),
     email: Yup.string()
-      .email("Invalid email address")
-      .required("Email is required"),
+      .email(`${_LANGUAGE_[language].contactEmailError}`)
+      .required(`${_LANGUAGE_[language].contactEmailRequired}`),
     company: Yup.string(),
     interest: Yup.string(),
     freeText: Yup.string(),
@@ -35,19 +39,19 @@ const Contact = () => {
     emailjs
       .send(serviceID, templateID, values, userID)
       .then(() => {
-        alert("Email sent successfully!");
+        alert(`${_LANGUAGE_[language].contactEmailSentSuccess}`);
         resetForm();
       })
       .catch((error) => {
         console.error("Error sending email:", error);
-        alert("Failed to send email. Please try again.");
+        alert(`${_LANGUAGE_[language].contactEmailSentError}`);
       });
   };
 
   return (
     <div className="intro pt-28 flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-sm text-center">
-        <h1>Contact us</h1>
+        <h1>{_LANGUAGE_[language].contactHeader}</h1>
       </div>
       <div className="sm:mx-auto sm:w-full sm:max-w-sm text-belazurblue">
         <Formik
@@ -56,7 +60,7 @@ const Contact = () => {
           onSubmit={handleSubmit}
         >
           <Form className="flex flex-col">
-            <label htmlFor="fname" className="pb-2">First Name: *</label>
+            <label htmlFor="fname" className="pb-2">{_LANGUAGE_[language].contactFirstName}: *</label>
             <Field
               type="text"
               id="fname"
@@ -69,7 +73,7 @@ const Contact = () => {
               className="text-red-800 bold text-sm"
             />
 
-            <label htmlFor="lname" className="pt-4 pb-2">Last Name: *</label>
+            <label htmlFor="lname" className="pt-4 pb-2">{_LANGUAGE_[language].contactLastName}: *</label>
             <Field
               type="text"
               id="lname"
@@ -82,7 +86,7 @@ const Contact = () => {
               className="text-red-800 bold text-sm"
             />
 
-            <label htmlFor="phone" className="pt-4 pb-2">Phone Number: *</label>
+            <label htmlFor="phone" className="pt-4 pb-2">{_LANGUAGE_[language].contactPhone}: *</label>
             <Field
               type="text"
               id="phone"
@@ -95,7 +99,7 @@ const Contact = () => {
               className="text-red-800 bold text-sm"
             />
 
-            <label htmlFor="email" className="pt-4 pb-2">Email Address: *</label>
+            <label htmlFor="email" className="pt-4 pb-2">{_LANGUAGE_[language].contactEmail}: *</label>
             <Field
               type="email"
               id="email"
@@ -108,7 +112,7 @@ const Contact = () => {
               className="text-red-800 bold text-sm"
             />
 
-            <label htmlFor="company" className="pt-4 pb-2">Company:</label>
+            <label htmlFor="company" className="pt-4 pb-2">{_LANGUAGE_[language].contactCompany}:</label>
             <Field
               type="text"
               id="company"
@@ -116,20 +120,20 @@ const Contact = () => {
               className="border-none rounded-md shadow-md"
             />
 
-            <label htmlFor="interest" className="pt-4 pb-2">I'm interested in:</label>
+            <label htmlFor="interest" className="pt-4 pb-2">{_LANGUAGE_[language].contactInterest}:</label>
             <Field
               as="select"
               name="interest"
               className="mb-2 border-none rounded-md shadow-md text-belazurblue"
             >
-              <option value="">Select an option</option>
-              <option value="One-Page Website">One-Page Website</option>
-              <option value="Multi-Page Website">Multi-Page Website</option>
-              <option value="E-commerce Website">E-commerce Website</option>
-              <option value="Other">Other</option>
+              <option value="">{_LANGUAGE_[language].contactInterestOption1}</option>
+              <option value="One-Page Website">{_LANGUAGE_[language].contactInterestOption2}</option>
+              <option value="Multi-Page Website">{_LANGUAGE_[language].contactInterestOption3}</option>
+              <option value="E-commerce Website">{_LANGUAGE_[language].contactInterestOption4}</option>
+              <option value="Other">{_LANGUAGE_[language].contactInterestOption5}</option>
             </Field>
 
-            <label htmlFor="freeText" className="pt-4 pb-2">Additional information:</label>
+            <label htmlFor="freeText" className="pt-4 pb-2">{_LANGUAGE_[language].contactAdditionalInfo}:</label>
             <Field
               as="textarea"
               id="freeText"
@@ -141,7 +145,7 @@ const Contact = () => {
               type="submit"
               className="bg-white hover:bg-white text-belazurblue font-semibold hover:text-belazurblue py-2 px-4 border-none border-blue-500 hover:border-transparent rounded button-home"
             >
-              Submit
+              {_LANGUAGE_[language].contactButton}
             </button>
           </Form>
         </Formik>

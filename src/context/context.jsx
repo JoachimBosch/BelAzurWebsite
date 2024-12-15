@@ -141,6 +141,26 @@ const _LANGUAGE_ = {
         aboutUsHeader: "Meet the team",
         aboutLisa: "",
         aboutJoachim: "",
+        contactHeader: "Contact us",
+        contactFirstName: "First Name",
+        contactLastName: "Last Name",
+        contactPhone: "Phone Number",
+        contactEmail: "Email Address",
+        contactCompany: "Company:",
+        contactInterest: "I'm interested in",
+        contactInterestOption1: "Select an option",
+        contactInterestOption2: "One-Page Website",
+        contactInterestOption3: "Multi-Page Website",
+        contactInterestOption4: "E-commerce Website",
+        contactInterestOption5: "Other",
+        contactAdditionalInfo: "Additional information",
+        contactButton: "Submit",
+        contactIsRequired: "is required",
+        contactNumeric: "Phone number must be numeric",
+        contactEmailError: "Invalid email address",
+        contactEmailRequired: "Email is required",
+        contactEmailSentSuccess: "Email sent successfully!",
+        contactEmailSentError: "Failed to send email. Please try again.",
     },
     french: {
         serviceButton: "RETOURNEZ VERS TOUS LES SERVICES",
@@ -281,6 +301,27 @@ const _LANGUAGE_ = {
         aboutUsHeader: "Présentation de l'équipe",
         aboutLisa: "",
         aboutJoachim: "",
+        contactHeader: "Contactez-nous",
+        contactFirstName: "Prénom",
+        contactLastName: "Nom de famille",
+        contactPhone: "Numéro de téléphone",
+        contactEmail: "Courriel",
+        contactCompany: "Entreprise",
+        contactInterest: "Je suis intéressé par",
+        contactInterestOption1: "Sélectionnez une option",
+        contactInterestOption2: "Site web une page",
+        contactInterestOption3: "Site web multi-pages",
+        contactInterestOption4: "Site web e-commerce",
+        contactInterestOption5: "Autre",
+        contactAdditionalInfo: "Informations supplémentaires",
+        contactButton: "Envoyer",
+        contactIsRequired: "est requis",
+        contactNumeric: "Le numéro de téléphone doit être numérique",
+        contactEmailError: "Adresse e-mail invalide",
+        contactEmailRequired: "Un courriel est requis",
+        contactEmailSentSuccess: "E-mail envoyé avec succès !",
+        contactEmailSentError:
+            "Échec de l'envoi de l'e-mail. Veuillez réessayer.",
     },
 
     dutch: {
@@ -421,12 +462,61 @@ const _LANGUAGE_ = {
         aboutUsHeader: "Het team",
         aboutLisa: "",
         aboutJoachim: "",
+        contactHeader: "Contacteer ons",
+        contactFirstName: "Voornaam",
+        contactLastName: "Achternaam",
+        contactPhone: "Telefoonnummer",
+        contactEmail: "E-mailadres",
+        contactCompany: "Bedrijf",
+        contactInterest: "Ik ben geïnteresseerd in",
+        contactInterestOption1: "Selecteer een optie",
+        contactInterestOption2: "Eenpagina-website",
+        contactInterestOption3: "Meerdere pagina's website",
+        contactInterestOption4: "E-commerce website",
+        contactInterestOption5: "Anders",
+        contactAdditionalInfo: "Aanvullende informatie",
+        contactButton: "Verzenden",
+        contactIsRequired: "is verplicht",
+        contactNumeric: "Telefoonnummer moet numeriek zijn",
+        contactEmailError: "Ongeldig e-mailadres",
+        contactEmailRequired: "E-mailadres is verplicht",
+        contactEmailSentSuccess: "E-mail succesvol verzonden!",
+        contactEmailSentError: "E-mail verzenden mislukt. Probeer het opnieuw.",
     },
 };
 
 export const MyProvider = ({ children }) => {
     const [page, setPage] = useState("allServices");
     const [language, setLanguage] = useState("french");
+
+    /*  const UserLanguage = () => {
+        
+            const savedLanguage = localStorage.getItem("userLanguage");
+            if (savedLanguage) {
+                console.log("saved language:", savedLanguage)
+                setLanguage(savedLanguage);
+                return;
+            }
+            
+            const navLanguage = navigator.languages[0];
+    
+            if (navLanguage.includes("fr")) {
+                setLanguage("french");
+                localStorage.setItem("userLanguage", "french")
+            } else if (navLanguage.includes("nl")) {
+                setLanguage("dutch");
+                localStorage.setItem("userLanguage", "dutch")
+            } else if (navLanguage.includes("en")) {
+                setLanguage("english");
+                localStorage.setItem("userLanguage", "english")
+            } else {
+                setLanguage("french");
+            }
+        }
+
+    useEffect(() => {
+        UserLanguage;
+    }, []) */
 
     /* Add all variables to appContext to sync them in the entire application */
     let appContext = {

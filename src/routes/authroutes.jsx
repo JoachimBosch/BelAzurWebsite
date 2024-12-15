@@ -4,7 +4,6 @@ import About from "../assets/about";
 import Services from "../assets/services";
 import Policies from "../assets/policies";
 import Contact from "../assets/contact";
-import Language from "../assets/language";
 
 const AuthRoutes = () => {
     return (
@@ -15,7 +14,6 @@ const AuthRoutes = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/services" element={<Services />} />
             <Route path="/policy" element={<Policies />} />
-            <Route path="/language" element={<Language />} />
         </Routes>
     );
 };
