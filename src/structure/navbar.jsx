@@ -2,9 +2,9 @@ import { Dialog, DialogPanel } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { useContext, useState } from "react";
 import Azur from "../../public/media/img/Azur.png";
-import fr from "../../public/media/img/fr.png"
-import en from "../../public/media/img/en.png"
-import nl from "../../public/media/img/nl.png"
+import fr from "../../public/media/img/fr.png";
+import en from "../../public/media/img/en.png";
+import nl from "../../public/media/img/nl.png";
 import MENU from "../../public/media/img/ME NU.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
@@ -12,17 +12,15 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 import MyContext from "../context/context";
 
-
-
 const Navbar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const { language, setLanguage, _LANGUAGE_ } = useContext(MyContext);
-	const navigation = [
-		{ name: _LANGUAGE_[language].navbarItem1, href: "/" },
-		{ name: _LANGUAGE_[language].navbarItem2, href: "/services" },
-		{ name: _LANGUAGE_[language].navbarItem3, href: "/about" },
-		{ name: _LANGUAGE_[language].navbarItem4, href: "/contact" },
-	];
+    const navigation = [
+        { name: _LANGUAGE_[language].navbarItem1, href: "/" },
+        { name: _LANGUAGE_[language].navbarItem2, href: "/services" },
+        { name: _LANGUAGE_[language].navbarItem3, href: "/about" },
+        { name: _LANGUAGE_[language].navbarItem4, href: "/contact" },
+    ];
 
     return (
         <header className="absolute inset-x-0 top-0 z-100 transition-all duration-300 ">
@@ -116,22 +114,36 @@ const Navbar = () => {
                                         setLanguage("french");
                                     }}
                                 >
-                                    <img src={fr} alt="Français" title="Français" style={{ height: "30px"}}/>
+                                    <img
+                                        src={fr}
+                                        alt="Français"
+                                        title="Français"
+                                        style={{ height: "30px" }}
+                                    />
                                 </button>
                                 <button
                                     onClick={() => {
                                         setLanguage("english");
                                     }}
                                 >
-                                    <img src={en} alt="English" title="English" style={{ height: "30px"}}/>
+                                    <img
+                                        src={en}
+                                        alt="English"
+                                        title="English"
+                                        style={{ height: "30px" }}
+                                    />
                                 </button>
                                 <button
                                     onClick={() => {
                                         setLanguage("dutch");
-                                        console.log(language);
                                     }}
                                 >
-                                    <img src={nl} alt="Nederlands" title="Nederlands" style={{ height: "30px"}}/>
+                                    <img
+                                        src={nl}
+                                        alt="Nederlands"
+                                        title="Nederlands"
+                                        style={{ height: "30px" }}
+                                    />
                                 </button>
                             </div>
                         </div>

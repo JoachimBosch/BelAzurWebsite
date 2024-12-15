@@ -139,8 +139,10 @@ const _LANGUAGE_ = {
             "A user-friendly app keeps customers coming back",
         ],
         aboutUsHeader: "Meet the team",
-        aboutLisa: "Lisa is the driving force behind Bel'Azur Coding. Without her, this website would probably not even exist. Lisa has an eye for design, enjoys solving the most difficult questions and does not shy away from any challenge. Thanks to her studies through SheCodes, she is perfectly capable of building beautiful, mobile-friendly and interactive websites that put your company into a new light.",
-        aboutJoachim: "Joachim is the geek of the duo. He's always had a strong interest in web design and is constantly acquiring new skills. Thanks to a Full Stack certificate issued by 4Geeks Academy and a recent course in React Native, he is able to develop complex and modern websites, e-commerce platforms and mobile applications.",
+        aboutLisa:
+            "Lisa is the driving force behind Bel'Azur Coding. Without her, this website would probably not even exist. Lisa has an eye for design, enjoys solving the most difficult questions and does not shy away from any challenge. Thanks to her studies through SheCodes, she is perfectly capable of building beautiful, mobile-friendly and interactive websites that put your company into a new light.",
+        aboutJoachim:
+            "Joachim is the geek of the duo. He's always had a strong interest in web design and is constantly acquiring new skills. Thanks to a Full Stack certificate issued by 4Geeks Academy and a recent course in React Native, he is able to develop complex and modern websites, e-commerce platforms and mobile applications.",
         contactHeader: "Contact us",
         contactFirstName: "First Name",
         contactLastName: "Last Name",
@@ -299,8 +301,10 @@ const _LANGUAGE_ = {
             "Une application conviviale fait revenir les clients",
         ],
         aboutUsHeader: "Présentation de l'équipe",
-        aboutLisa: "Lisa est la force motrice de Bel'Azur Coding. Sans elle, ce site n'existerait probablement pas. Lisa a un œil pour le design, aime résoudre des questions difficiles et n'hésite pas à relever des défis. Grâce à sa formation chez SheCodes, elle est parfaitement capable de construire des sites web magnifiques, adaptés aux mobiles et interactifs qui présentent votre entreprise sous un nouveau jour.",
-        aboutJoachim: "Joachim est le geek du duo. Il a toujours eu un fort intérêt pour la conception de sites web et ne cesse d'acquérir de nouvelles compétences. Grâce à un certificat Full Stack délivré par 4Geeks Academy et à un cours récent sur React Native, il est capable de développer des sites web complexes et modernes, des plateformes d' e-commerce et des applications mobiles.",
+        aboutLisa:
+            "Lisa est la force motrice de Bel'Azur Coding. Sans elle, ce site n'existerait probablement pas. Lisa a un œil pour le design, aime résoudre des questions difficiles et n'hésite pas à relever des défis. Grâce à sa formation chez SheCodes, elle est parfaitement capable de construire des sites web magnifiques, adaptés aux mobiles et interactifs qui présentent votre entreprise sous un nouveau jour.",
+        aboutJoachim:
+            "Joachim est le geek du duo. Il a toujours eu un fort intérêt pour la conception de sites web et ne cesse d'acquérir de nouvelles compétences. Grâce à un certificat Full Stack délivré par 4Geeks Academy et à un cours récent sur React Native, il est capable de développer des sites web complexes et modernes, des plateformes d' e-commerce et des applications mobiles.",
         contactHeader: "Contactez-nous",
         contactFirstName: "Prénom",
         contactLastName: "Nom de famille",
@@ -460,8 +464,10 @@ const _LANGUAGE_ = {
             "Een gebruiksvriendelijke app zorgt ervoor dat klanten terugkomen",
         ],
         aboutUsHeader: "Het team",
-        aboutLisa: "Lisa is de drijvende Kracht achter Bel’Azur Coding. Zonder haar had deze website waarschijnlijk niet eens bestaan. Lisa heeft oog voor design, lost graag de moeilijkste vraagstukken op en gaat geen enkele uitdaging uit de weg. Dankzij haar opleiding via SheCodes is zij perfect in staat om mooie, mobile-friendly en interactieve websites te bouwen die uw bedrijf in een nieuw daglicht stellen.",
-        aboutJoachim: "Joachim is de nerd van het duo. Hij heeft altijd een sterke interesse gehad in webdesign en is continu bezig met het vergaren van nieuwe kennis. Dankzij een Full Stack certificaat uitgegeven door 4Geeks Academy en een recente cursus in React Native, is hij in staat complexe en moderne websites, e-commerce platformen en mobiele applicaties te ontwikkelen.",
+        aboutLisa:
+            "Lisa is de drijvende Kracht achter Bel’Azur Coding. Zonder haar had deze website waarschijnlijk niet eens bestaan. Lisa heeft oog voor design, lost graag de moeilijkste vraagstukken op en gaat geen enkele uitdaging uit de weg. Dankzij haar opleiding via SheCodes is zij perfect in staat om mooie, mobile-friendly en interactieve websites te bouwen die uw bedrijf in een nieuw daglicht stellen.",
+        aboutJoachim:
+            "Joachim is de nerd van het duo. Hij heeft altijd een sterke interesse gehad in webdesign en is continu bezig met het vergaren van nieuwe kennis. Dankzij een Full Stack certificaat uitgegeven door 4Geeks Academy en een recente cursus in React Native, is hij in staat complexe en moderne websites, e-commerce platformen en mobiele applicaties te ontwikkelen.",
         contactHeader: "Contacteer ons",
         contactFirstName: "Voornaam",
         contactLastName: "Achternaam",
@@ -487,36 +493,16 @@ const _LANGUAGE_ = {
 
 export const MyProvider = ({ children }) => {
     const [page, setPage] = useState("allServices");
-    const [language, setLanguage] = useState("french");
-
-    /*  const UserLanguage = () => {
-        
-            const savedLanguage = localStorage.getItem("userLanguage");
-            if (savedLanguage) {
-                console.log("saved language:", savedLanguage)
-                setLanguage(savedLanguage);
-                return;
-            }
-            
-            const navLanguage = navigator.languages[0];
-    
-            if (navLanguage.includes("fr")) {
-                setLanguage("french");
-                localStorage.setItem("userLanguage", "french")
-            } else if (navLanguage.includes("nl")) {
-                setLanguage("dutch");
-                localStorage.setItem("userLanguage", "dutch")
-            } else if (navLanguage.includes("en")) {
-                setLanguage("english");
-                localStorage.setItem("userLanguage", "english")
-            } else {
-                setLanguage("french");
-            }
+    const [language, setLanguage] = useState(() => {
+        if (typeof window !== "undefined") {
+            return localStorage.getItem("userLanguage") || "french";
         }
+        return "french"; // Default value if window is not available
+    });
 
     useEffect(() => {
-        UserLanguage;
-    }, []) */
+        localStorage.setItem("userLanguage", language);
+    }, [language]);
 
     /* Add all variables to appContext to sync them in the entire application */
     let appContext = {
