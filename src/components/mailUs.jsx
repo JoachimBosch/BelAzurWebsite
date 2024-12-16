@@ -10,7 +10,7 @@ const MailUs = () => {
         <>
             <div className="button-home text-center">
 						<Link to="/contact">
-							<button class="bg-white hover:bg-white text-belazurblue font-semibold hover:text-belazurblue py-2 px-4 border-none border-blue-500 hover:border-transparent rounded button-home">
+							<button class="bg-white hover:bg-white text-belazurblue font-semibold hover:text-belazurblue py-2 px-4 border-none border-blue-500 hover:border-transparent rounded">
 								<FontAwesomeIcon icon={faEnvelope} /> {_LANGUAGE_[language].mailUs}
 							</button>
 						</Link>

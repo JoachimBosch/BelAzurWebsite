@@ -11,7 +11,7 @@ const GetInTouch = () => {
         <>
             <div className="button-home text-center">
 						<Link to="tel:+33626838554">
-							<button class="bg-white hover:bg-white text-belazurblue font-semibold hover:text-belazurblue py-2 px-4 border-none border-blue-500 hover:border-transparent rounded button-home">
+							<button class="bg-white hover:bg-white text-belazurblue font-semibold hover:text-belazurblue py-2 px-4 border-none border-blue-500 hover:border-transparent rounded">
 								<FontAwesomeIcon icon={faPhone} /> {_LANGUAGE_[language].getInTouch}
 							</button>
 						</Link>

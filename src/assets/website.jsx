@@ -27,27 +27,27 @@ const Website = () => {
                     </p>
                 </div>
                 <div
-                    className="mt-10 mx-10 flex justify-center"
+                    className="my-10 mx-10 flex flex-wrap justify-center"
                     style={{ height: "auto" }}
                 >
-                    <div className="border " style={{ width: "400px" }}></div>
+                    
                     <div
-                        className="border ms-8 p-8 flex flex-col place-content-evenly"
-                        style={{ width: "400px", backgroundColor: "white" }}
+                        className="card border flex flex-col place-content-evenly"
                     >
                         <p className="text-justify text-belazurblue">
                             {_LANGUAGE_[language].websiteBox1}
                         </p>
                     </div>
+                    <div className="border serviceImage"></div>
                 </div>
                 <div className="text-center">
                     <MailUs />
                 </div>
                 <div
-                    class="grid grid-cols-2 gap-4 mx-auto"
+                    class="perfectBenefits gap-4 mx-auto"
                     style={{ maxWidth: "1240px" }}
                 >
-                    <div className="border my-12 p-4">
+                    <div className="border p-4">
                         <h2>{_LANGUAGE_[language].websitePerfect}</h2>
                         <div className="mx-auto ">
                             <FontAwesomeIcon icon={faCheck} />{" "}
@@ -63,7 +63,7 @@ const Website = () => {
                             {_LANGUAGE_[language].websitePerfectFor[3]} <br />
                         </div>
                     </div>
-                    <div className="border my-12 p-4">
+                    <div className="border p-4">
                         <h2>{_LANGUAGE_[language].websiteBenefitsHeader}</h2>
                         <div className="mx-auto ">
                             <FontAwesomeIcon icon={faCheck} />{" "}

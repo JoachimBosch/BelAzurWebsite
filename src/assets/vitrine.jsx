@@ -30,23 +30,18 @@ const Vitrine = () => {
                     </p>
                 </div>
                 <div
-                    className="my-10 mx-10 flex justify-center"
+                    className="my-10 mx-10 flex flex-wrap justify-center"
                     style={{ height: "auto" }}
                 >
                     <div
-                        className="border me-8 p-8 flex flex-col place-content-evenly"
-                        style={{
-                            width: "400px",
-                            backgroundColor: "white",
-                        }}
+                        className="card border flex flex-col place-content-evenly"
                     >
                         <p className="text-justify text-belazurblue">
                             {_LANGUAGE_[language].vitrineBox1}
                         </p>
                     </div>
                     <div
-                        className=""
-                        style={{ height: "400px", width: "400px" }}
+                        className="serviceImage"
                     >
                         <img src={onepager} />
                     </div>
@@ -55,10 +50,10 @@ const Vitrine = () => {
                     <MailUs />
                 </div>
                 <div
-                    className="grid grid-cols-2 gap-4 mx-auto"
+                    className="perfectBenefits gap-4 mx-auto"
                     style={{ maxWidth: "1240px" }}
                 >
-                    <div className="border my-12 p-4">
+                    <div className="border p-4">
                         <h2>{_LANGUAGE_[language].vitrinePerfect}</h2>
                         <div className="mx-auto ">
                             <FontAwesomeIcon icon={faCheck} />{" "}
@@ -74,7 +69,7 @@ const Vitrine = () => {
                             {_LANGUAGE_[language].vitrinePerfectFor[3]} <br />
                         </div>
                     </div>
-                    <div className="border my-12 p-4">
+                    <div className="border p-4">
                         <h2>{_LANGUAGE_[language].vitrineBenefitsHeader}</h2>
                         <div className="mx-auto ">
                             <FontAwesomeIcon icon={faCheck} />{" "}

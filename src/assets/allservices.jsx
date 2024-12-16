@@ -11,13 +11,14 @@ const AllServices = () => {
 
     return (
         <>
-            <div style={{ height: "90vh" }}>
-                <div className="flex flex-wrap justify-center py-8 mt-32">
+            <div style={{ height: "95vh"}}>
+                <div className="flex flex-wrap justify-center py-8 intro">
                     <button
                         onClick={() => {
                             setPage("onepager");
                         }}
-                        style={{ width: "300px", height: "350px" }}
+                        className="allServicesButton"
+
                     >
                         <img src={onepager} />
                         <p>{_LANGUAGE_[language].onePage}</p>
@@ -26,7 +27,7 @@ const AllServices = () => {
                         onClick={() => {
                             setPage("multipager");
                         }}
-                        style={{ width: "300px", height: "350px" }}
+                        className="allServicesButton"
                     >
                         <img src={multipage} />
                         <p>{_LANGUAGE_[language].multiPage}</p>
@@ -35,7 +36,7 @@ const AllServices = () => {
                         onClick={() => {
                             setPage("ecommerce");
                         }}
-                        style={{ width: "300px", height: "350px" }}
+                        className="allServicesButton"
                     >
                         <img src={webshop} />
                         <p>{_LANGUAGE_[language].ecommerce}</p>
@@ -45,7 +46,7 @@ const AllServices = () => {
                             setPage("apps");
                         }}
 
-                        style={{ width: "300px", height: "350px" }}
+                        className="allServicesButton"
                     >
                         <img src={appdevelopment} />
                         <p>{_LANGUAGE_[language].mobileApps}</p>
@@ -58,7 +59,7 @@ const AllServices = () => {
                     <h1 className="text-center pt-8">
                         {_LANGUAGE_[language].allServicesHeader}
                     </h1>
-                    <p className="p-14">
+                    <p className="ps-8 pe-8 pb-8">
                         {_LANGUAGE_[language].allServicesText}
                     </p>
                 </div>

@@ -15,7 +15,7 @@ const Home = () => {
                 className="mx-auto
             "
             >
-                <div className="intro px-4 pt-60 pb-20 flex flex-col content-center">
+                <div className="intro px-4 flex flex-col content-center">
                     <h1 className="text-center">
                         <Typewriter
                             options={{
@@ -60,7 +60,7 @@ const Home = () => {
                         {_LANGUAGE_[language].philosophyClosing}
                     </h2>
                 </div>
-                <div className="text-center">
+                <div>
                     <MailUs />
                 </div>
             </div>
