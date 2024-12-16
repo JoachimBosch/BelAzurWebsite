@@ -1,9 +1,10 @@
 import { useContext } from "react";
 import MyContext from "../context/context";
-import Onepager from "../../public/media/img/website developing.png";
-import Website from "../../public/media/img/webdeveloping 2.png";
-import Ecommerce from "../../public/media/img/Key.png";
-import Apps from "../../public/media/img/webdeveloping 3.png";
+import onepager from "../../public/media/img/onepager.png";
+import multipage from "../../public/media/img/multipage.png";
+import webshop from "../../public/media/img/webshop.png";
+import appdevelopment from "../../public/media/img/appdevelopment.png";
+
 
 const AllServices = () => {
     const { page, setPage, language, _LANGUAGE_ } = useContext(MyContext);
@@ -18,8 +19,8 @@ const AllServices = () => {
                         }}
                         style={{ width: "300px", height: "350px" }}
                     >
-                        <img src={Onepager} />
-                        <p>One Page Website</p>
+                        <img src={onepager} />
+                        <p>{_LANGUAGE_[language].onePage}</p>
                     </button>
                     <button
                         onClick={() => {
@@ -27,8 +28,8 @@ const AllServices = () => {
                         }}
                         style={{ width: "300px", height: "350px" }}
                     >
-                        <img src={Website} />
-                        <p>Multi Page Website</p>
+                        <img src={multipage} />
+                        <p>{_LANGUAGE_[language].multiPage}</p>
                     </button>
                     <button
                         onClick={() => {
@@ -36,8 +37,8 @@ const AllServices = () => {
                         }}
                         style={{ width: "300px", height: "350px" }}
                     >
-                        <img src={Ecommerce} />
-                        <p>E-commerce Website</p>
+                        <img src={webshop} />
+                        <p>{_LANGUAGE_[language].ecommerce}</p>
                     </button>
                     <button
                         onClick={() => {
@@ -46,8 +47,8 @@ const AllServices = () => {
 
                         style={{ width: "300px", height: "350px" }}
                     >
-                        <img src={Apps} />
-                        <p>Mobile apps</p>
+                        <img src={appdevelopment} />
+                        <p>{_LANGUAGE_[language].mobileApps}</p>
                     </button>
                 </div>
                 <div

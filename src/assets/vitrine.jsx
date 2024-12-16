@@ -6,6 +6,7 @@ import GetInTouch from "../components/getintouch";
 import MailUs from "../components/mailUs";
 import { useContext } from "react";
 import MyContext from "../context/context";
+import onepager from "../../public/media/img/onepager.png";
 
 const Vitrine = () => {
     const { language, _LANGUAGE_ } = useContext(MyContext);
@@ -44,9 +45,11 @@ const Vitrine = () => {
                         </p>
                     </div>
                     <div
-                        className="border"
+                        className=""
                         style={{ height: "400px", width: "400px" }}
-                    ></div>
+                    >
+                        <img src={onepager} />
+                    </div>
                 </div>
                 <div className="text-center">
                     <MailUs />

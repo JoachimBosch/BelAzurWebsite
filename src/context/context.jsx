@@ -13,6 +13,10 @@ const _LANGUAGE_ = {
         navbarItem3: "ABOUT US",
         navbarItem4: "CONTACT",
         navbarLanguage: "CHANGE LANGUAGE",
+        onePage: "One-Page Website",
+        multiPage: "Multi-Page Website",
+        ecommerce: "E-commerce Website",
+        mobileApps: "Mobile apps",
         introSubHeader1:
             "At Bel'Azur Coding, we specialize in creating tailored, high-performance websites that are as unique as your business.",
         introSubHeader2:
@@ -174,6 +178,10 @@ const _LANGUAGE_ = {
         navbarItem3: "A PROPOS DE NOUS",
         navbarItem4: "CONTACT",
         navbarLanguage: "CHANGER LA LANGUE",
+        onePage: "Site Web Simple",
+        multiPage: "Site Web Multi-Pages",
+        ecommerce: "Site E-commerce",
+        mobileApps: "Applications Mobiles",
         introSubHeader1:
             "Chez Bel'Azur Coding, nous nous spécialisons dans la création de sites web sur mesure et performants, aussi uniques que votre entreprise.",
         introSubHeader2:
@@ -339,6 +347,10 @@ const _LANGUAGE_ = {
         navbarItem3: "OVER ONS",
         navbarItem4: "CONTACT",
         navbarLanguage: "VERANDER TAAL",
+        onePage: "Single-Page Website",
+        multiPage: "Multi-Page Website",
+        ecommerce: "E-commerce Website",
+        mobileApps: "Mobile apps",
         introSubHeader1:
             "Bij Bel'Azur Coding specialiseren we ons in het creëren van op maat gemaakte, hoogwaardige websites die net zo uniek zijn als uw bedrijf.",
         introSubHeader2:
