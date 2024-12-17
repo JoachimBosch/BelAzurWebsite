@@ -85,7 +85,11 @@ input {
 .footer {
     background-color: rgb(0, 0, 0);
     color: white;
-    height: 5vh;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 .reference {
@@ -186,7 +190,7 @@ label {
 .allServicesButton {
     width: 300px;
     height: 350px;
-    transition: transform .2s;
+    transition: transform 0.2s;
 }
 
 .allServicesButton:hover {

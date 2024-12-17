@@ -9,7 +9,7 @@ const ServiceButton = () => {
 
 
     return (
-        <div className="text-center py-6
+        <div className="text-center py-6 mb-16
         ">
             <button
                 onClick={() => {
