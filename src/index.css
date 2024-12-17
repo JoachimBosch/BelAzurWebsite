@@ -47,6 +47,18 @@ button:hover {
     padding: 10px 20px;
 }
 
+.button-contact {
+    margin: 40px 0px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.button-contact:hover {
+    border: white;
+    border-style: solid;
+    border-radius: 5px;
+}
+
 .intro {
     font-size: 20px;
     font-style: italic;
@@ -171,13 +183,15 @@ label {
     width: 425px;
     background-color: white;
     opacity: 80%;
+    margin-top: 50px;
     margin-right: 30px;
     padding: 30px;
 }
 
 .serviceImage {
-    width: 425px;
-    height: 425px;
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
 }
 
 .perfectBenefits {
@@ -202,7 +216,8 @@ label {
         border: none;
     }
     .button-home {
-        margin: 20px 0;
+        margin-top: 20px;
+        margin-bottom: 60px;
     }
     h1 {
         font-size: 28px;
@@ -218,9 +233,10 @@ label {
         padding-top: 120px;
     }
     .card {
-        width: 90vw;
+        width: 95vw;
         margin-right: 0;
-        margin-top: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
     .serviceImage {
         display: none;

@@ -153,7 +153,7 @@ const _LANGUAGE_ = {
         contactLastName: "Last Name",
         contactPhone: "Phone Number",
         contactEmail: "Email Address",
-        contactCompany: "Company:",
+        contactCompany: "Company",
         contactInterest: "I'm interested in",
         contactInterestOption1: "Select an option",
         contactInterestOption2: "One-Page Website",

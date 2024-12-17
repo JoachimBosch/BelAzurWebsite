@@ -30,7 +30,7 @@ const Vitrine = () => {
                     </p>
                 </div>
                 <div
-                    className="my-10 mx-10 flex flex-wrap justify-center"
+                    className="flex flex-wrap justify-center"
                     style={{ height: "auto" }}
                 >
                     <div
