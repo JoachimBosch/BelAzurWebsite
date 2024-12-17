@@ -14,7 +14,7 @@ body {
     overflow-x: hidden;
     font-family: "Lato-Regular";
     font-weight: 300;
-    background-image: url("../../public/media/img/3.png");
+    background-image: url("/media/img/3.png");
     background-size: cover;
     background-attachment: fixed;
 }
