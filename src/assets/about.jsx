@@ -10,7 +10,7 @@ const About = () => {
             <div className="intro mx-auto pt-16 px-4 md:px-8">
                 <div className="text-center mb-8">
                     <h1 className="text-2xl md:text-4xl font-bold">
-                        Meet the team
+                    {_LANGUAGE_[language].aboutUsHeader}
                     </h1>
                 </div>
                 <div className="py-0 md:py-8 mx-auto max-w-7xl">
@@ -25,7 +25,7 @@ const About = () => {
                             >
                                 <img
                                     className="aboutProfilePic m-auto"
-                                    src="../../public/media/img/lisa.jpeg"
+                                    src="/media/img/lisa.jpeg"
                                     alt="Lisa Lowagie"
                                 ></img>
                             </Link>
@@ -47,7 +47,7 @@ const About = () => {
                             >
                                 <img
                                     className="aboutProfilePic m-auto"
-                                    src="../../public/media/img/joachim.jpeg"
+                                    src="/media/img/joachim.jpeg"
                                     alt="Joachim Bosch"
                                 ></img>
                             </Link>

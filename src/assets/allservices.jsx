@@ -12,7 +12,10 @@ const AllServices = () => {
     return (
         <>
             <div style={{ height: "95vh"}}>
-                <div className="flex flex-wrap justify-center py-8 intro">
+                <div className="serviceIntro text-center">
+                    <h1>{_LANGUAGE_[language].allServicesHeader}</h1>
+                </div>
+                <div className="flex flex-wrap justify-center">
                     <button
                         onClick={() => {
                             setPage("onepager");
@@ -21,7 +24,7 @@ const AllServices = () => {
 
                     >
                         <img src={onepager} />
-                        <p>{_LANGUAGE_[language].onePage}</p>
+                        <p className="serviceHeader">{_LANGUAGE_[language].onePage}</p>
                     </button>
                     <button
                         onClick={() => {
@@ -30,7 +33,7 @@ const AllServices = () => {
                         className="allServicesButton"
                     >
                         <img src={multipage} />
-                        <p>{_LANGUAGE_[language].multiPage}</p>
+                        <p className="serviceHeader">{_LANGUAGE_[language].multiPage}</p>
                     </button>
                     <button
                         onClick={() => {
@@ -39,7 +42,7 @@ const AllServices = () => {
                         className="allServicesButton"
                     >
                         <img src={webshop} />
-                        <p>{_LANGUAGE_[language].ecommerce}</p>
+                        <p className="serviceHeader">{_LANGUAGE_[language].ecommerce}</p>
                     </button>
                     <button
                         onClick={() => {
@@ -49,15 +52,15 @@ const AllServices = () => {
                         className="allServicesButton"
                     >
                         <img src={appdevelopment} />
-                        <p>{_LANGUAGE_[language].mobileApps}</p>
+                        <p className="serviceHeader">{_LANGUAGE_[language].mobileApps}</p>
                     </button>
                 </div>
                 <div
-                    className="text-center mx-auto"
+                    className="text-center mx-auto pb-12"
                     style={{ maxWidth: "1280px" }}
                 >
                     <h1 className="text-center pt-8">
-                        {_LANGUAGE_[language].allServicesHeader}
+                        {_LANGUAGE_[language].allServicesSubHeader}
                     </h1>
                     <p className="ps-8 pe-8 pb-8">
                         {_LANGUAGE_[language].allServicesText}

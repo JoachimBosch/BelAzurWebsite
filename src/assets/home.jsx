@@ -35,13 +35,14 @@ const Home = () => {
                     <h2 className="text-center">
                         {_LANGUAGE_[language].introSubHeader2}
                     </h2>
-                    <h2 className=" text-center mt-4">
+                    <h2 className="text-center mt-4">
                         {_LANGUAGE_[language].introSubHeader3}
                     </h2>
-                    <div className="button-home text-center">
+                    
+                </div>
+                <div className="text-center">
                         <GetInTouch />
                     </div>
-                </div>
                 <div>
                     <WhyUs />
                 </div>
@@ -60,7 +61,7 @@ const Home = () => {
                         {_LANGUAGE_[language].philosophyClosing}
                     </h2>
                 </div>
-                <div>
+                <div className="pb-12">
                     <MailUs />
                 </div>
             </div>

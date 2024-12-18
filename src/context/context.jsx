@@ -6,17 +6,17 @@ const MyContext = createContext();
 const _LANGUAGE_ = {
     english: {
         serviceButton: "BACK TO ALL SERVICES",
-        getInTouch: "Call us to get started",
-        mailUs: "Why don't we schedule a meeting?",
+        getInTouch: "Call us today",
+        mailUs: "Contact us",
         navbarItem1: "HOME",
         navbarItem2: "SERVICES",
         navbarItem3: "ABOUT US",
         navbarItem4: "CONTACT",
         navbarLanguage: "CHANGE LANGUAGE",
-        onePage: "One-Page Website",
-        multiPage: "Multi-Page Website",
-        ecommerce: "E-commerce Website",
-        mobileApps: "Mobile apps",
+        onePage: "ONE-PAGE WEBSITE",
+        multiPage: "MULTI-PAGE WEBSITE",
+        ecommerce: "E-COMMERCE",
+        mobileApps: "MOBILE APPS",
         introSubHeader1:
             "At Bel'Azur Coding, we specialize in creating tailored, high-performance websites that are as unique as your business.",
         introSubHeader2:
@@ -41,7 +41,8 @@ const _LANGUAGE_ = {
         whyUsHeader4: "Multilingual Service",
         whyUsText4:
             "Communication is key to any successful project, and at Bel'Azur Coding, we make it effortless. We provide services in Dutch, French, and English. Our linguistic versatility ensures that we can work efficiently with a diverse range of clients, catering to both local and international businesses. Our commitment to clear, consistent communication means you'll always be in the loop, no matter where you are in the world.",
-        allServicesHeader: "Services based on your actual needs",
+        allServicesHeader: "Discover how we can help you",
+        allServicesSubHeader: "Services based on your actual needs",
         allServicesText:
             "At Bel'Azur Coding, we are passionate about delivering exceptional web and app development solutions that help your business stand out in the digital landscape. We take a personalized approach to every project, ensuring that the final product aligns perfectly with your goals and vision. From single-page websites to complex e-commerce platforms and cutting-edge mobile apps, we are equipped to bring your ideas to life.",
         vitrineHeader: "Simple, Impactful One-Page Websites for Your Business.",
@@ -118,7 +119,7 @@ const _LANGUAGE_ = {
             "Tailored designs to match your brand and attract buyers",
         ],
         appDevHeader:
-            "Build Your Brand's Presence in the Palm of Your Customers' Hands",
+            "Build Your Brand's Presence in the Palm of Your Customers",
         appDevIntro1:
             "Our app development services are perfect for businesses ready to make a big impact on mobile.",
         appDevIntro2:
@@ -171,17 +172,17 @@ const _LANGUAGE_ = {
     },
     french: {
         serviceButton: "RETOURNEZ VERS TOUS LES SERVICES",
-        getInTouch: "Contactez-nous pour commencer",
-        mailUs: "Pourquoi ne pas prendre rendez-vous ?",
+        getInTouch: "Appelez-nous",
+        mailUs: "Contactez-nous",
         navbarItem1: "ACCEUIL",
         navbarItem2: "SERVICES",
         navbarItem3: "A PROPOS DE NOUS",
         navbarItem4: "CONTACT",
         navbarLanguage: "CHANGER LA LANGUE",
-        onePage: "Site Web Simple",
-        multiPage: "Site Web Multi-Pages",
-        ecommerce: "Site E-commerce",
-        mobileApps: "Applications Mobiles",
+        onePage: "SITE WEB SIMPLE",
+        multiPage: "SITE WEB MULTI-PAGES",
+        ecommerce: "E-COMMERCE",
+        mobileApps: "APPLICATIONS MOBILES",
         introSubHeader1:
             "Chez Bel'Azur Coding, nous nous spécialisons dans la création de sites web sur mesure et performants, aussi uniques que votre entreprise.",
         introSubHeader2:
@@ -194,7 +195,7 @@ const _LANGUAGE_ = {
         philosophyText2:
             "De la conception au lancement, nous veillons à ce que votre présence digitale ait un impact puissant.",
         philosophyClosing:
-            "< Transformons vos idées en une expérience en ligne exceptionnelle />",
+            "< Transformons vos idées en une expérience exceptionnelle />",
         whyUsHeader1: "Développement Sur Mesure",
         whyUsText1:
             "Nous n'utilisons pas de modèles standard. Chaque ligne de code que nous écrivons est soigneusement conçue pour répondre aux besoins uniques de votre entreprise. Notre approche garantit que votre site web se distingue non seulement visuellement mais aussi par ses performances, offrant une expérience utilisateur fluide sur tous les appareils. Nous travaillons en étroite collaboration avec vous pour comprendre votre marque et vos objectifs, et pour traduire votre vision en une solution numérique qui reflète véritablement votre identité.",
@@ -207,7 +208,8 @@ const _LANGUAGE_ = {
         whyUsHeader4: "Service Multilingue",
         whyUsText4:
             "La communication est la clé de tout projet réussi, et chez Bel'Azur Coding, nous la rendons simple. Nous proposons nos services en néerlandais, français et anglais. Notre polyvalence linguistique garantit que nous pouvons travailler efficacement avec une gamme diversifiée de clients, locaux et internationaux. Notre engagement envers une communication claire et cohérente signifie que vous serez toujours informé, où que vous soyez dans le monde.",
-        allServicesHeader: "Des services adaptés à vos besoins réels",
+        allServicesHeader: "Comment pouvons-nous vous aider ?",
+        allServicesSubHeader: "Des services adaptés à vos besoins réels",
         allServicesText:
             "Chez Bel'Azur Coding, nous sommes passionnés par la livraison de solutions exceptionnelles de développement web et d'applications qui aident votre entreprise à se démarquer dans le paysage numérique. Nous adoptons une approche personnalisée pour chaque projet, en veillant à ce que le produit final s'aligne parfaitement sur vos objectifs et votre vision. Des sites web d'une seule page aux plateformes e-commerce complexes et aux applications mobiles à la pointe de la technologie, nous sommes équipés pour donner vie à vos idées.",
         vitrineHeader:
@@ -236,7 +238,7 @@ const _LANGUAGE_ = {
             "Un design adapté aux mobiles garantit une excellente expérience pour tous les utilisateurs",
         ],
         websiteHeader:
-            "Des sites web multi-pages sur mesure qui évoluent avec votre entreprise",
+            "Des sites web multi-pages qui évoluent avec votre entreprise",
         websiteIntro1:
             "Un site Web multi-pages est idéal pour les entreprises qui ont besoin de présenter beaucoup d'informations d'une manière organisée et attrayante,",
         websiteIntro2:
@@ -310,6 +312,7 @@ const _LANGUAGE_ = {
             "Une seule application qui fonctionne parfaitement sur iOS et Android",
             "Une application conviviale fait revenir les clients",
         ],
+
         aboutUsHeader: "Présentation de l'équipe",
         aboutLisa:
             "Lisa est la force motrice de Bel'Azur Coding. Sans elle, ce site n'existerait probablement pas. Lisa a un œil pour le design, aime résoudre des questions difficiles et n'hésite pas à relever des défis. Grâce à sa formation chez SheCodes, elle est parfaitement capable de construire des sites web magnifiques, adaptés aux mobiles et interactifs qui présentent votre entreprise sous un nouveau jour.",
@@ -340,17 +343,17 @@ const _LANGUAGE_ = {
 
     dutch: {
         serviceButton: "TERUG NAAR ALLE DIENSTEN",
-        getInTouch: "Contacteer ons vandaag",
-        mailUs: "Waarom zetten we geen meeting op?",
+        getInTouch: "Bel ons vandaag",
+        mailUs: "Contacteer ons",
         navbarItem1: "THUIS",
         navbarItem2: "DIENSTEN",
         navbarItem3: "OVER ONS",
         navbarItem4: "CONTACT",
         navbarLanguage: "VERANDER TAAL",
-        onePage: "Single-Page Website",
-        multiPage: "Multi-Page Website",
-        ecommerce: "E-commerce Website",
-        mobileApps: "Mobile apps",
+        onePage: "SINGLE-PAGE WEBSITE",
+        multiPage: "MULTI-PAGE WEBSITE",
+        ecommerce: "E-COMMERCE",
+        mobileApps: "MOBILE APPS",
         introSubHeader1:
             "Bij Bel'Azur Coding specialiseren we ons in het creëren van op maat gemaakte, hoogwaardige websites die net zo uniek zijn als uw bedrijf.",
         introSubHeader2:
@@ -362,7 +365,7 @@ const _LANGUAGE_ = {
         philosophyText2:
             "Van concept tot lancering, we zorgen ervoor dat uw digitale aanwezigheid een krachtige impact maakt.",
         philosophyClosing:
-            "< Laten we uw ideeën transformeren tot een uitzonderlijke online ervaring />",
+            "< Samen transformeren we uw idee tot een uitzonderlijke ervaring />",
         whyUsHeader1: "Ontwerp op maat",
         whyUsText1:
             "Wij vertrouwen niet op standaard sjablonen. Elke regel code die we schrijven, wordt zorgvuldig gemaakt om aan de unieke behoeften van uw bedrijf te voldoen. Onze aanpak zorgt ervoor dat uw website niet alleen visueel opvalt, maar ook efficiënt presteert, en een naadloze gebruikerservaring biedt op alle apparaten. We werken nauw met u samen om uw merk en doelen te begrijpen, en vertalen uw visie naar een digitale oplossing die echt uw identiteit vertegenwoordigt.",
@@ -375,7 +378,9 @@ const _LANGUAGE_ = {
         whyUsHeader4: "Meertalige Service",
         whyUsText4:
             "Communicatie is de sleutel tot elk succesvol project, en bij Bel'Azur Coding maken we het moeiteloos. We bieden diensten aan in het Nederlands, Frans en Engels. Onze taalkundige veelzijdigheid zorgt ervoor dat we efficiënt kunnen werken met een diverse reeks klanten, zowel lokaal als internationaal. Onze toewijding aan duidelijke en consistente communicatie betekent dat u altijd op de hoogte bent, waar ter wereld u ook bent.",
-        allServicesHeader: "Diensten gebaseerd op uw daadwerkelijke behoeften",
+        allServicesHeader: "Hoe we u kunnen helpen:",
+        allServicesSubHeader:
+            "Diensten gebaseerd op uw daadwerkelijke behoeften",
         allServicesText:
             "Bij Bel'Azur Coding zijn we gepassioneerd over het leveren van uitzonderlijke web- en app-ontwikkelingsoplossingen die uw bedrijf helpen opvallen in het digitale landschap. We hanteren een persoonlijke aanpak voor elk project, waarbij we ervoor zorgen dat het eindproduct perfect aansluit bij uw doelen en visie. Van single-page websites tot complexe e-commerce platforms en geavanceerde mobiele apps, we zijn uitgerust om uw ideeën tot leven te brengen.",
         vitrineHeader:

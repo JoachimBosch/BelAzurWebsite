@@ -13,7 +13,7 @@ const Vitrine = () => {
 
     return (
         <>
-            <div className="mx-auto px-4 pt-28">
+            <div className="serviceIntro mx-auto px-4">
                 <div className="flex flex-col items-center text-center">
                     <h1 className="mb-4">
                         {_LANGUAGE_[language].vitrineHeader}
