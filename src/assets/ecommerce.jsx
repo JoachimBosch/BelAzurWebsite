@@ -5,6 +5,7 @@ import GetInTouch from "../components/getintouch";
 import MailUs from "../components/mailUs";
 import { useContext } from "react";
 import MyContext from "../context/context";
+import webshop from "../../public/media/img/webshop.png";
 
 const Ecommerce = () => {
     const { language, _LANGUAGE_ } = useContext(MyContext);
@@ -39,8 +40,10 @@ const Ecommerce = () => {
                         </p>
                     </div>
                     <div
-                        className="serviceImage border"
-                    ></div>
+                        className="serviceImage"
+                    >
+                        <img src={webshop} />
+                    </div>
                 </div>
                 <div className="text-center">
                     <MailUs />

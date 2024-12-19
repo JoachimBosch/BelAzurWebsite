@@ -355,29 +355,30 @@ const _LANGUAGE_ = {
         ecommerce: "E-COMMERCE",
         mobileApps: "MOBILE APPS",
         introSubHeader1:
-            "Bij Bel'Azur Coding specialiseren we ons in het creëren van op maat gemaakte, hoogwaardige websites die net zo uniek zijn als uw bedrijf.",
+            "Bij Bel'Azur Coding bouwen we websites op maat die even uniek zijn als uw onderneming. Met een passie voor kwaliteit schrijven we elke regel code met zorg en precisie.",
         introSubHeader2:
-            "We bieden een sterke toewijding aan kwaliteit en een flair voor elegante, handgeschreven oplossingen.",
-        introSubHeader3: "Samen maken we uw digitale dromen werkelijkheid.",
+            "We combineren vakmanschap en creativiteit om uw digitale dromen tot leven te brengen. ",
+        introSubHeader3:
+            "Samen maken we uw digitale dromen werkelijkheid.",
         philosophyHeader: "ONZE FILOSOFIE",
         philosophyText1:
-            "Wij geloven in schone code, helder ontwerp en duidelijke communicatie. Elk project is een samenwerkingsreis, en uw tevredenheid is ons ultieme doel.",
+            "Bij Bel'Azur Coding draait alles om eenvoud, kwaliteit en samenwerking. We geloven in propere code, strak design en open communicatie.",
         philosophyText2:
-            "Van concept tot lancering, we zorgen ervoor dat uw digitale aanwezigheid een krachtige impact maakt.",
+            "Van het eerste idee tot de grote lancering: wij zorgen ervoor dat uw digitale aanwezigheid niet alleen gezien wordt, maar ook écht indruk maakt.",
         philosophyClosing:
-            "< Samen transformeren we uw idee tot een uitzonderlijke ervaring />",
+            "< Samen maken we van uw idee een unieke digitale ervaring />",
         whyUsHeader1: "Ontwerp op maat",
         whyUsText1:
-            "Wij vertrouwen niet op standaard sjablonen. Elke regel code die we schrijven, wordt zorgvuldig gemaakt om aan de unieke behoeften van uw bedrijf te voldoen. Onze aanpak zorgt ervoor dat uw website niet alleen visueel opvalt, maar ook efficiënt presteert, en een naadloze gebruikerservaring biedt op alle apparaten. We werken nauw met u samen om uw merk en doelen te begrijpen, en vertalen uw visie naar een digitale oplossing die echt uw identiteit vertegenwoordigt.",
-        whyUsHeader2: "Experts in Handmatig Coderen",
+            "Bij ons geen standaard sjablonen of bandwerk. We luisteren naar uw verhaal, leren uw onderneming door en door kennen, en bouwen een website die perfect bij u en uw klanten past. Met zorg en vakmanschap schrijven we elke regel code. Het resultaat? Een website die niet alleen gezien mag worden, maar ook doet wat ze moet doen: snel, gebruiksvriendelijk en mooi op elk toestel. Wij geloven in samenwerking. Samen vertalen we uw visie naar een digitale ervaring die uw merk écht weerspiegelt. Of u nu een eenvoudige website wil of een uitgebreide oplossing, wij zetten ons helemaal in om uw verwachtingen te overtreffen.",
+        whyUsHeader2: "Experts in coderen",
         whyUsText2:
-            "Wij vertrouwen niet alleen op WordPress of andere kant-en-klare platforms. Wij zijn trots op onze expertise in handmatig coderen van websites. Door vanaf nul te bouwen, bieden we u oplossingen die sneller, veiliger en zeer aanpasbaar zijn. Deze aanpak zorgt ervoor dat uw website is geoptimaliseerd voor prestaties, bestand is tegen veelvoorkomende beveiligingsrisico's, en gemakkelijk kan worden opgeschaald naarmate uw bedrijf groeit. Met Bel'Azur Coding kiest u voor betrouwbaarheid, precisie en flexibiliteit.",
-        whyUsHeader3: "Toekomstbestendige Apps",
+            "Bij ons geen shortcuts of one-size-fits-all oplossingen. Wij bouwen uw website helemaal vanaf nul, met de hand geschreven code die uw project naar een hoger niveau tilt. Door deze aanpak kunnen we websites maken die sneller laden, beter beveiligd zijn en volledig op maat gemaakt worden voor uw specifieke noden. Geen gedoe met standaardoplossingen, maar een platform dat mee kan groeien met uw onderneming en toekomstplannen. Bij Bel'Azur Coding kiest u voor betrouwbaarheid, vakmanschap en flexibiliteit. Laat ons uw digitale ambities omzetten in een website die presteert en indruk maakt. Samen bouwen we iets waar u écht trots op kan zijn.",
+        whyUsHeader3: "Innovatieve apps",
         whyUsText3:
-            "Onze expertise stopt niet bij websites. We bereiden ons ook voor om mobiele applicaties te ontwikkelen voor zowel iOS- als Android-platforms. Met behulp van het krachtige React Native-framework leveren we apps met rijke, intuïtieve gebruikersinterfaces en vlekkeloze functionaliteit. Deze technologie stelt ons in staat om robuuste, cross-platform apps te creëren die uw publiek bereiken waar ze ook zijn. Naarmate uw bedrijf zich ontwikkelt, zorgen onze toekomstbestendige app-oplossingen ervoor dat u aan de voorhoede van digitale innovatie blijft.",
-        whyUsHeader4: "Meertalige Service",
+            "We gaan verder dan alleen websites. Binnenkort bouwen we ook mobiele apps op maat, voor zowel iOS als Android. Met het krachtige React Native-framework ontwikkelen we intuïtieve apps met een vlotte werking en een aantrekkelijke, gebruiksvriendelijke interface. Deze technologie laat ons toe robuuste apps te maken die op elk platform presteren en uw klanten bereiken, waar ze ook zijn. Onze oplossingen groeien mee met uw onderneming en houden u altijd aan de top van digitale innovatie. Met Bel'Azur Coding kiest u voor apps die niet alleen werken, maar ook indruk maken. Klaar om de mobiele wereld te veroveren?",
+        whyUsHeader4: "Taal is onze troef",
         whyUsText4:
-            "Communicatie is de sleutel tot elk succesvol project, en bij Bel'Azur Coding maken we het moeiteloos. We bieden diensten aan in het Nederlands, Frans en Engels. Onze taalkundige veelzijdigheid zorgt ervoor dat we efficiënt kunnen werken met een diverse reeks klanten, zowel lokaal als internationaal. Onze toewijding aan duidelijke en consistente communicatie betekent dat u altijd op de hoogte bent, waar ter wereld u ook bent.",
+            "Bij Bel'Azur Coding geloven we in duidelijke communicatie, in welke taal dan ook. Of u nu Nederlands, Frans of Engels spreekt, wij zorgen ervoor dat iedereen op dezelfde golflengte zit en dat uw project vlekkeloos verloopt. Onze meertalige service maakt samenwerken eenvoudig, of u nu om de hoek zit of aan de andere kant van de wereld. We passen ons aan uw voorkeuren aan en zorgen ervoor dat elke stap in het proces helder wordt gecommuniceerd. Met onze taalkundige veelzijdigheid overbruggen we grenzen en creëren we verbinding. Bij Bel'Azur Coding is taal geen obstakel, maar een brug naar succes. Samen realiseren we uw digitale dromen, zonder compromissen.",
         allServicesHeader: "Hoe we u kunnen helpen:",
         allServicesSubHeader:
             "Diensten gebaseerd op uw daadwerkelijke behoeften",
@@ -470,7 +471,7 @@ const _LANGUAGE_ = {
         appDevPerfect: "Perfect voor",
         appDevBenefitsHeader: "Voordelen",
         appDevBox1:
-            "Het gaat erom je ideeën tot leven te brengen in de palm van de hand van je klanten. We gebruiken React Native, een krachtige technologiestack waarmee we efficiënt apps kunnen bouwen voor zowel iOS als Android met slechts één codebase. Dit betekent snellere ontwikkeling, minder onderhoudsproblemen en consistente prestaties op verschillende apparaten. Onze apps worden op maat gemaakt voor jouw bedrijf, zodat ze er geweldig uitzien en perfect werken.",
+            "Het gaat erom je ideeën tot leven te brengen in de palm van de hand van je klanten. We gebruiken React Native, een krachtige technologiestack waarmee we efficiënt apps kunnen bouwen voor zowel iOS als Android met slechts één codebase. Dit betekent snellere ontwikkeling, minder onderhoudsproblemen en consistente prestaties op verschillende apparaten. Onze apps worden op maat gemaakt voor uw bedrijf, zodat ze er geweldig uitzien en perfect werken.",
         appDevPerfectFor: [
             "Bedrijven die via mobiel in contact willen komen met klanten",
             "Bedrijven die processen willen stroomlijnen",

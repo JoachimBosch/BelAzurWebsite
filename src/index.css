@@ -96,6 +96,10 @@ input {
 
 .social-links {
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
 }
 
 .policy {

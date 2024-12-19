@@ -6,6 +6,7 @@ import GetInTouch from "../components/getintouch";
 import MailUs from "../components/mailUs";
 import { useContext } from "react";
 import MyContext from "../context/context";
+import multipage from "../../public/media/img/multipage.png";
 
 const Website = () => {
     const { language, _LANGUAGE_ } = useContext(MyContext);
@@ -38,7 +39,9 @@ const Website = () => {
                             {_LANGUAGE_[language].websiteBox1}
                         </p>
                     </div>
-                    <div className="border serviceImage"></div>
+                    <div className="serviceImage">
+                        <img src={multipage} />
+                    </div>
                 </div>
                 <div className="text-center">
                     <MailUs />
