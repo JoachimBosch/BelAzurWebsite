@@ -3,14 +3,14 @@ import { useContext } from "react";
 import MyContext from "../context/context";
 
 const About = () => {
-    const { language, _LANGUAGE_ } = useContext(MyContext);
+    const { language, text } = useContext(MyContext);
 
     return (
         <>
             <div className="intro mx-auto pt-16 px-4 md:px-8">
                 <div className="text-center mb-8">
                     <h1 className="text-2xl md:text-4xl font-bold">
-                    {_LANGUAGE_[language].aboutUsHeader}
+                        {text[language].aboutUsHeader}
                     </h1>
                 </div>
                 <div className="py-0 md:py-8 mx-auto max-w-7xl">
@@ -32,7 +32,7 @@ const About = () => {
                         </div>
                         <div className="flex md:text-left mt-4 mb-4 aboutUs border-none md:border-2">
                             <p className="text-justify sm:text-lg">
-                                {_LANGUAGE_[language].aboutLisa}
+                                {text[language].aboutLisa}
                             </p>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const About = () => {
                         </div>
                         <div className="flex md:text-left mt-4 mb-4 aboutUs border-none md:border-2">
                             <p className="text-justify sm:text-lg">
-                                {_LANGUAGE_[language].aboutJoachim}
+                                {text[language].aboutJoachim}
                             </p>
                         </div>
                     </div>

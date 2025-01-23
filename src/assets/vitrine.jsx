@@ -9,40 +9,34 @@ import MyContext from "../context/context";
 import onepager from "../../public/media/img/onepager.png";
 
 const Vitrine = () => {
-    const { language, _LANGUAGE_ } = useContext(MyContext);
+    const { language, text } = useContext(MyContext);
 
     return (
         <>
             <div className="serviceIntro mx-auto px-4">
                 <div className="flex flex-col items-center text-center">
-                    <h1 className="mb-4">
-                        {_LANGUAGE_[language].vitrineHeader}
-                    </h1>
+                    <h1 className="mb-4">{text[language].vitrineHeader}</h1>
 
                     <p>
-                        {_LANGUAGE_[language].vitrineIntro1}
+                        {text[language].vitrineIntro1}
                         <br />
-                        {_LANGUAGE_[language].vitrineIntro2}
+                        {text[language].vitrineIntro2}
                         <br />
-                        {_LANGUAGE_[language].vitrineIntro3}
+                        {text[language].vitrineIntro3}
                         <br />
-                        {_LANGUAGE_[language].vitrineIntro4}
+                        {text[language].vitrineIntro4}
                     </p>
                 </div>
                 <div
                     className="flex flex-wrap justify-center"
                     style={{ height: "auto" }}
                 >
-                    <div
-                        className="card border flex flex-col place-content-evenly"
-                    >
+                    <div className="card border flex flex-col place-content-evenly">
                         <p className="text-justify text-belazurblue">
-                            {_LANGUAGE_[language].vitrineBox1}
+                            {text[language].vitrineBox1}
                         </p>
                     </div>
-                    <div
-                        className="serviceImage"
-                    >
+                    <div className="serviceImage">
                         <img src={onepager} />
                     </div>
                 </div>
@@ -54,35 +48,35 @@ const Vitrine = () => {
                     style={{ maxWidth: "1240px" }}
                 >
                     <div className="border p-4">
-                        <h2>{_LANGUAGE_[language].vitrinePerfect}</h2>
+                        <h2>{text[language].vitrinePerfect}</h2>
                         <div className="mx-auto ">
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].vitrinePerfectFor[0]}
+                            {text[language].vitrinePerfectFor[0]}
                             <br />
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].vitrinePerfectFor[1]}
+                            {text[language].vitrinePerfectFor[1]}
                             <br />
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].vitrinePerfectFor[2]}
+                            {text[language].vitrinePerfectFor[2]}
                             <br />
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].vitrinePerfectFor[3]} <br />
+                            {text[language].vitrinePerfectFor[3]} <br />
                         </div>
                     </div>
                     <div className="border p-4">
-                        <h2>{_LANGUAGE_[language].vitrineBenefitsHeader}</h2>
+                        <h2>{text[language].vitrineBenefitsHeader}</h2>
                         <div className="mx-auto ">
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].vitrineBenefits[0]}
+                            {text[language].vitrineBenefits[0]}
                             <br />
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].vitrineBenefits[1]}
+                            {text[language].vitrineBenefits[1]}
                             <br />
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].vitrineBenefits[2]}
+                            {text[language].vitrineBenefits[2]}
                             <br />
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].vitrineBenefits[3]}
+                            {text[language].vitrineBenefits[3]}
                             <br />
                         </div>
                     </div>

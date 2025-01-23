@@ -9,22 +9,20 @@ import MyContext from "../context/context";
 import appdevelopment from "../../public/media/img/appdevelopment.png";
 
 const Website = () => {
-    const { language, _LANGUAGE_ } = useContext(MyContext);
+    const { language, text } = useContext(MyContext);
     return (
         <>
             <div className="serviceIntro mx-auto px-4">
                 <div className="flex flex-col items-center text-center">
-                    <h1 className="mb-4">
-                        {_LANGUAGE_[language].appDevHeader}
-                    </h1>
+                    <h1 className="mb-4">{text[language].appDevHeader}</h1>
                     <p>
-                        {_LANGUAGE_[language].appDevIntro1}
+                        {text[language].appDevIntro1}
                         <br />
-                        {_LANGUAGE_[language].appDevIntro2}
+                        {text[language].appDevIntro2}
                         <br />
-                        {_LANGUAGE_[language].appDevIntro3}
+                        {text[language].appDevIntro3}
                         <br />
-                        {_LANGUAGE_[language].appDevIntro4}
+                        {text[language].appDevIntro4}
                     </p>
                 </div>
                 <div
@@ -33,7 +31,7 @@ const Website = () => {
                 >
                     <div className="card border flex flex-col place-content-evenly">
                         <p className="text-justify text-belazurblue">
-                            {_LANGUAGE_[language].appDevBox1}
+                            {text[language].appDevBox1}
                         </p>
                     </div>
                     <div className="serviceImage">
@@ -48,19 +46,19 @@ const Website = () => {
                     style={{ maxWidth: "1240px" }}
                 >
                     <div className="border p-4">
-                        <h2>{_LANGUAGE_[language].appDevPerfect}</h2>
+                        <h2>{text[language].appDevPerfect}</h2>
                         <div className="mx-auto ">
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].appDevPerfectFor[0]}
+                            {text[language].appDevPerfectFor[0]}
                             <br />
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].appDevPerfectFor[1]}
+                            {text[language].appDevPerfectFor[1]}
                             <br />
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].appDevPerfectFor[2]}
+                            {text[language].appDevPerfectFor[2]}
                             <br />
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].appDevPerfectFor[3]}
+                            {text[language].appDevPerfectFor[3]}
                             <br />
                         </div>
                     </div>
@@ -68,16 +66,16 @@ const Website = () => {
                         <h2>Benefits</h2>
                         <div className="mx-auto ">
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].appDevBenefits[0]}
+                            {text[language].appDevBenefits[0]}
                             <br />
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].appDevBenefits[1]}
+                            {text[language].appDevBenefits[1]}
                             <br />
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].appDevBenefits[2]}
+                            {text[language].appDevBenefits[2]}
                             <br />
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].appDevBenefits[3]}
+                            {text[language].appDevBenefits[3]}
                             <br />
                         </div>
                     </div>

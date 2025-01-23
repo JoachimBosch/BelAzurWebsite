@@ -5,7 +5,7 @@ import { useContext } from "react";
 import MyContext from "../context/context";
 
 const Contact = () => {
-    const { language, _LANGUAGE_ } = useContext(MyContext);
+    const { language, text } = useContext(MyContext);
 
     const initialValues = {
         fname: "",
@@ -19,19 +19,19 @@ const Contact = () => {
 
     const validationSchema = Yup.object({
         fname: Yup.string().required(
-            `${_LANGUAGE_[language].contactFirstName} ${_LANGUAGE_[language].contactIsRequired}`
+            `${text[language].contactFirstName} ${text[language].contactIsRequired}`
         ),
         lname: Yup.string().required(
-            `${_LANGUAGE_[language].contactLastName} ${_LANGUAGE_[language].contactIsRequired}`
+            `${text[language].contactLastName} ${text[language].contactIsRequired}`
         ),
         phone: Yup.string()
             .required(
-                `${_LANGUAGE_[language].contactPhone} ${_LANGUAGE_[language].contactIsRequired}`
+                `${text[language].contactPhone} ${text[language].contactIsRequired}`
             )
-            .matches(/^[0-9]+$/, `${_LANGUAGE_[language].contactNumeric}`),
+            .matches(/^[0-9]+$/, `${text[language].contactNumeric}`),
         email: Yup.string()
-            .email(`${_LANGUAGE_[language].contactEmailError}`)
-            .required(`${_LANGUAGE_[language].contactEmailRequired}`),
+            .email(`${text[language].contactEmailError}`)
+            .required(`${text[language].contactEmailRequired}`),
         company: Yup.string(),
         interest: Yup.string(),
         freeText: Yup.string(),
@@ -45,19 +45,19 @@ const Contact = () => {
         emailjs
             .send(serviceID, templateID, values, userID)
             .then(() => {
-                alert(`${_LANGUAGE_[language].contactEmailSentSuccess}`);
+                alert(`${text[language].contactEmailSentSuccess}`);
                 resetForm();
             })
             .catch((error) => {
                 console.error("Error sending email:", error);
-                alert(`${_LANGUAGE_[language].contactEmailSentError}`);
+                alert(`${text[language].contactEmailSentError}`);
             });
     };
 
     return (
         <div className="serviceIntro text-white flex flex-1 flex-col justify-center px-6 py-12 lg:px-8">
             <div className="mx-auto w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl text-center">
-                <h1>{_LANGUAGE_[language].contactHeader}</h1>
+                <h1>{text[language].contactHeader}</h1>
             </div>
             <div className="mx-auto w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl text-belazurblue">
                 <Formik
@@ -67,7 +67,7 @@ const Contact = () => {
                 >
                     <Form className="flex flex-col">
                         <label htmlFor="fname" className="pb-2">
-                            {_LANGUAGE_[language].contactFirstName}: *
+                            {text[language].contactFirstName}: *
                         </label>
                         <Field
                             type="text"
@@ -82,7 +82,7 @@ const Contact = () => {
                         />
 
                         <label htmlFor="lname" className="pt-4 pb-2">
-                            {_LANGUAGE_[language].contactLastName}: *
+                            {text[language].contactLastName}: *
                         </label>
                         <Field
                             type="text"
@@ -97,7 +97,7 @@ const Contact = () => {
                         />
 
                         <label htmlFor="phone" className="pt-4 pb-2">
-                            {_LANGUAGE_[language].contactPhone}: *
+                            {text[language].contactPhone}: *
                         </label>
                         <Field
                             type="text"
@@ -112,7 +112,7 @@ const Contact = () => {
                         />
 
                         <label htmlFor="email" className="pt-4 pb-2">
-                            {_LANGUAGE_[language].contactEmail}: *
+                            {text[language].contactEmail}: *
                         </label>
                         <Field
                             type="email"
@@ -127,7 +127,7 @@ const Contact = () => {
                         />
 
                         <label htmlFor="company" className="pt-4 pb-2">
-                            {_LANGUAGE_[language].contactCompany}:
+                            {text[language].contactCompany}:
                         </label>
                         <Field
                             type="text"
@@ -137,7 +137,7 @@ const Contact = () => {
                         />
 
                         <label htmlFor="interest" className="pt-4 pb-2">
-                            {_LANGUAGE_[language].contactInterest}:
+                            {text[language].contactInterest}:
                         </label>
                         <Field
                             as="select"
@@ -145,24 +145,24 @@ const Contact = () => {
                             className="custom-select mb-2 border-none rounded-md shadow-md text-belazurblue"
                         >
                             <option value="">
-                                {_LANGUAGE_[language].contactInterestOption1}
+                                {text[language].contactInterestOption1}
                             </option>
                             <option value="One-Page Website">
-                                {_LANGUAGE_[language].contactInterestOption2}
+                                {text[language].contactInterestOption2}
                             </option>
                             <option value="Multi-Page Website">
-                                {_LANGUAGE_[language].contactInterestOption3}
+                                {text[language].contactInterestOption3}
                             </option>
                             <option value="E-commerce Website">
-                                {_LANGUAGE_[language].contactInterestOption4}
+                                {text[language].contactInterestOption4}
                             </option>
                             <option value="Other">
-                                {_LANGUAGE_[language].contactInterestOption5}
+                                {text[language].contactInterestOption5}
                             </option>
                         </Field>
 
                         <label htmlFor="freeText" className="pt-4 pb-2">
-                            {_LANGUAGE_[language].contactAdditionalInfo}:
+                            {text[language].contactAdditionalInfo}:
                         </label>
                         <Field
                             as="textarea"
@@ -175,7 +175,7 @@ const Contact = () => {
                             type="submit"
                             className="bg-white hover:bg-belazurblue text-belazurblue font-semibold hover:text-white rounded button-contact"
                         >
-                            {_LANGUAGE_[language].contactButton}
+                            {text[language].contactButton}
                         </button>
                     </Form>
                 </Formik>

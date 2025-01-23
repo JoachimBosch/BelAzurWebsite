@@ -7,7 +7,7 @@ import { useContext } from "react";
 import MyContext from "../context/context";
 
 const Home = () => {
-    const { language, _LANGUAGE_ } = useContext(MyContext);
+    const { language, text } = useContext(MyContext);
 
     return (
         <>
@@ -30,35 +30,34 @@ const Home = () => {
                         />
                     </h1>
                     <h2 className="text-center">
-                        {_LANGUAGE_[language].introSubHeader1}
+                        {text[language].introSubHeader1}
                     </h2>
                     <h2 className="text-center">
-                        {_LANGUAGE_[language].introSubHeader2}
+                        {text[language].introSubHeader2}
                     </h2>
                     <h2 className="text-center mt-4">
-                        {_LANGUAGE_[language].introSubHeader3}
+                        {text[language].introSubHeader3}
                     </h2>
-                    
                 </div>
                 <div className="text-center">
-                        <GetInTouch />
-                    </div>
+                    <GetInTouch />
+                </div>
                 <div>
                     <WhyUs />
                 </div>
                 <div className="intro px-8">
                     <h1 className="text-center">
-                        {_LANGUAGE_[language].philosophyHeader}
+                        {text[language].philosophyHeader}
                     </h1>
                     <p className="text-center">
-                        {_LANGUAGE_[language].philosophyText1}
+                        {text[language].philosophyText1}
                     </p>
                     <p className="text-center">
-                        {_LANGUAGE_[language].philosophyText2}
+                        {text[language].philosophyText2}
                     </p>
                     <br />
                     <h2 className="text-center">
-                        {_LANGUAGE_[language].philosophyClosing}
+                        {text[language].philosophyClosing}
                     </h2>
                 </div>
                 <div className="pb-12">

@@ -14,12 +14,12 @@ import MyContext from "../context/context";
 
 const Navbar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-    const { language, setLanguage, _LANGUAGE_ } = useContext(MyContext);
+    const { language, setLanguage, text } = useContext(MyContext);
     const navigation = [
-        { name: _LANGUAGE_[language].navbarItem1, href: "/" },
-        { name: _LANGUAGE_[language].navbarItem2, href: "/services" },
-        { name: _LANGUAGE_[language].navbarItem3, href: "/about" },
-        { name: _LANGUAGE_[language].navbarItem4, href: "/contact" },
+        { name: text[language].navbarItem1, href: "/" },
+        { name: text[language].navbarItem2, href: "/services" },
+        { name: text[language].navbarItem3, href: "/about" },
+        { name: text[language].navbarItem4, href: "/contact" },
     ];
 
     return (
@@ -110,7 +110,7 @@ const Navbar = () => {
                             </div>
                             <div className="pt-8">
                                 <p className="-mx-3 block text-center rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white">
-                                    {_LANGUAGE_[language].navbarLanguage}
+                                    {text[language].navbarLanguage}
                                 </p>
                             </div>
                             <div className="flex justify-evenly pt-4 social-links">

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import MyContext from "../context/context";
 
 const WhyUs = () => {
-    const { language, _LANGUAGE_ } = useContext(MyContext);
+    const { language, text } = useContext(MyContext);
     return (
         <>
             <div className="whyUs py-8 gap-8 d-block text-belazurblue">
@@ -12,15 +12,15 @@ const WhyUs = () => {
                     style={{ maxWidth: "1280px" }}
                 >
                     <div className="p-4">
-                        <h1 className="py-10">{_LANGUAGE_[language].whyUsHeader1}</h1>
+                        <h1 className="py-10">{text[language].whyUsHeader1}</h1>
                         <p className="text-justify">
-						{_LANGUAGE_[language].whyUsText1}
+                            {text[language].whyUsText1}
                         </p>
                     </div>
                     <div className="p-4">
-                        <h1 className="py-10">{_LANGUAGE_[language].whyUsHeader2}</h1>
+                        <h1 className="py-10">{text[language].whyUsHeader2}</h1>
                         <p className="text-justify">
-						{_LANGUAGE_[language].whyUsText2}
+                            {text[language].whyUsText2}
                         </p>
                     </div>
                 </div>
@@ -29,15 +29,15 @@ const WhyUs = () => {
                     style={{ maxWidth: "1280px" }}
                 >
                     <div className="p-4">
-                        <h1 className="py-10">{_LANGUAGE_[language].whyUsHeader3}</h1>
+                        <h1 className="py-10">{text[language].whyUsHeader3}</h1>
                         <p className="text-justify">
-						{_LANGUAGE_[language].whyUsText3}
+                            {text[language].whyUsText3}
                         </p>
                     </div>
                     <div className="p-4">
-                        <h1 className="py-10">{_LANGUAGE_[language].whyUsHeader4}</h1>
+                        <h1 className="py-10">{text[language].whyUsHeader4}</h1>
                         <p className="text-justify">
-						{_LANGUAGE_[language].whyUsText4}
+                            {text[language].whyUsText4}
                         </p>
                     </div>
                 </div>

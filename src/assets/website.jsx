@@ -9,34 +9,29 @@ import MyContext from "../context/context";
 import multipage from "../../public/media/img/multipage.png";
 
 const Website = () => {
-    const { language, _LANGUAGE_ } = useContext(MyContext);
+    const { language, text } = useContext(MyContext);
 
     return (
         <>
             <div className="serviceIntro mx-auto px-4">
                 <div className="flex flex-col items-center text-center">
-                    <h1 className="mb-4">
-                        {_LANGUAGE_[language].websiteHeader}
-                    </h1>
+                    <h1 className="mb-4">{text[language].websiteHeader}</h1>
 
                     <p>
-                        {_LANGUAGE_[language].websiteIntro1}
+                        {text[language].websiteIntro1}
                         <br />
-                        {_LANGUAGE_[language].websiteIntro2}
+                        {text[language].websiteIntro2}
                         <br />
-                        {_LANGUAGE_[language].websiteIntro3}
+                        {text[language].websiteIntro3}
                     </p>
                 </div>
                 <div
                     className="flex flex-wrap justify-center"
                     style={{ height: "auto" }}
                 >
-                    
-                    <div
-                        className="card border flex flex-col place-content-evenly"
-                    >
+                    <div className="card border flex flex-col place-content-evenly">
                         <p className="text-justify text-belazurblue">
-                            {_LANGUAGE_[language].websiteBox1}
+                            {text[language].websiteBox1}
                         </p>
                     </div>
                     <div className="serviceImage">
@@ -51,35 +46,35 @@ const Website = () => {
                     style={{ maxWidth: "1240px" }}
                 >
                     <div className="border p-4">
-                        <h2>{_LANGUAGE_[language].websitePerfect}</h2>
+                        <h2>{text[language].websitePerfect}</h2>
                         <div className="mx-auto ">
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].websitePerfectFor[0]}
+                            {text[language].websitePerfectFor[0]}
                             <br />
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].websitePerfectFor[1]}
+                            {text[language].websitePerfectFor[1]}
                             <br />
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].websitePerfectFor[2]}
+                            {text[language].websitePerfectFor[2]}
                             <br />
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].websitePerfectFor[3]} <br />
+                            {text[language].websitePerfectFor[3]} <br />
                         </div>
                     </div>
                     <div className="border p-4">
-                        <h2>{_LANGUAGE_[language].websiteBenefitsHeader}</h2>
+                        <h2>{text[language].websiteBenefitsHeader}</h2>
                         <div className="mx-auto ">
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].websiteBenefits[0]}
+                            {text[language].websiteBenefits[0]}
                             <br />
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].websiteBenefits[1]}
+                            {text[language].websiteBenefits[1]}
                             <br />
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].websiteBenefits[2]}
+                            {text[language].websiteBenefits[2]}
                             <br />
                             <FontAwesomeIcon icon={faCheck} />{" "}
-                            {_LANGUAGE_[language].websiteBenefits[3]}
+                            {text[language].websiteBenefits[3]}
                             <br />
                         </div>
                     </div>
