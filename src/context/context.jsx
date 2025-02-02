@@ -12,7 +12,7 @@ const _DESKTOPtext = {
         navbarItem2: "SERVICES",
         navbarItem3: "ABOUT US",
         navbarItem4: "CONTACT",
-        navbarLanguage: "CHANGE LANGUAGE",
+        navbarLanguage: "CHOOSE YOUR LANGUAGE",
         onePage: "ONE-PAGE WEBSITE",
         multiPage: "MULTI-PAGE WEBSITE",
         ecommerce: "E-COMMERCE",
@@ -58,16 +58,16 @@ const _DESKTOPtext = {
         vitrineBox1:
             "Think of it as a beautifully designed online brochure. All the important information about your business is on one single page, making it easy for your customers to understand who you are and what you offer without clicking around too much. It's simple, but it packs a punch—delivering your message in a way that grabs attention and encourages action.",
         vitrinePerfectFor: [
-            "Promoting an event or special offer",
-            "Highlighting a main product or service",
-            "Showing off your work or achievements in a simple portfolio",
-            "Setting your first steps online",
+            "Event promotions",
+            "Highlighting a product/service",
+            "Simple portfolios",
+            "Starting online",
         ],
         vitrineBenefits: [
-            "A domain name reflecting the name of your business",
-            "Fast setup with minimal costs",
-            "Perfect for small businesses or individuals starting out online",
-            "Mobile-friendly design ensures a great experience for all users",
+            "Business domain name",
+            "Quick setup, low cost",
+            "Perfect for small businesses",
+            "Mobile-friendly design",
         ],
         websiteHeader:
             "Tailored Multi-Page Websites That Grow With Your Business",
@@ -82,16 +82,16 @@ const _DESKTOPtext = {
         websiteBox1:
             "Think of it as a full digital experience. Instead of packing everything onto one page, we spread your content across several well-organized pages, like “About Us”, “Services”, “Portfolio”, or “Contact”. This layout helps guide visitors through your site, giving them the details they need without overwhelming them. It's flexible and built to grow as your business evolves.",
         websitePerfectFor: [
-            "Service-based companies that need to describe various offerings",
-            "Organizations sharing resources, news, or events",
-            "Businesses with a large portfolio of work to showcase",
-            "Content-driven platforms that provide regular updates",
+            "Service companies",
+            "Resource-sharing organizations",
+            "Businesses with portfolios",
+            "Content-driven platforms",
         ],
         websiteBenefits: [
-            "Helps visitors find information quickly and easily",
-            "Reflects a polished, credible image for your brand",
-            "Allows for rich, detailed content like blogs, galleries, and portfolios",
-            "Perfect for businesses that plan to grow and add more services or pages",
+            "Quick, easy info access",
+            "Professional brand image",
+            "Rich content options",
+            "Scalable design for growth",
         ],
         ecommerceHeader:
             "Drive Sales and Reach New Customers with a Seamless Online Shopping Experience",
@@ -107,16 +107,16 @@ const _DESKTOPtext = {
         ecommerceBox1:
             "It's your complete online store where you can sell your own products or services. We can set it up using Shopify for a simple, ready-made solution or custom-build it for more control and flexibility. From displaying your products in an attractive layout to offering multiple payment options, we make sure your store is easy to use and optimized for sales.",
         ecommercePerfectFor: [
-            "Businesses launching their first online store",
-            "Retailers looking to expand their reach and sell more products",
-            "Businesses that need a tailored e-commerce experience",
-            "Shops wanting to offer easy, secure payment options",
+            "First-time online sellers",
+            "Retailers expanding reach",
+            "Tailored e-commerce solutions",
+            "Secure payment options",
         ],
         ecommerceBenefits: [
-            "Sell to customers locally, nationally, or globally",
-            "Generate revenue even when your physical store is closed",
-            "Safe and diverse payment options build customer trust",
-            "Tailored designs to match your brand and attract buyers",
+            "Local and global sales",
+            "Revenue 24/7",
+            "Secure payments",
+            "Branded, attractive designs",
         ],
         appDevHeader:
             "Build Your Brand's Presence in the Palm of Your Customers",
@@ -133,16 +133,16 @@ const _DESKTOPtext = {
         appDevBox1:
             "It's about bringing your ideas to life in the palm of your customers' hands. We use React Native, a powerful technology stack that allows us to build apps efficiently for both iOS and Android with just one codebase. This means faster development, fewer maintenance headaches, and consistent performance across devices. Our apps are custom-made to fit your business, ensuring they look great and work perfectly.",
         appDevPerfectFor: [
-            "Businesses wanting to connect with customers through mobile",
-            "Companies looking to streamline processes",
-            "Brands with unique app ideas that require a tailored experience",
-            "Startups aiming for efficient development and long-term scalability",
+            "Connecting with customers",
+            "Streamlining processes",
+            "Unique app ideas",
+            "Scalable startups",
         ],
         appDevBenefits: [
-            "Keep customers connected with your business anytime, anywhere",
-            "Automate bookings, payments, and other key functions for improved efficiency",
-            "One app that works perfectly on both iOS and Android",
-            "A user-friendly app keeps customers coming back",
+            "Stay connected anytime",
+            "Automated key functions",
+            "One app for all devices",
+            "User-friendly experience",
         ],
         aboutUsHeader: "Meet the team",
         aboutLisa:
@@ -178,7 +178,7 @@ const _DESKTOPtext = {
         navbarItem2: "SERVICES",
         navbarItem3: "A PROPOS DE NOUS",
         navbarItem4: "CONTACT",
-        navbarLanguage: "CHANGER LA LANGUE",
+        navbarLanguage: "CHOISSISEZ VOTRE LANGUE",
         onePage: "SITE WEB SIMPLE",
         multiPage: "SITE WEB MULTI-PAGES",
         ecommerce: "E-COMMERCE",
@@ -226,16 +226,16 @@ const _DESKTOPtext = {
         vitrineBox1:
             "Considérez-le comme une brochure en ligne magnifiquement conçue. Toutes les informations importantes sur votre entreprise sont sur une seule page, ce qui permet à vos clients de comprendre facilement qui vous êtes et ce que vous proposez sans trop de clics. C'est simple, mais ça a de l'impact—transmettant votre message de manière à capter l'attention et encourager l'action.",
         vitrinePerfectFor: [
-            "Promouvoir un événement ou une offre spéciale",
-            "Mettre en avant un produit ou un service principal",
-            "Montrer votre travail ou vos réalisations dans un portfolio simple",
-            "Faire vos premiers pas en ligne",
+            "Promotions d’événements",
+            "Mise en avant d'un produit/service",
+            "Portfolios simples",
+            "Démarrer en ligne",
         ],
         vitrineBenefits: [
-            "Un nom de domaine reflétant le nom de votre entreprise",
-            "Mise en place rapide avec des coûts minimes",
-            "Parfait pour les petites entreprises ou les particuliers débutant en ligne",
-            "Un design adapté aux mobiles garantit une excellente expérience pour tous les utilisateurs",
+            "Nom de domaine d’entreprise",
+            "Mise en ligne rapide et économique",
+            "Idéal pour les petites entreprises",
+            "Design adapté au mobile",
         ],
         websiteHeader:
             "Des sites web multi-pages qui évoluent avec votre entreprise",
@@ -250,16 +250,16 @@ const _DESKTOPtext = {
         websiteBox1:
             "Il s'agit d'une expérience numérique complète. Au lieu de tout mettre sur une seule page, nous répartissons votre contenu sur plusieurs pages bien organisées, comme « À propos de nous », « Services », « Portfolio » ou « Contact ». Cette disposition permet de guider les visiteurs à travers votre site, en leur donnant les détails dont ils ont besoin sans les submerger. Le site est flexible et conçu pour s'adapter à l'évolution de votre entreprise",
         websitePerfectFor: [
-            "Les entreprises de services qui ont besoin de décrire leurs différentes offres",
-            "Les organisations qui partagent des ressources, des nouvelles ou des événements",
-            "Les entreprises ayant un large portefeuille de travaux à présenter",
-            "Plateformes axées sur le contenu qui fournissent des mises à jour régulières",
+            "Entreprises de services",
+            "Partage de ressources",
+            "Portfolios professionnels",
+            "Plateformes de contenu",
         ],
         websiteBenefits: [
-            "Aide les visiteurs à trouver des informations rapidement et facilement",
-            "Reflète une image soignée et crédible de votre marque",
-            "Permet un contenu riche et détaillé comme des blogs, des galeries et des portfolios",
-            "Parfait pour les entreprises qui prévoient de se développer et d'ajouter des services ou des pages",
+            "Accès rapide aux infos",
+            "Image professionnelle",
+            "Contenus variés",
+            "Design évolutif",
         ],
         ecommerceHeader:
             "Stimuler les ventes et atteindre de nouveaux clients grâce à une expérience d'achat en ligne transparente",
@@ -275,16 +275,16 @@ const _DESKTOPtext = {
         ecommerceBox1:
             "Il s'agit d'une boutique en ligne complète où vous pouvez vendre vos propres produits ou services. Nous pouvons l'installer à l'aide de Shopify pour une solution simple et prête à l'emploi ou la construire sur mesure pour plus de contrôle et de flexibilité. De l'affichage de vos produits dans une présentation attrayante à l'offre de plusieurs options de paiement, nous veillons à ce que votre boutique soit facile à utiliser et optimisée pour les ventes",
         ecommercePerfectFor: [
-            "Les entreprises qui lancent leur première boutique en ligne",
-            "Les détaillants qui cherchent à étendre leur portée et à vendre plus de produits",
-            "Les entreprises qui ont besoin d'une expérience de commerce électronique sur mesure",
-            "Boutiques souhaitant offrir des options de paiement faciles et sûres",
+            "Premiers pas en ligne",
+            "Commerces élargissant leur portée",
+            "Solutions e-commerce personnalisées",
+            "Paiements sécurisés",
         ],
         ecommerceBenefits: [
-            "Vendre à des clients au niveau local, national ou mondial",
-            "Générer des revenus même lorsque votre magasin physique est fermé",
-            "Des options de paiement sûres et diversifiées renforcent la confiance des clients",
-            "Des designs sur mesure pour correspondre à votre marque et attirer les acheteurs",
+            "Ventes locales et internationales",
+            "Revenus 24/7",
+            "Paiements sécurisés",
+            "Designs attractifs",
         ],
         appDevHeader:
             "Construisez la présence de votre marque dans la paume de la main de vos clients",
@@ -301,18 +301,17 @@ const _DESKTOPtext = {
         appDevBox1:
             "Il s'agit de donner vie à vos idées dans la paume des mains de vos clients. Nous utilisons React Native, une pile technologique puissante qui nous permet de construire efficacement des applications pour iOS et Android avec une seule base de code. Cela signifie un développement plus rapide, moins de maux de tête liés à la maintenance et des performances cohérentes sur tous les appareils. Nos applications sont conçues sur mesure pour s'adapter à votre entreprise, ce qui garantit qu'elles sont belles et qu'elles fonctionnent parfaitement.",
         appDevPerfectFor: [
-            "Des entreprises qui veulent se connecter avec leurs clients par le biais de la téléphonie mobile",
-            "Des entreprises qui cherchent à rationaliser les processus",
-            "Des marques ayant des idées d'applications uniques qui nécessitent une expérience sur mesure",
-            "Startups visant un développement efficace et une évolutivité à long terme",
+            "Connexion avec les clients",
+            "Optimisation des processus",
+            "Idées d’applis uniques",
+            "Startups évolutives",
         ],
         appDevBenefits: [
-            "Gardez vos clients en contact avec votre entreprise partout",
-            "Automatiser les réservations, les paiements et d'autres fonctions clés pour une meilleure efficacité",
-            "Une seule application qui fonctionne parfaitement sur iOS et Android",
-            "Une application conviviale fait revenir les clients",
+            "Connexion à tout moment",
+            "Automatisation des fonctions clés",
+            "Une seule appli pour tous les appareils",
+            "Expérience utilisateur optimisée",
         ],
-
         aboutUsHeader: "Présentation de l'équipe",
         aboutLisa:
             "Lisa est la force motrice de Bel'Azur Coding. Sans elle, ce site n'existerait probablement pas. Lisa a un œil pour le design, aime résoudre des questions difficiles et n'hésite pas à relever des défis. Grâce à sa formation chez SheCodes, elle est parfaitement capable de construire des sites web magnifiques, adaptés aux mobiles et interactifs qui présentent votre entreprise sous un nouveau jour.",
@@ -349,7 +348,7 @@ const _DESKTOPtext = {
         navbarItem2: "DIENSTEN",
         navbarItem3: "OVER ONS",
         navbarItem4: "CONTACT",
-        navbarLanguage: "VERANDER TAAL",
+        navbarLanguage: "KIES UW TAAL",
         onePage: "SINGLE-PAGE WEBSITE",
         multiPage: "MULTI-PAGE WEBSITE",
         ecommerce: "E-COMMERCE",
@@ -397,16 +396,16 @@ const _DESKTOPtext = {
         vitrineBox1:
             "Zie het als een prachtig ontworpen online brochure. Alle belangrijke informatie over uw bedrijf staat op één enkele pagina, waardoor uw klanten gemakkelijk begrijpen wie u bent en wat u aanbiedt zonder al te veel rond te hoeven klikken. Het is eenvoudig, maar het heeft een grote impact - het overbrengen van uw boodschap op een manier die de aandacht trekt en aanzet tot actie.",
         vitrinePerfectFor: [
-            "Een evenement of speciale aanbieding promoten",
-            "Een belangrijk product of dienst onder de aandacht brengen",
-            "Je werk of prestaties laten zien in een eenvoudig portfolio",
-            "Je eerste stappen online te zetten",
+            "Evenementpromotie",
+            "Een product/dienst uitlichten",
+            "Eenvoudige portfolio's",
+            "Starten online",
         ],
         vitrineBenefits: [
-            "Een domeinnaam die de naam van uw bedrijf weergeeft",
-            "Snelle installatie met minimale kosten",
-            "Perfect voor kleine bedrijven of particulieren die online beginnen",
-            "Mobielvriendelijk ontwerp zorgt voor een geweldige ervaring voor alle gebruikers",
+            "Bedrijfsdomeinnaam",
+            "Snelle en goedkope implementatie",
+            "Perfect voor kleine bedrijven",
+            "Mobielvriendelijk ontwerp",
         ],
         websiteHeader:
             "Op maat gemaakte Multi-Page Websites die meegroeien met uw bedrijf",
@@ -421,16 +420,16 @@ const _DESKTOPtext = {
         websiteBox1:
             "Zie het als een volledige digitale ervaring. In plaats van alles op één pagina te zetten, verdelen we uw inhoud over verschillende goed georganiseerde pagina's, zoals “Over ons”, “Diensten”, “Portfolio” of “Contact”. Deze lay-out leidt bezoekers door je site en geeft ze de details die ze nodig hebben zonder ze te overweldigen. Het is flexibel en gebouwd om mee te groeien met de ontwikkeling van je bedrijf.",
         websitePerfectFor: [
-            "Dienstverlenende bedrijven die verschillende aanbiedingen moeten beschrijven",
-            "Organisaties die middelen, nieuws of evenementen delen",
-            "Bedrijven met een groot portfolio aan werk om te laten zien",
-            "Platformen met inhoud die regelmatig updates geven",
+            "Dienstverlenende bedrijven",
+            "Resource-sharing organisaties",
+            "Portfolio-gedreven bedrijven",
+            "Contentplatformen",
         ],
         websiteBenefits: [
-            "Helpt bezoekers snel en gemakkelijk informatie te vinden",
-            "Weerspiegelt een gepolijst, geloofwaardig imago voor uw merk",
-            "Biedt ruimte voor rijke, gedetailleerde inhoud zoals blogs, galerijen en portfolio's",
-            "Perfect voor bedrijven die van plan zijn te groeien en meer diensten of pagina's toe te voegen",
+            "Snelle toegang tot informatie",
+            "Professionele uitstraling",
+            "Veelzijdige inhoud",
+            "Schaalbaar ontwerp",
         ],
         ecommerceHeader:
             "Verkoop stimuleren en nieuwe klanten bereiken met een naadloze online winkelervaring",
@@ -446,16 +445,16 @@ const _DESKTOPtext = {
         ecommerceBox1:
             "Het is uw complete online winkel waar u uw eigen producten of diensten kunt verkopen. We kunnen het opzetten met Shopify voor een eenvoudige, kant-en-klare oplossing of het op maat bouwen voor meer controle en flexibiliteit. Van het weergeven van je producten in een aantrekkelijke lay-out tot het aanbieden van meerdere betaalopties, wij zorgen ervoor dat je winkel gemakkelijk te gebruiken is en geoptimaliseerd is voor de verkoop.",
         ecommercePerfectFor: [
-            "Bedrijven die hun eerste online winkel lanceren",
-            "Detailhandelaren die hun bereik willen vergroten en meer producten willen verkopen",
-            "Bedrijven die een e-commerce-ervaring op maat nodig hebben",
-            "Winkels die eenvoudige, veilige betalingsopties willen bieden",
+            "Eerste online verkoop",
+            "Detailhandel met bredere doelgroep",
+            "Aangepaste e-commerceoplossingen",
+            "Veilige betaalmethoden",
         ],
         ecommerceBenefits: [
-            "Verkoop aan klanten lokaal, nationaal of wereldwijd",
-            "Genereer inkomsten, zelfs als uw fysieke winkel gesloten is",
-            "Veilige en diverse betalingsopties bouwen vertrouwen bij de klant op",
-            "Ontwerpen op maat die bij je merk passen en kopers aantrekken",
+            "Lokale en wereldwijde verkoop",
+            "24/7 inkomsten",
+            "Veilige betalingen",
+            "Aantrekkelijke, merkgerichte ontwerpen",
         ],
         appDevHeader:
             "Bouw de aanwezigheid van uw merk in de handpalm van uw klanten",
@@ -472,18 +471,18 @@ const _DESKTOPtext = {
         appDevBox1:
             "Het gaat erom je ideeën tot leven te brengen in de palm van de hand van je klanten. We gebruiken React Native, een krachtige technologiestack waarmee we efficiënt apps kunnen bouwen voor zowel iOS als Android met slechts één codebase. Dit betekent snellere ontwikkeling, minder onderhoudsproblemen en consistente prestaties op verschillende apparaten. Onze apps worden op maat gemaakt voor uw bedrijf, zodat ze er geweldig uitzien en perfect werken.",
         appDevPerfectFor: [
-            "Bedrijven die via mobiel in contact willen komen met klanten",
-            "Bedrijven die processen willen stroomlijnen",
-            "Merken met unieke app-ideeën die een ervaring op maat vereisen",
-            "Startups die streven naar efficiënte ontwikkeling en schaalbaarheid op lange termijn",
+            "Klantencontact",
+            "Procesoptimalisatie",
+            "Unieke app-ideeën",
+            "Schaalbare startups",
         ],
         appDevBenefits: [
-            "Houd klanten altijd en overal verbonden met uw bedrijf",
-            "Automatiseer boekingen, betalingen en andere belangrijke functies voor verbeterde efficiëntie",
-            "Eén app die perfect werkt op zowel iOS als Android",
-            "Een gebruiksvriendelijke app zorgt ervoor dat klanten terugkomen",
+            "Altijd verbonden",
+            "Automatisering van kerntaken",
+            "Eén app voor alle apparaten",
+            "Gebruiksvriendelijke ervaring",
         ],
-        aboutUsHeader: "Het team",
+        aboutUsHeader: "Wie zijn wij",
         aboutLisa:
             "Lisa is de drijvende Kracht achter Bel’Azur Coding. Zonder haar had deze website waarschijnlijk niet eens bestaan. Lisa heeft oog voor design, lost graag de moeilijkste vraagstukken op en gaat geen enkele uitdaging uit de weg. Dankzij haar opleiding via SheCodes is zij perfect in staat om mooie, mobile-friendly en interactieve websites te bouwen die uw bedrijf in een nieuw daglicht stellen.",
         aboutJoachim:
@@ -529,9 +528,12 @@ const _MOBILEtext = {
         introSubHeader2: "Quality and hand-coded solutions.",
         introSubHeader3: "Your digital dreams, realized.",
         philosophyHeader: "OUR PHILOSOPHY",
-        philosophyText1: "Clean code, design, and communication.",
-        philosophyText2: "From idea to launch, we deliver impact.",
-        philosophyClosing: "< Let's create your online experience />",
+        philosophyText1:
+            "We believe in clean code, clean design, and clear communication. Every project we take on is a collaborative journey, and your satisfaction is our ultimate goal.",
+        philosophyText2:
+            "From concept to launch, we're here to ensure your digital presence makes a powerful impact.",
+        philosophyClosing:
+            "< Let's transform your ideas into an exceptional online experience />",
         whyUsHeader1: "Custom Development",
         whyUsText1:
             "Unique code for your business. Stunning, fast, and user-friendly designs on all devices.",
@@ -630,7 +632,7 @@ const _MOBILEtext = {
             "One app for all devices",
             "User-friendly experience",
         ],
-        aboutUsHeader: "Het team:",
+        aboutUsHeader: "Het team",
         aboutLisa:
             "Lisa is the driving force behind Bel'Azur Coding. Without her, this site probably wouldn’t exist. Lisa has an eye for design, loves solving tough challenges, and doesn’t shy away from tackling difficulties. Thanks to her training at SheCodes, she is perfectly capable of building beautiful, mobile-friendly, and interactive websites that showcase your business in a new light.",
         aboutJoachim:
@@ -669,19 +671,22 @@ const _MOBILEtext = {
         multiPage: "SITE MULTI-PAGE",
         ecommerce: "E-COMMERCE",
         mobileApps: "APPLIS",
-        introSubHeader1: "Sites personnalisés adaptés à votre activité.",
-        introSubHeader2: "Qualité et solutions sur mesure.",
-        introSubHeader3: "Vos rêves numériques, réalisés.",
-        philosophyHeader: "PHILOSOPHIE",
-        philosophyText1: "Code propre, design soigné, communication claire.",
-        philosophyText2: "De l'idée au lancement, nous créons de l'impact.",
-        philosophyClosing: "< Créons votre expérience en ligne />",
+        introSubHeader1: "Des sites adaptés à votre activité.",
+        introSubHeader2: "Solutions sur mesure.",
+        introSubHeader3: "Vos rêves numériques en realité.",
+        philosophyHeader: "NOTRE PHILOSOPHIE",
+        philosophyText1:
+            "Nous croyons en un code propre, un design clair et une communication transparente. Chaque projet est une collaboration, et votre satisfaction est notre objectif ultime.",
+        philosophyText2:
+            "De la conception au lancement, nous veillons à ce que votre présence digitale ait un impact puissant.",
+        philosophyClosing:
+            "< Transformons vos idées en une expérience exceptionnelle />",
         whyUsHeader1: "Développement personnalisé",
         whyUsText1:
-            "Code unique pour votre activité. Designs époustouflants, rapides et conviviaux.",
+            "Code unique, designs modernes, rapides et sur mesure.",
         whyUsHeader2: "Code manuel",
         whyUsText2:
-            "Sites faits main : rapides, sécurisés, évolutifs et fiables.",
+            "Des sites faits à la main : rapides, sécurisés et fiables.",
         whyUsHeader3: "Applications prêtes pour l’avenir",
         whyUsText3:
             "Applis iOS & Android avec React Native. Touchez votre audience partout.",
@@ -772,7 +777,7 @@ const _MOBILEtext = {
             "Une seule appli pour tous les appareils",
             "Expérience utilisateur optimisée",
         ],
-        aboutUsHeader: "L'equipe:",
+        aboutUsHeader: "L'equipe",
         aboutLisa:
             "Lisa est la force motrice de Bel'Azur Coding. Sans elle, ce site n'existerait probablement pas. Lisa a un œil pour le design, aime résoudre des questions difficiles et n'hésite pas à relever des défis. Grâce à sa formation chez SheCodes, elle est parfaitement capable de construire des sites web magnifiques, adaptés aux mobiles et interactifs qui présentent votre entreprise sous un nouveau jour.",
         aboutJoachim:
@@ -815,10 +820,13 @@ const _MOBILEtext = {
         introSubHeader1: "Op maat gemaakte websites voor uw bedrijf.",
         introSubHeader2: "Kwaliteit en handgemaakte oplossingen.",
         introSubHeader3: "Uw digitale dromen, gerealiseerd.",
-        philosophyHeader: "FILOSOFIE",
-        philosophyText1: "Schoon code, design en communicatie.",
-        philosophyText2: "Van idee tot lancering leveren wij impact.",
-        philosophyClosing: "< Laten we uw online ervaring creëren />",
+        philosophyHeader: "ONZE FILOSOFIE",
+        philosophyText1:
+            "Bij Bel'Azur Coding draait alles om eenvoud, kwaliteit en samenwerking. We geloven in propere code, strak design en open communicatie.",
+        philosophyText2:
+            "Van het eerste idee tot de grote lancering: wij zorgen ervoor dat uw digitale aanwezigheid niet alleen gezien wordt, maar ook écht indruk maakt.",
+        philosophyClosing:
+            "< Samen maken we van uw idee een unieke digitale ervaring />",
         whyUsHeader1: "Maatwerk Ontwikkeling",
         whyUsText1:
             "Unieke code voor uw bedrijf. Prachtige, snelle en gebruiksvriendelijke ontwerpen.",
@@ -917,7 +925,7 @@ const _MOBILEtext = {
             "Eén app voor alle apparaten",
             "Gebruiksvriendelijke ervaring",
         ],
-        aboutUsHeader: "The team:",
+        aboutUsHeader: "The team",
         aboutLisa:
             "Lisa is the driving force behind Bel'Azur Coding. Without her, this site probably wouldn’t exist. Lisa has an eye for design, loves solving tough challenges, and doesn’t shy away from tackling difficulties. Thanks to her training at SheCodes, she is perfectly capable of building beautiful, mobile-friendly, and interactive websites that showcase your business in a new light.",
         aboutJoachim:
