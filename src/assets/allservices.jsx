@@ -48,17 +48,6 @@ const AllServices = () => {
                             {text[language].ecommerce}
                         </p>
                     </button>
-                    <button
-                        onClick={() => {
-                            setPage("apps");
-                        }}
-                        className="allServicesButton"
-                    >
-                        <img src={appdevelopment} />
-                        <p className="serviceHeader">
-                            {text[language].mobileApps}
-                        </p>
-                    </button>
                 </div>
                 <div
                     className="text-center mx-auto pb-12"

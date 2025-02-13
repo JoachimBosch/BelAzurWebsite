@@ -16,7 +16,6 @@ const _DESKTOPtext = {
         onePage: "ONE-PAGE WEBSITE",
         multiPage: "MULTI-PAGE WEBSITE",
         ecommerce: "E-COMMERCE",
-        mobileApps: "MOBILE APPS",
         introSubHeader1:
             "At Bel'Azur Coding, we specialize in creating tailored, high-performance websites that are as unique as your business.",
         introSubHeader2:
@@ -35,16 +34,13 @@ const _DESKTOPtext = {
         whyUsHeader2: "Manual Coding Experts",
         whyUsText2:
             "We don't only depend on WordPress or other ready-made platforms. Instead, we pride ourselves on our expertise in hand-coding websites. By building from scratch, we provide you with solutions that are faster, more secure, and highly customizable. This approach ensures your website is optimized for performance, resistant to common security threats, and easy to scale as your business grows. When you choose Bel'Azur Coding, you choose reliability, precision, and adaptability.",
-        whyUsHeader3: "Future-Ready Apps",
+        whyUsHeader3: "Multilingual Service",
         whyUsText3:
-            "Our expertise doesn’t stop at websites. We are also preparing to offer mobile application development for both iOS and Android platforms. Utilizing the powerful React Native framework, we will deliver apps that feature rich, intuitive user interfaces and flawless functionality. This technology enables us to create robust, cross-platform apps that reach your audience wherever they are. As your business evolves, our future-ready app solutions will be designed to keep you at the cutting edge of digital innovation.",
-        whyUsHeader4: "Multilingual Service",
-        whyUsText4:
             "Communication is key to any successful project, and at Bel'Azur Coding, we make it effortless. We provide services in Dutch, French, and English. Our linguistic versatility ensures that we can work efficiently with a diverse range of clients, catering to both local and international businesses. Our commitment to clear, consistent communication means you'll always be in the loop, no matter where you are in the world.",
         allServicesHeader: "Discover how we can help you",
         allServicesSubHeader: "Services based on your actual needs",
         allServicesText:
-            "At Bel'Azur Coding, we are passionate about delivering exceptional web and app development solutions that help your business stand out in the digital landscape. We take a personalized approach to every project, ensuring that the final product aligns perfectly with your goals and vision. From single-page websites to complex e-commerce platforms and cutting-edge mobile apps, we are equipped to bring your ideas to life.",
+            "At Bel'Azur Coding, we are passionate about delivering exceptional web development solutions that help your business stand out in the digital landscape. We take a personalized approach to every project, ensuring that the final product aligns perfectly with your goals and vision. From single-page websites to complex e-commerce platforms, we are equipped to bring your ideas to life.",
         vitrineHeader: "Simple, Impactful One-Page Websites for Your Business.",
         vitrineIntro1:
             "A one-page website is a simple concept. It's an affordable web design that actually consists of two pages: a front page and a contact page.",
@@ -118,32 +114,6 @@ const _DESKTOPtext = {
             "Secure payments",
             "Branded, attractive designs",
         ],
-        appDevHeader:
-            "Build Your Brand's Presence in the Palm of Your Customers",
-        appDevIntro1:
-            "Our app development services are perfect for businesses ready to make a big impact on mobile.",
-        appDevIntro2:
-            "Whether you want to create a food ordering app, streamline your booking process, or launch something entirely unique,",
-        appDevIntro3:
-            "we design and build apps that are fast, reliable, and easy to use.",
-        appDevIntro4:
-            "Your customers will enjoy a smooth experience on both iOS and Android, and you’ll have the tech to support your business growth.",
-        appDevPerfect: "Perfect for",
-        appDevBenefitsHeader: "Benefits",
-        appDevBox1:
-            "It's about bringing your ideas to life in the palm of your customers' hands. We use React Native, a powerful technology stack that allows us to build apps efficiently for both iOS and Android with just one codebase. This means faster development, fewer maintenance headaches, and consistent performance across devices. Our apps are custom-made to fit your business, ensuring they look great and work perfectly.",
-        appDevPerfectFor: [
-            "Connecting with customers",
-            "Streamlining processes",
-            "Unique app ideas",
-            "Scalable startups",
-        ],
-        appDevBenefits: [
-            "Stay connected anytime",
-            "Automated key functions",
-            "One app for all devices",
-            "User-friendly experience",
-        ],
         aboutUsHeader: "Meet the team",
         aboutLisa:
             "Lisa is the driving force behind Bel'Azur Coding. Without her, this website would probably not even exist. Lisa has an eye for design, enjoys solving the most difficult questions and does not shy away from any challenge. Thanks to her studies through SheCodes, she is perfectly capable of building beautiful, mobile-friendly and interactive websites that put your company into a new light.",
@@ -182,7 +152,6 @@ const _DESKTOPtext = {
         onePage: "SITE WEB SIMPLE",
         multiPage: "SITE WEB MULTI-PAGES",
         ecommerce: "E-COMMERCE",
-        mobileApps: "APPLICATIONS MOBILES",
         introSubHeader1:
             "Chez Bel'Azur Coding, nous nous spécialisons dans la création de sites web sur mesure et performants, aussi uniques que votre entreprise.",
         introSubHeader2:
@@ -202,16 +171,14 @@ const _DESKTOPtext = {
         whyUsHeader2: "Experts en Codage Manuel",
         whyUsText2:
             "Nous ne dépendons pas uniquement de WordPress ou d'autres plateformes prêtes à l'emploi. Nous sommes fiers de notre expertise en codage manuel. En construisant de zéro, nous vous offrons des solutions plus rapides, plus sécurisées et hautement personnalisables. Cette approche garantit que votre site est optimisé pour les performances, résistant aux menaces de sécurité courantes et facile à faire évoluer à mesure que votre entreprise grandit. Avec Bel'Azur Coding, vous choisissez fiabilité, précision et adaptabilité.",
-        whyUsHeader3: "Applications Prêtes pour l'Avenir",
+
+        whyUsHeader3: "Service Multilingue",
         whyUsText3:
-            "Notre expertise ne s'arrête pas aux sites web. Nous nous préparons également à offrir le développement d'applications mobiles pour les plateformes iOS et Android. Grâce au puissant framework React Native, nous créerons des applications avec des interfaces utilisateur riches et intuitives et une fonctionnalité sans faille. Cette technologie nous permet de concevoir des applications robustes et multiplateformes qui atteignent votre audience où qu'elle soit. À mesure que votre entreprise évolue, nos solutions d'applications prêtes pour l'avenir vous permettront de rester à la pointe de l'innovation numérique.",
-        whyUsHeader4: "Service Multilingue",
-        whyUsText4:
             "La communication est la clé de tout projet réussi, et chez Bel'Azur Coding, nous la rendons simple. Nous proposons nos services en néerlandais, français et anglais. Notre polyvalence linguistique garantit que nous pouvons travailler efficacement avec une gamme diversifiée de clients, locaux et internationaux. Notre engagement envers une communication claire et cohérente signifie que vous serez toujours informé, où que vous soyez dans le monde.",
         allServicesHeader: "Comment pouvons-nous vous aider ?",
         allServicesSubHeader: "Des services adaptés à vos besoins réels",
         allServicesText:
-            "Chez Bel'Azur Coding, nous sommes passionnés par la livraison de solutions exceptionnelles de développement web et d'applications qui aident votre entreprise à se démarquer dans le paysage numérique. Nous adoptons une approche personnalisée pour chaque projet, en veillant à ce que le produit final s'aligne parfaitement sur vos objectifs et votre vision. Des sites web d'une seule page aux plateformes e-commerce complexes et aux applications mobiles à la pointe de la technologie, nous sommes équipés pour donner vie à vos idées.",
+            "Chez Bel'Azur Coding, nous sommes passionnés par la livraison de solutions exceptionnelles de développement web qui aident votre entreprise à se démarquer dans le paysage numérique. Nous adoptons une approche personnalisée pour chaque projet, en veillant à ce que le produit final s'aligne parfaitement sur vos objectifs et votre vision. Des sites web d'une seule page aux plateformes e-commerce complexes, nous sommes équipés pour donner vie à vos idées.",
         vitrineHeader:
             "Des sites web simples et percutants pour votre entreprise.",
         vitrineIntro1:
@@ -286,32 +253,7 @@ const _DESKTOPtext = {
             "Paiements sécurisés",
             "Designs attractifs",
         ],
-        appDevHeader:
-            "Construisez la présence de votre marque dans la paume de la main de vos clients",
-        appDevIntro1:
-            "Nos services de développement d'applications sont parfaits pour les entreprises prêtes à avoir un impact important sur le mobile,",
-        appDevIntro2:
-            "Que vous souhaitiez créer une application de commande de nourriture, rationaliser votre processus de réservation ou lancer quelque chose de tout à fait unique,",
-        appDevIntro3:
-            "nous concevons et réalisons des applications rapides, fiables et faciles à utiliser.",
-        appDevIntro4:
-            "Vos clients bénéficieront d'une expérience fluide sur iOS et Android, et vous disposerez de la technologie nécessaire pour soutenir la croissance de votre entreprise",
-        appDevPerfect: "Parfait pour",
-        appDevBenefitsHeader: "Avantages",
-        appDevBox1:
-            "Il s'agit de donner vie à vos idées dans la paume des mains de vos clients. Nous utilisons React Native, une pile technologique puissante qui nous permet de construire efficacement des applications pour iOS et Android avec une seule base de code. Cela signifie un développement plus rapide, moins de maux de tête liés à la maintenance et des performances cohérentes sur tous les appareils. Nos applications sont conçues sur mesure pour s'adapter à votre entreprise, ce qui garantit qu'elles sont belles et qu'elles fonctionnent parfaitement.",
-        appDevPerfectFor: [
-            "Connexion avec les clients",
-            "Optimisation des processus",
-            "Idées d’applis uniques",
-            "Startups évolutives",
-        ],
-        appDevBenefits: [
-            "Connexion à tout moment",
-            "Automatisation des fonctions clés",
-            "Une seule appli pour tous les appareils",
-            "Expérience utilisateur optimisée",
-        ],
+
         aboutUsHeader: "Présentation de l'équipe",
         aboutLisa:
             "Lisa est la force motrice de Bel'Azur Coding. Sans elle, ce site n'existerait probablement pas. Lisa a un œil pour le design, aime résoudre des questions difficiles et n'hésite pas à relever des défis. Grâce à sa formation chez SheCodes, elle est parfaitement capable de construire des sites web magnifiques, adaptés aux mobiles et interactifs qui présentent votre entreprise sous un nouveau jour.",
@@ -352,7 +294,6 @@ const _DESKTOPtext = {
         onePage: "SINGLE-PAGE WEBSITE",
         multiPage: "MULTI-PAGE WEBSITE",
         ecommerce: "E-COMMERCE",
-        mobileApps: "MOBILE APPS",
         introSubHeader1:
             "Bij Bel'Azur Coding bouwen we websites op maat die even uniek zijn als uw onderneming. Met een passie voor kwaliteit schrijven we elke regel code met zorg en precisie.",
         introSubHeader2:
@@ -371,17 +312,15 @@ const _DESKTOPtext = {
         whyUsHeader2: "Experts in coderen",
         whyUsText2:
             "Bij ons geen shortcuts of one-size-fits-all oplossingen. Wij bouwen uw website helemaal vanaf nul, met de hand geschreven code die uw project naar een hoger niveau tilt. Door deze aanpak kunnen we websites maken die sneller laden, beter beveiligd zijn en volledig op maat gemaakt worden voor uw specifieke noden. Geen gedoe met standaardoplossingen, maar een platform dat mee kan groeien met uw onderneming en toekomstplannen. Bij Bel'Azur Coding kiest u voor betrouwbaarheid, vakmanschap en flexibiliteit. Laat ons uw digitale ambities omzetten in een website die presteert en indruk maakt. Samen bouwen we iets waar u écht trots op kan zijn.",
-        whyUsHeader3: "Innovatieve apps",
+
+        whyUsHeader3: "Taal is onze troef",
         whyUsText3:
-            "We gaan verder dan alleen websites. Binnenkort bouwen we ook mobiele apps op maat, voor zowel iOS als Android. Met het krachtige React Native-framework ontwikkelen we intuïtieve apps met een vlotte werking en een aantrekkelijke, gebruiksvriendelijke interface. Deze technologie laat ons toe robuuste apps te maken die op elk platform presteren en uw klanten bereiken, waar ze ook zijn. Onze oplossingen groeien mee met uw onderneming en houden u altijd aan de top van digitale innovatie. Met Bel'Azur Coding kiest u voor apps die niet alleen werken, maar ook indruk maken. Klaar om de mobiele wereld te veroveren?",
-        whyUsHeader4: "Taal is onze troef",
-        whyUsText4:
             "Bij Bel'Azur Coding geloven we in duidelijke communicatie, in welke taal dan ook. Of u nu Nederlands, Frans of Engels spreekt, wij zorgen ervoor dat iedereen op dezelfde golflengte zit en dat uw project vlekkeloos verloopt. Onze meertalige service maakt samenwerken eenvoudig, of u nu om de hoek zit of aan de andere kant van de wereld. We passen ons aan uw voorkeuren aan en zorgen ervoor dat elke stap in het proces helder wordt gecommuniceerd. Met onze taalkundige veelzijdigheid overbruggen we grenzen en creëren we verbinding. Bij Bel'Azur Coding is taal geen obstakel, maar een brug naar succes. Samen realiseren we uw digitale dromen, zonder compromissen.",
         allServicesHeader: "Hoe we u kunnen helpen:",
         allServicesSubHeader:
             "Diensten gebaseerd op uw daadwerkelijke behoeften",
         allServicesText:
-            "Bij Bel'Azur Coding zijn we gepassioneerd over het leveren van uitzonderlijke web- en app-ontwikkelingsoplossingen die uw bedrijf helpen opvallen in het digitale landschap. We hanteren een persoonlijke aanpak voor elk project, waarbij we ervoor zorgen dat het eindproduct perfect aansluit bij uw doelen en visie. Van single-page websites tot complexe e-commerce platforms en geavanceerde mobiele apps, we zijn uitgerust om uw ideeën tot leven te brengen.",
+            "Bij Bel'Azur Coding zijn we gepassioneerd over het leveren van uitzonderlijke weboplossingen die uw bedrijf helpen opvallen in het digitale landschap. We hanteren een persoonlijke aanpak voor elk project, waarbij we ervoor zorgen dat het eindproduct perfect aansluit bij uw doelen en visie. Van single-page websites tot complexe e-commerce platforms, wij bezitten de kennis om uw ideeën tot leven te brengen.",
         vitrineHeader:
             "Eenvoudige, impactvolle single-page websites voor uw bedrijf.",
         vitrineIntro1:
@@ -456,32 +395,7 @@ const _DESKTOPtext = {
             "Veilige betalingen",
             "Aantrekkelijke, merkgerichte ontwerpen",
         ],
-        appDevHeader:
-            "Bouw de aanwezigheid van uw merk in de handpalm van uw klanten",
-        appDevIntro1:
-            "Onze app-ontwikkelingsservices zijn perfect voor bedrijven die klaar zijn om een grote impact te maken op mobile.",
-        appDevIntro2:
-            "Of je nu een app voor het bestellen van eten wilt maken, je boekingsproces wilt stroomlijnen of iets heel unieks wilt lanceren,",
-        appDevIntro3:
-            "wij ontwerpen en bouwen apps die snel, betrouwbaar en gebruiksvriendelijk zijn.",
-        appDevIntro4:
-            "Uw klanten zullen genieten van een soepele ervaring op zowel iOS als Android, en u beschikt over de technologie om de groei van uw bedrijf te ondersteunen.",
-        appDevPerfect: "Perfect voor",
-        appDevBenefitsHeader: "Voordelen",
-        appDevBox1:
-            "Het gaat erom je ideeën tot leven te brengen in de palm van de hand van je klanten. We gebruiken React Native, een krachtige technologiestack waarmee we efficiënt apps kunnen bouwen voor zowel iOS als Android met slechts één codebase. Dit betekent snellere ontwikkeling, minder onderhoudsproblemen en consistente prestaties op verschillende apparaten. Onze apps worden op maat gemaakt voor uw bedrijf, zodat ze er geweldig uitzien en perfect werken.",
-        appDevPerfectFor: [
-            "Klantencontact",
-            "Procesoptimalisatie",
-            "Unieke app-ideeën",
-            "Schaalbare startups",
-        ],
-        appDevBenefits: [
-            "Altijd verbonden",
-            "Automatisering van kerntaken",
-            "Eén app voor alle apparaten",
-            "Gebruiksvriendelijke ervaring",
-        ],
+
         aboutUsHeader: "Wie zijn wij",
         aboutLisa:
             "Lisa is de drijvende Kracht achter Bel’Azur Coding. Zonder haar had deze website waarschijnlijk niet eens bestaan. Lisa heeft oog voor design, lost graag de moeilijkste vraagstukken op en gaat geen enkele uitdaging uit de weg. Dankzij haar opleiding via SheCodes is zij perfect in staat om mooie, mobile-friendly en interactieve websites te bouwen die uw bedrijf in een nieuw daglicht stellen.",
@@ -523,7 +437,6 @@ const _MOBILEtext = {
         onePage: "ONE-PAGE SITE",
         multiPage: "MULTI-PAGE SITE",
         ecommerce: "E-COMMERCE",
-        mobileApps: "APPS",
         introSubHeader1: "Custom websites tailored to your business.",
         introSubHeader2: "Quality and hand-coded solutions.",
         introSubHeader3: "Your digital dreams, realized.",
@@ -539,16 +452,13 @@ const _MOBILEtext = {
             "Unique code for your business. Stunning, fast, and user-friendly designs on all devices.",
         whyUsHeader2: "Manual Coding",
         whyUsText2: "Hand-crafted sites: fast, secure, scalable, and reliable.",
-        whyUsHeader3: "Future-Ready Apps",
+        whyUsHeader3: "Multilingual Service",
         whyUsText3:
-            "iOS & Android apps with React Native. Reach your audience everywhere.",
-        whyUsHeader4: "Multilingual Service",
-        whyUsText4:
             "We communicate in Dutch, French, and English, ensuring clarity for every client.",
         allServicesHeader: "How we help",
         allServicesSubHeader: "Services tailored to your needs",
         allServicesText:
-            "We deliver personalized websites and apps to help your business stand out. From simple sites to complex platforms, we bring your ideas to life.",
+            "We deliver personalized websites to help your business stand out. From simple sites to complex platforms, we bring your ideas to life.",
         vitrineHeader: "Simple, impactful websites.",
         vitrineIntro1: "Affordable design: front and contact pages.",
         vitrineIntro2: "Introduce your business, services, and more.",
@@ -611,27 +521,7 @@ const _MOBILEtext = {
             "Secure payments",
             "Branded, attractive designs",
         ],
-        appDevHeader: "Mobile presence for your brand.",
-        appDevIntro1: "Apps that make an impact.",
-        appDevIntro2: "From food orders to unique solutions.",
-        appDevIntro3: "Fast, reliable, and user-friendly apps.",
-        appDevIntro4: "Support business growth on iOS and Android.",
-        appDevPerfect: "Ideal for",
-        appDevBenefitsHeader: "Benefits",
-        appDevBox1:
-            "Custom React Native apps: efficient, scalable, and seamless on iOS & Android.",
-        appDevPerfectFor: [
-            "Connecting with customers",
-            "Streamlining processes",
-            "Unique app ideas",
-            "Scalable startups",
-        ],
-        appDevBenefits: [
-            "Stay connected anytime",
-            "Automated key functions",
-            "One app for all devices",
-            "User-friendly experience",
-        ],
+
         aboutUsHeader: "Het team",
         aboutLisa:
             "Lisa is the driving force behind Bel'Azur Coding. Without her, this site probably wouldn’t exist. Lisa has an eye for design, loves solving tough challenges, and doesn’t shy away from tackling difficulties. Thanks to her training at SheCodes, she is perfectly capable of building beautiful, mobile-friendly, and interactive websites that showcase your business in a new light.",
@@ -670,7 +560,6 @@ const _MOBILEtext = {
         onePage: "SITE ONE-PAGE",
         multiPage: "SITE MULTI-PAGE",
         ecommerce: "E-COMMERCE",
-        mobileApps: "APPLIS",
         introSubHeader1: "Des sites adaptés à votre activité.",
         introSubHeader2: "Solutions sur mesure.",
         introSubHeader3: "Vos rêves numériques en realité.",
@@ -682,21 +571,17 @@ const _MOBILEtext = {
         philosophyClosing:
             "< Transformons vos idées en une expérience exceptionnelle />",
         whyUsHeader1: "Développement personnalisé",
-        whyUsText1:
-            "Code unique, designs modernes, rapides et sur mesure.",
+        whyUsText1: "Code unique, designs modernes, rapides et sur mesure.",
         whyUsHeader2: "Code manuel",
         whyUsText2:
             "Des sites faits à la main : rapides, sécurisés et fiables.",
-        whyUsHeader3: "Applications prêtes pour l’avenir",
+        whyUsHeader3: "Service multilingue",
         whyUsText3:
-            "Applis iOS & Android avec React Native. Touchez votre audience partout.",
-        whyUsHeader4: "Service multilingue",
-        whyUsText4:
             "Nous communiquons en français, anglais et néerlandais pour une clarté optimale.",
         allServicesHeader: "Comment nous aidons",
         allServicesSubHeader: "Des services adaptés à vos besoins",
         allServicesText:
-            "Sites et applis personnalisés pour mettre en valeur votre entreprise.",
+            "Sites personnalisés pour mettre en valeur votre entreprise.",
         vitrineHeader: "Sites simples et impactants.",
         vitrineIntro1: "Design abordable : page d'accueil et contact.",
         vitrineIntro2: "Présentez votre activité, vos services, etc.",
@@ -756,27 +641,7 @@ const _MOBILEtext = {
             "Paiements sécurisés",
             "Designs attractifs",
         ],
-        appDevHeader: "Présence mobile pour votre marque.",
-        appDevIntro1: "Applis à fort impact.",
-        appDevIntro2: "Pour commandes ou solutions uniques.",
-        appDevIntro3: "Applis rapides et fiables.",
-        appDevIntro4: "Soutenez votre croissance sur iOS et Android.",
-        appDevPerfect: "Parfait pour",
-        appDevBenefitsHeader: "Avantages",
-        appDevBox1:
-            "Applis React Native sur mesure : performantes et évolutives.",
-        appDevPerfectFor: [
-            "Connexion avec les clients",
-            "Optimisation des processus",
-            "Idées d’applis uniques",
-            "Startups évolutives",
-        ],
-        appDevBenefits: [
-            "Connexion à tout moment",
-            "Automatisation des fonctions clés",
-            "Une seule appli pour tous les appareils",
-            "Expérience utilisateur optimisée",
-        ],
+
         aboutUsHeader: "L'equipe",
         aboutLisa:
             "Lisa est la force motrice de Bel'Azur Coding. Sans elle, ce site n'existerait probablement pas. Lisa a un œil pour le design, aime résoudre des questions difficiles et n'hésite pas à relever des défis. Grâce à sa formation chez SheCodes, elle est parfaitement capable de construire des sites web magnifiques, adaptés aux mobiles et interactifs qui présentent votre entreprise sous un nouveau jour.",
@@ -816,7 +681,6 @@ const _MOBILEtext = {
         onePage: "ONE-PAGE WEBSITE",
         multiPage: "MULTI-PAGE WEBSITE",
         ecommerce: "E-COMMERCE",
-        mobileApps: "APPS",
         introSubHeader1: "Op maat gemaakte websites voor uw bedrijf.",
         introSubHeader2: "Kwaliteit en handgemaakte oplossingen.",
         introSubHeader3: "Uw digitale dromen, gerealiseerd.",
@@ -833,16 +697,13 @@ const _MOBILEtext = {
         whyUsHeader2: "Handmatige Code",
         whyUsText2:
             "Handgemaakte sites: snel, veilig, schaalbaar en betrouwbaar.",
-        whyUsHeader3: "Toekomstklare Apps",
+        whyUsHeader3: "Meertalige Service",
         whyUsText3:
-            "iOS & Android-apps met React Native. Bereik uw publiek overal.",
-        whyUsHeader4: "Meertalige Service",
-        whyUsText4:
             "We communiceren in Nederlands, Frans en Engels voor duidelijke samenwerking.",
         allServicesHeader: "Hoe we helpen",
         allServicesSubHeader: "Diensten op maat voor uw behoeften",
         allServicesText:
-            "We leveren gepersonaliseerde websites en apps om uw bedrijf te onderscheiden.",
+            "We leveren gepersonaliseerde websites om uw bedrijf te onderscheiden van de rest.",
         vitrineHeader: "Eenvoudige, impactvolle websites.",
         vitrineIntro1: "Betaalbaar ontwerp: homepagina en contactpagina.",
         vitrineIntro2: "Stel uw bedrijf, diensten en meer voor.",
@@ -905,26 +766,7 @@ const _MOBILEtext = {
             "Veilige betalingen",
             "Aantrekkelijke, merkgerichte ontwerpen",
         ],
-        appDevHeader: "Mobiele aanwezigheid voor uw merk.",
-        appDevIntro1: "Apps die een verschil maken.",
-        appDevIntro2: "Voor bestellingen of unieke oplossingen.",
-        appDevIntro3: "Snel, betrouwbaar en gebruiksvriendelijk.",
-        appDevIntro4: "Ondersteun uw groei op iOS en Android.",
-        appDevPerfect: "Ideaal voor",
-        appDevBenefitsHeader: "Voordelen",
-        appDevBox1: "Aangepaste React Native-apps: efficiënt en schaalbaar.",
-        appDevPerfectFor: [
-            "Klantencontact",
-            "Procesoptimalisatie",
-            "Unieke app-ideeën",
-            "Schaalbare startups",
-        ],
-        appDevBenefits: [
-            "Altijd verbonden",
-            "Automatisering van kerntaken",
-            "Eén app voor alle apparaten",
-            "Gebruiksvriendelijke ervaring",
-        ],
+
         aboutUsHeader: "The team",
         aboutLisa:
             "Lisa is the driving force behind Bel'Azur Coding. Without her, this site probably wouldn’t exist. Lisa has an eye for design, loves solving tough challenges, and doesn’t shy away from tackling difficulties. Thanks to her training at SheCodes, she is perfectly capable of building beautiful, mobile-friendly, and interactive websites that showcase your business in a new light.",
@@ -951,19 +793,6 @@ const _MOBILEtext = {
         contactEmailSentSuccess: "E-mail verzonden!",
         contactEmailSentError: "E-mail verzenden mislukt. Probeer opnieuw.",
     },
-};
-
-const text = _DESKTOPtext;
-
-const screenWidth = window.innerWidth;
-
-console.log(screenWidth);
-
-const determineSize = () => {
-    if (screenWidth <= 1023) {
-        return text == _MOBILEtext;
-    }
-    return text == _DESKTOPtext;
 };
 
 export const MyProvider = ({ children }) => {

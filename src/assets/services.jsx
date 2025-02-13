@@ -4,13 +4,10 @@ import MyContext from "../context/context";
 import Vitrine from "./vitrine";
 import Website from "./website";
 import Ecommerce from "./ecommerce";
-import AppDevelopment from "./appdevelopment";
 
 
 const Services = () => {
     const { page, setPage } = useContext(MyContext);
-
-    console.log(page);
 
     return (
         <>
@@ -19,7 +16,6 @@ const Services = () => {
                 {page === "onepager" && <Vitrine />}
                 {page === "multipager" && <Website />}
                 {page === "ecommerce" && <Ecommerce />}
-                {page === "apps" && <AppDevelopment />}
             </div>
         </>
     );

@@ -45,8 +45,8 @@ button:hover {
 .button-home {
     margin-top: 60px;
     margin-bottom: 100px;
-    padding: 10px 20px;
-    width: 10vw;
+    padding: 20px 40px;
+    width: auto;
 }
 
 .button-contact {
@@ -188,6 +188,10 @@ label {
     color: white;
     height: 95%;
 }
+
+.serviceIntro h1 {
+    margin-bottom: 32px;
+}
 .services {
     font-size: 20px;
     font-style: italic;
@@ -228,6 +232,15 @@ label {
 }
 
 @media (max-width: 1023px) {
+    .whyUs p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .whyUsSmall {
+        padding-bottom: 10px;
+    }
+    
     .aboutUs {
         border: none;
         padding-left: 25px;
@@ -235,7 +248,7 @@ label {
     .button-home {
         margin-top: 20px;
         margin-bottom: 60px;
-        width: 90vw;
+        width: 80vw;
     }
     h1 {
         font-size: 28px;
