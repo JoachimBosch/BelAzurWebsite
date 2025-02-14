@@ -66,7 +66,7 @@ const Navbar = () => {
                         <button
                             type="button"
                             onClick={() => setMobileMenuOpen(false)}
-                            className="-m-2.5 rounded-md p-2.5 text-gray-700"
+                            className="-m-2.5 rounded-md pt-4 text-gray-700"
                         >
                             <span className="sr-only">Close menu</span>
                             <XMarkIcon
@@ -108,48 +108,50 @@ const Navbar = () => {
                                     </Link>
                                 </button>
                             </div>
-                            <div className="pt-8">
-                                <p className="-mx-3 block text-center rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white">
-                                    {text[language].navbarLanguage}
-                                </p>
-                            </div>
-                            <div className="flex justify-evenly pt-4 social-links">
-                                <button
-                                    onClick={() => {
-                                        setLanguage("french");
-                                    }}
-                                >
-                                    <img
-                                        src={fr}
-                                        alt="Français"
-                                        title="Français"
-                                        style={{ height: "30px" }}
-                                    />
-                                </button>
-                                <button
-                                    onClick={() => {
-                                        setLanguage("english");
-                                    }}
-                                >
-                                    <img
-                                        src={en}
-                                        alt="English"
-                                        title="English"
-                                        style={{ height: "30px" }}
-                                    />
-                                </button>
-                                <button
-                                    onClick={() => {
-                                        setLanguage("dutch");
-                                    }}
-                                >
-                                    <img
-                                        src={nl}
-                                        alt="Nederlands"
-                                        title="Nederlands"
-                                        style={{ height: "30px" }}
-                                    />
-                                </button>
+                            <div>
+                                <div className="pt-8">
+                                    <p className="-mx-3 block text-center rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white">
+                                        {text[language].navbarLanguage}
+                                    </p>
+                                </div>
+                                <div className="flex justify-evenly pt-4 social-links">
+                                    <button
+                                        onClick={() => {
+                                            setLanguage("french");
+                                        }}
+                                    >
+                                        <img
+                                            src={fr}
+                                            alt="Français"
+                                            title="Français"
+                                            style={{ height: "30px" }}
+                                        />
+                                    </button>
+                                    <button
+                                        onClick={() => {
+                                            setLanguage("english");
+                                        }}
+                                    >
+                                        <img
+                                            src={en}
+                                            alt="English"
+                                            title="English"
+                                            style={{ height: "30px" }}
+                                        />
+                                    </button>
+                                    <button
+                                        onClick={() => {
+                                            setLanguage("dutch");
+                                        }}
+                                    >
+                                        <img
+                                            src={nl}
+                                            alt="Nederlands"
+                                            title="Nederlands"
+                                            style={{ height: "30px" }}
+                                        />
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>

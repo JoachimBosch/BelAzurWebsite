@@ -1,9 +1,8 @@
-import { Link } from "react-router-dom";
 import WhyUs from "../components/whyUs";
 import Typewriter from "typewriter-effect";
 import GetInTouch from "../components/getintouch";
 import MailUs from "../components/mailUs";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import MyContext from "../context/context";
 
 const Home = () => {

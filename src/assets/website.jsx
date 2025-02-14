@@ -1,7 +1,5 @@
-import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
-import ServiceButton from "../components/serviceButton";
 import GetInTouch from "../components/getintouch";
 import MailUs from "../components/mailUs";
 import { useContext } from "react";
@@ -13,10 +11,10 @@ const Website = () => {
 
     return (
         <>
-            <div className="serviceIntro mx-auto px-4">
+            <div className="services serviceIntro mx-auto px-4">
                 <div className="flex flex-col items-center text-center">
                     <h1 className="mb-4">{text[language].websiteHeader}</h1>
-
+                    <h2 className="mb-8">{text[language].websitePrice}</h2>
                     <p>
                         {text[language].websiteIntro1}
                         <br />
@@ -81,7 +79,6 @@ const Website = () => {
                 </div>
             </div>
             <GetInTouch />
-            <ServiceButton />
         </>
     );
 };

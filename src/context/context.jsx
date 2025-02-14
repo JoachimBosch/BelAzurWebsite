@@ -37,11 +37,11 @@ const _DESKTOPtext = {
         whyUsHeader3: "Multilingual Service",
         whyUsText3:
             "Communication is key to any successful project, and at Bel'Azur Coding, we make it effortless. We provide services in Dutch, French, and English. Our linguistic versatility ensures that we can work efficiently with a diverse range of clients, catering to both local and international businesses. Our commitment to clear, consistent communication means you'll always be in the loop, no matter where you are in the world.",
-        allServicesHeader: "Discover how we can help you",
         allServicesSubHeader: "Services based on your actual needs",
         allServicesText:
             "At Bel'Azur Coding, we are passionate about delivering exceptional web development solutions that help your business stand out in the digital landscape. We take a personalized approach to every project, ensuring that the final product aligns perfectly with your goals and vision. From single-page websites to complex e-commerce platforms, we are equipped to bring your ideas to life.",
         vitrineHeader: "Simple, Impactful One-Page Websites for Your Business.",
+        vitrinePrice: "Your online experience from €750 excl. VAT",
         vitrineIntro1:
             "A one-page website is a simple concept. It's an affordable web design that actually consists of two pages: a front page and a contact page.",
         vitrineIntro2:
@@ -67,6 +67,7 @@ const _DESKTOPtext = {
         ],
         websiteHeader:
             "Tailored Multi-Page Websites That Grow With Your Business",
+        websitePrice: "Full online visibility starting from €1850 excl. VAT",
         websiteIntro1:
             "A multi-page website is ideal for businesses that need to present a lot of information in an organized, engaging way.",
         websiteIntro2:
@@ -91,6 +92,7 @@ const _DESKTOPtext = {
         ],
         ecommerceHeader:
             "Drive Sales and Reach New Customers with a Seamless Online Shopping Experience",
+        ecommercePrice: "Price available on demand",
         ecommerceIntro1:
             "E-commerce websites are designed to help you start selling online easily and effectively.",
         ecommerceIntro2:
@@ -114,7 +116,7 @@ const _DESKTOPtext = {
             "Secure payments",
             "Branded, attractive designs",
         ],
-        aboutUsHeader: "Meet the team",
+        aboutUsHeader: "Who are we?",
         aboutLisa:
             "Lisa is the driving force behind Bel'Azur Coding. Without her, this website would probably not even exist. Lisa has an eye for design, enjoys solving the most difficult questions and does not shy away from any challenge. Thanks to her studies through SheCodes, she is perfectly capable of building beautiful, mobile-friendly and interactive websites that put your company into a new light.",
         aboutJoachim:
@@ -175,12 +177,12 @@ const _DESKTOPtext = {
         whyUsHeader3: "Service Multilingue",
         whyUsText3:
             "La communication est la clé de tout projet réussi, et chez Bel'Azur Coding, nous la rendons simple. Nous proposons nos services en néerlandais, français et anglais. Notre polyvalence linguistique garantit que nous pouvons travailler efficacement avec une gamme diversifiée de clients, locaux et internationaux. Notre engagement envers une communication claire et cohérente signifie que vous serez toujours informé, où que vous soyez dans le monde.",
-        allServicesHeader: "Comment pouvons-nous vous aider ?",
         allServicesSubHeader: "Des services adaptés à vos besoins réels",
         allServicesText:
             "Chez Bel'Azur Coding, nous sommes passionnés par la livraison de solutions exceptionnelles de développement web qui aident votre entreprise à se démarquer dans le paysage numérique. Nous adoptons une approche personnalisée pour chaque projet, en veillant à ce que le produit final s'aligne parfaitement sur vos objectifs et votre vision. Des sites web d'une seule page aux plateformes e-commerce complexes, nous sommes équipés pour donner vie à vos idées.",
         vitrineHeader:
             "Des sites web simples et percutants pour votre entreprise.",
+        vitrinePrice: "Votre expérience en ligne à partir de 750€ HT",
         vitrineIntro1:
             "Un site web d'une page est un concept simple. C'est une conception web abordable qui se compose en réalité de deux pages : une page d'accueil et une page de contact.",
         vitrineIntro2:
@@ -206,6 +208,7 @@ const _DESKTOPtext = {
         ],
         websiteHeader:
             "Des sites web multi-pages qui évoluent avec votre entreprise",
+        websitePrice: "Visibilité totale à partir de 1850€ HT",
         websiteIntro1:
             "Un site Web multi-pages est idéal pour les entreprises qui ont besoin de présenter beaucoup d'informations d'une manière organisée et attrayante,",
         websiteIntro2:
@@ -230,6 +233,7 @@ const _DESKTOPtext = {
         ],
         ecommerceHeader:
             "Stimuler les ventes et atteindre de nouveaux clients grâce à une expérience d'achat en ligne transparente",
+        ecommercePrice: "Prix ​​disponible sur demande",
         ecommerceIntro1:
             "Les sites de commerce électronique sont conçus pour vous aider à vendre en ligne facilement et efficacement.",
         ecommerceIntro2:
@@ -254,7 +258,7 @@ const _DESKTOPtext = {
             "Designs attractifs",
         ],
 
-        aboutUsHeader: "Présentation de l'équipe",
+        aboutUsHeader: "Qui sommes nous ?",
         aboutLisa:
             "Lisa est la force motrice de Bel'Azur Coding. Sans elle, ce site n'existerait probablement pas. Lisa a un œil pour le design, aime résoudre des questions difficiles et n'hésite pas à relever des défis. Grâce à sa formation chez SheCodes, elle est parfaitement capable de construire des sites web magnifiques, adaptés aux mobiles et interactifs qui présentent votre entreprise sous un nouveau jour.",
         aboutJoachim:
@@ -286,7 +290,7 @@ const _DESKTOPtext = {
         serviceButton: "TERUG NAAR ALLE DIENSTEN",
         getInTouch: "Bel ons vandaag",
         mailUs: "Contacteer ons",
-        navbarItem1: "THUIS",
+        navbarItem1: "HOME",
         navbarItem2: "DIENSTEN",
         navbarItem3: "OVER ONS",
         navbarItem4: "CONTACT",
@@ -316,13 +320,13 @@ const _DESKTOPtext = {
         whyUsHeader3: "Taal is onze troef",
         whyUsText3:
             "Bij Bel'Azur Coding geloven we in duidelijke communicatie, in welke taal dan ook. Of u nu Nederlands, Frans of Engels spreekt, wij zorgen ervoor dat iedereen op dezelfde golflengte zit en dat uw project vlekkeloos verloopt. Onze meertalige service maakt samenwerken eenvoudig, of u nu om de hoek zit of aan de andere kant van de wereld. We passen ons aan uw voorkeuren aan en zorgen ervoor dat elke stap in het proces helder wordt gecommuniceerd. Met onze taalkundige veelzijdigheid overbruggen we grenzen en creëren we verbinding. Bij Bel'Azur Coding is taal geen obstakel, maar een brug naar succes. Samen realiseren we uw digitale dromen, zonder compromissen.",
-        allServicesHeader: "Hoe we u kunnen helpen:",
         allServicesSubHeader:
             "Diensten gebaseerd op uw daadwerkelijke behoeften",
         allServicesText:
             "Bij Bel'Azur Coding zijn we gepassioneerd over het leveren van uitzonderlijke weboplossingen die uw bedrijf helpen opvallen in het digitale landschap. We hanteren een persoonlijke aanpak voor elk project, waarbij we ervoor zorgen dat het eindproduct perfect aansluit bij uw doelen en visie. Van single-page websites tot complexe e-commerce platforms, wij bezitten de kennis om uw ideeën tot leven te brengen.",
         vitrineHeader:
             "Eenvoudige, impactvolle single-page websites voor uw bedrijf.",
+        vitrinePrice: "Uw online ervaring vanaf € 750,- excl. BTW",
         vitrineIntro1:
             "Een single-page website is een eenvoudig concept. Het is een betaalbaar webdesign dat eigenlijk uit twee pagina's bestaat: een voorpagina en een contactpagina.",
         vitrineIntro2:
@@ -348,6 +352,7 @@ const _DESKTOPtext = {
         ],
         websiteHeader:
             "Op maat gemaakte Multi-Page Websites die meegroeien met uw bedrijf",
+        websitePrice: "Volledige online zichtbaarheid vanaf € 1850,- excl. BTW",
         websiteIntro1:
             "Een website met meerdere pagina's is ideaal voor bedrijven die veel informatie op een georganiseerde, boeiende manier moeten presenteren.",
         websiteIntro2:
@@ -372,6 +377,7 @@ const _DESKTOPtext = {
         ],
         ecommerceHeader:
             "Verkoop stimuleren en nieuwe klanten bereiken met een naadloze online winkelervaring",
+        ecommercePrice: "Prijs op aanvraag",
         ecommerceIntro1:
             "E-commerce websites zijn ontworpen om u te helpen eenvoudig en effectief te beginnen met online verkopen.",
         ecommerceIntro2:
@@ -396,7 +402,7 @@ const _DESKTOPtext = {
             "Aantrekkelijke, merkgerichte ontwerpen",
         ],
 
-        aboutUsHeader: "Wie zijn wij",
+        aboutUsHeader: "Wie zijn wij?",
         aboutLisa:
             "Lisa is de drijvende Kracht achter Bel’Azur Coding. Zonder haar had deze website waarschijnlijk niet eens bestaan. Lisa heeft oog voor design, lost graag de moeilijkste vraagstukken op en gaat geen enkele uitdaging uit de weg. Dankzij haar opleiding via SheCodes is zij perfect in staat om mooie, mobile-friendly en interactieve websites te bouwen die uw bedrijf in een nieuw daglicht stellen.",
         aboutJoachim:
@@ -455,11 +461,11 @@ const _MOBILEtext = {
         whyUsHeader3: "Multilingual Service",
         whyUsText3:
             "We communicate in Dutch, French, and English, ensuring clarity for every client.",
-        allServicesHeader: "How we help",
         allServicesSubHeader: "Services tailored to your needs",
         allServicesText:
             "We deliver personalized websites to help your business stand out. From simple sites to complex platforms, we bring your ideas to life.",
         vitrineHeader: "Simple, impactful websites.",
+        vitrinePrice: "Starting from €750 excl. VAT",
         vitrineIntro1: "Affordable design: front and contact pages.",
         vitrineIntro2: "Introduce your business, services, and more.",
         vitrineIntro3: "Easy contact options: forms, links, and more.",
@@ -481,6 +487,7 @@ const _MOBILEtext = {
             "Mobile-friendly design",
         ],
         websiteHeader: "Websites that grow with you.",
+        websitePrice: "Starting from €1850 excl. VAT",
         websiteIntro1: "Ideal for detailed, organized business info.",
         websiteIntro2: "From services to resources, showcase your work.",
         websiteIntro3: "Easy to navigate and explore.",
@@ -501,6 +508,7 @@ const _MOBILEtext = {
             "Scalable design for growth",
         ],
         ecommerceHeader: "Boost sales with seamless online shopping.",
+        ecommercePrice: "Price on demand",
         ecommerceIntro1: "Easy, effective e-commerce sites.",
         ecommerceIntro2: "From local shops to global brands.",
         ecommerceIntro3: "Secure, user-friendly stores for smooth management.",
@@ -522,7 +530,7 @@ const _MOBILEtext = {
             "Branded, attractive designs",
         ],
 
-        aboutUsHeader: "Het team",
+        aboutUsHeader: "Who are we?",
         aboutLisa:
             "Lisa is the driving force behind Bel'Azur Coding. Without her, this site probably wouldn’t exist. Lisa has an eye for design, loves solving tough challenges, and doesn’t shy away from tackling difficulties. Thanks to her training at SheCodes, she is perfectly capable of building beautiful, mobile-friendly, and interactive websites that showcase your business in a new light.",
         aboutJoachim:
@@ -578,11 +586,11 @@ const _MOBILEtext = {
         whyUsHeader3: "Service multilingue",
         whyUsText3:
             "Nous communiquons en français, anglais et néerlandais pour une clarté optimale.",
-        allServicesHeader: "Comment nous aidons",
         allServicesSubHeader: "Des services adaptés à vos besoins",
         allServicesText:
             "Sites personnalisés pour mettre en valeur votre entreprise.",
         vitrineHeader: "Sites simples et impactants.",
+        vitrinePrice: "à partir de 750€ HT",
         vitrineIntro1: "Design abordable : page d'accueil et contact.",
         vitrineIntro2: "Présentez votre activité, vos services, etc.",
         vitrineIntro3: "Options de contact faciles : formulaires, liens, etc.",
@@ -603,6 +611,7 @@ const _MOBILEtext = {
             "Design adapté au mobile",
         ],
         websiteHeader: "Sites qui évoluent avec vous.",
+        websitePrice: "à partir de 1850€ HT",
         websiteIntro1: "Idéal pour des infos détaillées et organisées.",
         websiteIntro2: "Présentez vos services et ressources.",
         websiteIntro3: "Navigation simple et intuitive.",
@@ -622,6 +631,7 @@ const _MOBILEtext = {
             "Design évolutif",
         ],
         ecommerceHeader: "Boostez vos ventes en ligne.",
+        ecommercePrice: "Prix ​​disponible sur demande",
         ecommerceIntro1: "Sites e-commerce simples et efficaces.",
         ecommerceIntro2: "Pour les boutiques locales et marques globales.",
         ecommerceIntro3: "Boutiques sécurisées et conviviales.",
@@ -642,7 +652,7 @@ const _MOBILEtext = {
             "Designs attractifs",
         ],
 
-        aboutUsHeader: "L'equipe",
+        aboutUsHeader: "Qui sommes nous ?",
         aboutLisa:
             "Lisa est la force motrice de Bel'Azur Coding. Sans elle, ce site n'existerait probablement pas. Lisa a un œil pour le design, aime résoudre des questions difficiles et n'hésite pas à relever des défis. Grâce à sa formation chez SheCodes, elle est parfaitement capable de construire des sites web magnifiques, adaptés aux mobiles et interactifs qui présentent votre entreprise sous un nouveau jour.",
         aboutJoachim:
@@ -700,11 +710,11 @@ const _MOBILEtext = {
         whyUsHeader3: "Meertalige Service",
         whyUsText3:
             "We communiceren in Nederlands, Frans en Engels voor duidelijke samenwerking.",
-        allServicesHeader: "Hoe we helpen",
         allServicesSubHeader: "Diensten op maat voor uw behoeften",
         allServicesText:
             "We leveren gepersonaliseerde websites om uw bedrijf te onderscheiden van de rest.",
         vitrineHeader: "Eenvoudige, impactvolle websites.",
+        vitrinePrice: "Vanaf € 750,- excl. BTW",
         vitrineIntro1: "Betaalbaar ontwerp: homepagina en contactpagina.",
         vitrineIntro2: "Stel uw bedrijf, diensten en meer voor.",
         vitrineIntro3: "Eenvoudige contactopties: formulieren, links, enz.",
@@ -725,6 +735,7 @@ const _MOBILEtext = {
             "Mobielvriendelijk ontwerp",
         ],
         websiteHeader: "Websites die met u meegroeien.",
+        websitePrice: "Vanaf € 1850,- excl. BTW",
         websiteIntro1:
             "Ideaal voor gedetailleerde en georganiseerde bedrijfsinformatie.",
         websiteIntro2: "Van diensten tot resources, toon uw werk.",
@@ -746,6 +757,7 @@ const _MOBILEtext = {
             "Schaalbaar ontwerp",
         ],
         ecommerceHeader: "Verhoog uw verkoop met online shoppen.",
+        ecommercePrice: "Prijs op aanvraag",
         ecommerceIntro1: "Eenvoudige en effectieve e-commerce sites.",
         ecommerceIntro2: "Van lokale winkels tot wereldwijde merken.",
         ecommerceIntro3: "Veilige en gebruiksvriendelijke winkels.",
@@ -796,7 +808,6 @@ const _MOBILEtext = {
 };
 
 export const MyProvider = ({ children }) => {
-    const [page, setPage] = useState("allServices");
     const [language, setLanguage] = useState(() => {
         if (typeof window !== "undefined") {
             return localStorage.getItem("userLanguage") || "french";
@@ -832,8 +843,6 @@ export const MyProvider = ({ children }) => {
 
     /* Add all variables to appContext to sync them in the entire application */
     let appContext = {
-        page,
-        setPage,
         language,
         setLanguage,
         text,
