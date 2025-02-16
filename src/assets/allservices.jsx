@@ -10,7 +10,7 @@ const AllServices = () => {
 
     return (
         <>
-            <div className="services serviceIntro" style={{ height: "95vh" }}>
+            <div className="services serviceIntro">
                 <div className="flex flex-wrap justify-center">
                     <button className="allServicesButton">
                         <Link to="/services/single">
@@ -38,7 +38,7 @@ const AllServices = () => {
                     </button>
                 </div>
                 <div
-                    className="text-center serviceIntro mx-auto mb-12"
+                    className="text-center mx-auto my-12"
                     style={{ maxWidth: "1280px" }}
                 >
                     <h1 className="text-center pt-8">
