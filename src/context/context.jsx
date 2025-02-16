@@ -839,11 +839,11 @@ export const MyProvider = ({ children }) => {
         if (screenWidth <= 1023) {
             setText(_MOBILEtext);
             setLogoWidth("40px");
-            setLogoHeight("40px")
+            setLogoHeight("40px");
         } else {
             setText(_DESKTOPtext);
             setLogoWidth("80px");
-            setLogoHeight("80px")
+            setLogoHeight("80px");
         }
     }, [screenWidth]);
 

@@ -6,10 +6,24 @@ const Footer = () => {
             <div className="footer">
                 <div className="reference text-center">
                     <p>Bel'Azur Coding © 2025 -</p>&nbsp;
-                    <Link className="hover:underline" to="/mentions-legales">Mentions légales</Link>
+                    <Link
+                        className="hover:underline"
+                        to="/mentions-legales"
+                        onClick={() => {
+                            window.scroll(0, 0);
+                        }}
+                    >
+                        Mentions légales
+                    </Link>
                     &nbsp;&&nbsp;
-                    <Link className="hover:underline" to="/cgu">
-                    CGU
+                    <Link
+                        className="hover:underline"
+                        to="/cgu"
+                        onClick={() => {
+                            window.scroll(0, 0);
+                        }}
+                    >
+                        CGU
                     </Link>
                 </div>
             </div>

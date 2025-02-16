@@ -13,7 +13,12 @@ const AllServices = () => {
             <div className="services serviceIntro">
                 <div className="flex flex-wrap justify-center">
                     <button className="allServicesButton">
-                        <Link to="/services/single">
+                        <Link
+                            to="/services/single"
+                            onClick={() => {
+                                window.scroll(0, 0);
+                            }}
+                        >
                             <img src={onepager} />
                             <p className="serviceHeader">
                                 {text[language].onePage}
@@ -21,7 +26,12 @@ const AllServices = () => {
                         </Link>
                     </button>
                     <button className="allServicesButton">
-                        <Link to="/services/multi">
+                        <Link
+                            to="/services/multi"
+                            onClick={() => {
+                                window.scroll(0, 0);
+                            }}
+                        >
                             <img src={multipage} />
                             <p className="serviceHeader">
                                 {text[language].multiPage}
@@ -29,7 +39,12 @@ const AllServices = () => {
                         </Link>
                     </button>
                     <button className="allServicesButton">
-                        <Link to="/services/ecommerce">
+                        <Link
+                            to="/services/ecommerce"
+                            onClick={() => {
+                                window.scroll(0, 0);
+                            }}
+                        >
                             <img src={webshop} />
                             <p className="serviceHeader">
                                 {text[language].ecommerce}
