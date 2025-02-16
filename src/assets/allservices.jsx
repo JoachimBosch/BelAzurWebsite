@@ -38,7 +38,7 @@ const AllServices = () => {
                     </button>
                 </div>
                 <div
-                    className="text-center serviceIntro mx-auto"
+                    className="text-center serviceIntro mx-auto mb-12"
                     style={{ maxWidth: "1280px" }}
                 >
                     <h1 className="text-center pt-8">
