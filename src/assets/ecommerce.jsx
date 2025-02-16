@@ -45,7 +45,7 @@ const Ecommerce = () => {
                     className="perfectBenefits gap-4 mx-auto"
                     style={{ maxWidth: "1240px" }}
                 >
-                    <div className="border p-4">
+                    <div className="border p-4 mb-12">
                         <h2>{text[language].ecommercePerfect}</h2>
                         <div className="mx-auto ">
                             <FontAwesomeIcon icon={faCheck} />{" "}
@@ -62,7 +62,7 @@ const Ecommerce = () => {
                             <br />
                         </div>
                     </div>
-                    <div className="border p-4">
+                    <div className="border p-4 mb-12">
                         <h2>{text[language].ecommerceBenefitsHeader}</h2>
                         <div className="mx-auto ">
                             <FontAwesomeIcon icon={faCheck} />{" "}
@@ -80,8 +80,7 @@ const Ecommerce = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mt-10 text-center"></div>
-                <GetInTouch />
+
             </div>
         </>
     );

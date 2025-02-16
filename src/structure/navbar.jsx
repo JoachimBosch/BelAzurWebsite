@@ -1,6 +1,6 @@
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import Azur from "../../public/media/img/Azur.png";
 import fr from "../../public/media/img/fr.png";
 import en from "../../public/media/img/en.png";
@@ -21,6 +21,8 @@ const Navbar = () => {
         { name: text[language].navbarItem3, href: "/about" },
         { name: text[language].navbarItem4, href: "/contact" },
     ];
+
+
 
     return (
         <header className="absolute inset-x-0 top-0 z-100 transition-all duration-300 ">
@@ -46,8 +48,8 @@ const Navbar = () => {
                         <span className="sr-only">Open main menu</span>
                         <img
                             src={MENU}
-                            className="menu"
-                            style={{ width: "50px", height: "50px" }}
+                            className="menu pt-4 me-4"
+                            style={{ width: "80px", height: "80px" }}
                         />
                     </button>
                 </div>

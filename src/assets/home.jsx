@@ -1,6 +1,5 @@
 import WhyUs from "../components/whyUs";
 import Typewriter from "typewriter-effect";
-import GetInTouch from "../components/getintouch";
 import MailUs from "../components/mailUs";
 import { useContext, useEffect } from "react";
 import MyContext from "../context/context";
@@ -38,8 +37,8 @@ const Home = () => {
                         {text[language].introSubHeader3}
                     </h2>
                 </div>
-                <div className="text-center">
-                    <GetInTouch />
+                <div className="pb-12">
+                    <MailUs />
                 </div>
                 <div>
                     <WhyUs />
@@ -59,9 +58,7 @@ const Home = () => {
                         {text[language].philosophyClosing}
                     </h2>
                 </div>
-                <div className="pb-12">
-                    <MailUs />
-                </div>
+
             </div>
         </>
     );

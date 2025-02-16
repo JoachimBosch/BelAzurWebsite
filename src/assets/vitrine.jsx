@@ -46,7 +46,7 @@ const Vitrine = () => {
                     className="perfectBenefits gap-4 mx-auto"
                     style={{ maxWidth: "1240px" }}
                 >
-                    <div className="border p-4">
+                    <div className="border p-4 mb-12">
                         <h2>{text[language].vitrinePerfect}</h2>
                         <div className="mx-auto ">
                             <FontAwesomeIcon icon={faCheck} />{" "}
@@ -62,9 +62,9 @@ const Vitrine = () => {
                             {text[language].vitrinePerfectFor[3]} <br />
                         </div>
                     </div>
-                    <div className="border p-4">
+                    <div className="border p-4 mb-12">
                         <h2>{text[language].vitrineBenefitsHeader}</h2>
-                        <div className="mx-auto ">
+                        <div className="mx-auto">
                             <FontAwesomeIcon icon={faCheck} />{" "}
                             {text[language].vitrineBenefits[0]}
                             <br />
@@ -80,8 +80,6 @@ const Vitrine = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mt-10 text-center"></div>
-                <GetInTouch />
             </div>
         </>
     );
