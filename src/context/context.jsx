@@ -816,6 +816,8 @@ export const MyProvider = ({ children }) => {
     });
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
     const [text, setText] = useState(_DESKTOPtext);
+    const [logoWidth, setLogoWidth] = useState("80px");
+    const [logoHeight, setLogoHeight] = useState("80px");
 
     useEffect(() => {
         localStorage.setItem("userLanguage", language);
@@ -836,8 +838,12 @@ export const MyProvider = ({ children }) => {
     useEffect(() => {
         if (screenWidth <= 1023) {
             setText(_MOBILEtext);
+            setLogoWidth("40px");
+            setLogoHeight("40px")
         } else {
             setText(_DESKTOPtext);
+            setLogoWidth("80px");
+            setLogoHeight("80px")
         }
     }, [screenWidth]);
 
@@ -846,6 +852,8 @@ export const MyProvider = ({ children }) => {
         language,
         setLanguage,
         text,
+        logoWidth,
+        logoHeight,
     };
 
     return (

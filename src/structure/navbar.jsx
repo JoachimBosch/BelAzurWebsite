@@ -14,14 +14,13 @@ import MyContext from "../context/context";
 
 const Navbar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-    const { language, setLanguage, text } = useContext(MyContext);
+    const { language, setLanguage, text, logoWidth, logoHeight } = useContext(MyContext);
     const navigation = [
         { name: text[language].navbarItem1, href: "/" },
         { name: text[language].navbarItem2, href: "/services" },
         { name: text[language].navbarItem3, href: "/about" },
         { name: text[language].navbarItem4, href: "/contact" },
     ];
-
 
 
     return (
@@ -43,13 +42,12 @@ const Navbar = () => {
                     <button
                         type="button"
                         onClick={() => setMobileMenuOpen(true)}
-                        className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-black"
+                        className="menu -m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-black"
                     >
-                        <span className="sr-only">Open main menu</span>
                         <img
                             src={MENU}
-                            className="menu pt-4 me-4"
-                            style={{ width: "80px", height: "80px" }}
+                            className="menu m-2"
+                            style={{ width: `${logoWidth}`, height: `${logoHeight}` }}
                         />
                     </button>
                 </div>
