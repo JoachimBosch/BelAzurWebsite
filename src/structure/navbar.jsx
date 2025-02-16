@@ -1,6 +1,6 @@
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import Azur from "../../public/media/img/Azur.png";
 import fr from "../../public/media/img/fr.png";
 import en from "../../public/media/img/en.png";
@@ -33,7 +33,7 @@ const Navbar = () => {
                 <div className="flex items-center">
                     <a href="/" className="-m-1.5 p-1.5">
                         <span className="sr-only">Bel'Azur Coding</span>
-                        <img src={Azur} alt="logo" className="h-20 w-auto" />
+                        <img src={Azur} alt="Bel'Azur Coding Logo" className="h-24 w-auto" />
                     </a>
                 </div>
 

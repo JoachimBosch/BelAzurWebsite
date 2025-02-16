@@ -37,13 +37,13 @@ const Home = () => {
                         {text[language].introSubHeader3}
                     </h2>
                 </div>
-                <div className="pb-12">
+                <div>
                     <MailUs />
                 </div>
                 <div>
                     <WhyUs />
                 </div>
-                <div className="intro px-8">
+                <div className="philosophy px-8">
                     <h1 className="text-center">
                         {text[language].philosophyHeader}
                     </h1>

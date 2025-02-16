@@ -30,10 +30,10 @@ const _DESKTOPtext = {
             "< Let's transform your ideas into an exceptional online experience />",
         whyUsHeader1: "Tailored Development",
         whyUsText1:
-            "We don't rely on cookie-cutter templates. Every line of code we write is thoughtfully crafted to fit your unique business needs. Our approach ensures that your website not only stands out visually but also performs efficiently, delivering a seamless user experience across all devices. We work closely with you to understand your brand and goals, translating your vision into a digital solution that truly represents your identity.",
+            "We design your website to meet the unique needs of your business. Our approach ensures that your website not only stands out visually, but also in terms of performance, providing smooth user experience across all devices. We work closely with you to understand your brand and its goals to translate your vision into a digital solution that truly reflects who you are.",
         whyUsHeader2: "Manual Coding Experts",
         whyUsText2:
-            "We don't only depend on WordPress or other ready-made platforms. Instead, we pride ourselves on our expertise in hand-coding websites. By building from scratch, we provide you with solutions that are faster, more secure, and highly customizable. This approach ensures your website is optimized for performance, resistant to common security threats, and easy to scale as your business grows. When you choose Bel'Azur Coding, you choose reliability, precision, and adaptability.",
+            "We pride ourselves on our expertise in manual coding. By building from scratch, we offer you faster, more secure and highly customizable solutions. This approach ensures that your site is optimized for performance, resistant to common security threats and can easily scale as your business grows. With Bel'Azur Coding, you choose reliability, precision and adaptability.",
         whyUsHeader3: "Multilingual Service",
         whyUsText3:
             "Communication is key to any successful project, and at Bel'Azur Coding, we make it effortless. We provide services in Dutch, French, and English. Our linguistic versatility ensures that we can work efficiently with a diverse range of clients, catering to both local and international businesses. Our commitment to clear, consistent communication means you'll always be in the loop, no matter where you are in the world.",
@@ -148,7 +148,7 @@ const _DESKTOPtext = {
         mailUs: "Contactez-nous",
         navbarItem1: "ACCEUIL",
         navbarItem2: "SERVICES",
-        navbarItem3: "A PROPOS DE NOUS",
+        navbarItem3: "QUI SOMMES NOUS",
         navbarItem4: "CONTACT",
         navbarLanguage: "CHOISSISEZ VOTRE LANGUE",
         onePage: "SITE WEB SIMPLE",
@@ -169,10 +169,10 @@ const _DESKTOPtext = {
             "< Transformons vos idées en une expérience exceptionnelle />",
         whyUsHeader1: "Développement Sur Mesure",
         whyUsText1:
-            "Nous n'utilisons pas de modèles standard. Chaque ligne de code que nous écrivons est soigneusement conçue pour répondre aux besoins uniques de votre entreprise. Notre approche garantit que votre site web se distingue non seulement visuellement mais aussi par ses performances, offrant une expérience utilisateur fluide sur tous les appareils. Nous travaillons en étroite collaboration avec vous pour comprendre votre marque et vos objectifs, et pour traduire votre vision en une solution numérique qui reflète véritablement votre identité.",
+            "Nous concevons votre site web pour qu'il réponde aux besoins uniques de votre entreprise. Notre approche garantit que votre site web se distingue non seulement sur le plan visuel, mais aussi en termes de performances, en offrant une expérience utilisateur fluide sur tous les appareils. Nous travaillons en étroite collaboration avec vous pour comprendre votre marque et vos objectifs, et traduire votre vision en une solution numérique qui reflète vraiment qui vous êtes.",
         whyUsHeader2: "Experts en Codage Manuel",
         whyUsText2:
-            "Nous ne dépendons pas uniquement de WordPress ou d'autres plateformes prêtes à l'emploi. Nous sommes fiers de notre expertise en codage manuel. En construisant de zéro, nous vous offrons des solutions plus rapides, plus sécurisées et hautement personnalisables. Cette approche garantit que votre site est optimisé pour les performances, résistant aux menaces de sécurité courantes et facile à faire évoluer à mesure que votre entreprise grandit. Avec Bel'Azur Coding, vous choisissez fiabilité, précision et adaptabilité.",
+            "Nous sommes fiers de notre expertise en matière de codage manuel. En partant de zéro, nous vous offrons des solutions plus rapides, plus sûres et hautement personnalisables. Cette approche garantit que votre site est optimisé pour la performance, qu'il résiste aux menaces de sécurité les plus courantes et qu'il peut facilement s'adapter à la croissance de votre entreprise. Avec Bel'Azur Coding, vous choisissez la fiabilité, la précision et l'adaptabilité",
 
         whyUsHeader3: "Service Multilingue",
         whyUsText3:
@@ -292,7 +292,7 @@ const _DESKTOPtext = {
         mailUs: "Contacteer ons",
         navbarItem1: "HOME",
         navbarItem2: "DIENSTEN",
-        navbarItem3: "OVER ONS",
+        navbarItem3: "WIE ZIJN WIJ",
         navbarItem4: "CONTACT",
         navbarLanguage: "KIES UW TAAL",
         onePage: "SINGLE-PAGE WEBSITE",
@@ -312,10 +312,10 @@ const _DESKTOPtext = {
             "< Samen maken we van uw idee een unieke digitale ervaring />",
         whyUsHeader1: "Ontwerp op maat",
         whyUsText1:
-            "Bij ons geen standaard sjablonen of bandwerk. We luisteren naar uw verhaal, leren uw onderneming door en door kennen, en bouwen een website die perfect bij u en uw klanten past. Met zorg en vakmanschap schrijven we elke regel code. Het resultaat? Een website die niet alleen gezien mag worden, maar ook doet wat ze moet doen: snel, gebruiksvriendelijk en mooi op elk toestel. Wij geloven in samenwerking. Samen vertalen we uw visie naar een digitale ervaring die uw merk écht weerspiegelt. Of u nu een eenvoudige website wil of een uitgebreide oplossing, wij zetten ons helemaal in om uw verwachtingen te overtreffen.",
+            "Wij ontwerpen uw website om te voldoen aan de unieke behoeften van jouw bedrijf. Onze aanpak zorgt ervoor dat uw website niet alleen visueel opvalt, maar ook qua prestaties, en de soepele gebruikerservaring biedt op alle apparaten. We werken nauw met u samen om uw merk en doelstellingen te begrijpen en uw visie te vertalen naar een digitale oplossing die echt weerspiegelt wie u bent.",
         whyUsHeader2: "Experts in coderen",
         whyUsText2:
-            "Bij ons geen shortcuts of one-size-fits-all oplossingen. Wij bouwen uw website helemaal vanaf nul, met de hand geschreven code die uw project naar een hoger niveau tilt. Door deze aanpak kunnen we websites maken die sneller laden, beter beveiligd zijn en volledig op maat gemaakt worden voor uw specifieke noden. Geen gedoe met standaardoplossingen, maar een platform dat mee kan groeien met uw onderneming en toekomstplannen. Bij Bel'Azur Coding kiest u voor betrouwbaarheid, vakmanschap en flexibiliteit. Laat ons uw digitale ambities omzetten in een website die presteert en indruk maakt. Samen bouwen we iets waar u écht trots op kan zijn.",
+            "We zijn trots op onze expertise in handmatige codering. Door vanaf nul te bouwen, bieden we u snellere, veiligere en zeer aanpasbare oplossingen. Deze aanpak zorgt ervoor dat uw site is geoptimaliseerd voor prestaties, bestand is tegen veelvoorkomende beveiligingsrisico's en gemakkelijk kan worden geschaald naarmate uw bedrijf groeit. Met Bel'Azur Coding kiest u voor betrouwbaarheid, precisie en aanpassingsvermogen.",
 
         whyUsHeader3: "Taal is onze troef",
         whyUsText3:
@@ -437,7 +437,7 @@ const _MOBILEtext = {
         mailUs: "Email us",
         navbarItem1: "HOME",
         navbarItem2: "SERVICES",
-        navbarItem3: "ABOUT",
+        navbarItem3: "OVER ONS",
         navbarItem4: "CONTACT",
         navbarLanguage: "LANGUAGE",
         onePage: "ONE-PAGE SITE",
@@ -562,7 +562,7 @@ const _MOBILEtext = {
         mailUs: "Écrivez-nous",
         navbarItem1: "ACCUEIL",
         navbarItem2: "SERVICES",
-        navbarItem3: "À PROPOS",
+        navbarItem3: "QUI SOMMES NOUS",
         navbarItem4: "CONTACT",
         navbarLanguage: "LANGUE",
         onePage: "SITE ONE-PAGE",

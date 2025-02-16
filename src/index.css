@@ -31,7 +31,6 @@ h2 {
     margin-bottom: 20px;
 }
 
-
 button {
     padding: 5px 10px;
     border-style: double;
@@ -69,6 +68,14 @@ button:hover {
     padding-top: 170px;
 }
 
+.philosophy {
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
 .serviceIntro {
     padding-top: 170px;
 }
@@ -100,7 +107,6 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
 .policy {
@@ -148,8 +154,6 @@ input {
     text-align: center;
 }
 
-
-
 .aboutProfilePic {
     height: 300px;
     width: 300px;
@@ -175,7 +179,7 @@ label {
 }
 
 .whyUs {
-    background-color: rgba(255, 255, 255, 0.90);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .whyUs h1 {
@@ -241,7 +245,7 @@ label {
     .whyUsSmall {
         padding-bottom: 10px;
     }
-    
+
     .aboutUs {
         border: none;
         padding-left: 25px;
