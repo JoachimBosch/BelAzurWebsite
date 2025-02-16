@@ -7,6 +7,8 @@ import Vitrine from "../assets/vitrine";
 import Website from "../assets/website";
 import Ecommerce from "../assets/ecommerce";
 import AllServices from "../assets/allservices";
+import Conditions from "../assets/cgu";
+import MentionsLegales from "../assets/mentionsLegales"
 
 const AuthRoutes = () => {
     return (
@@ -20,6 +22,8 @@ const AuthRoutes = () => {
             <Route path="/services/multi" element={<Website />} />
             <Route path="/services/ecommerce" element={<Ecommerce />} />
             <Route path="/policy" element={<Policies />} />
+            <Route path="/cgu" element={<Conditions />} />
+            <Route path="/mentions-legales" element={<MentionsLegales />} />
         </Routes>
     );
 };

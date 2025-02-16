@@ -1,10 +1,16 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
     return (
         <>
             <div className="footer">
                 <div className="reference text-center">
-                    <a href="mailto:info@belazurcoding.com">Bel'Azur Coding</a>&nbsp;
-                    <p> © 2025</p>
+                    <p>Bel'Azur Coding © 2025 -</p>&nbsp;
+                    <Link className="hover:underline" to="/mentions-legales">Mentions légales</Link>
+                    &nbsp;&&nbsp;
+                    <Link className="hover:underline" to="/cgu">
+                    CGU
+                    </Link>
                 </div>
             </div>
         </>

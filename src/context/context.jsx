@@ -145,7 +145,7 @@ const _DESKTOPtext = {
     french: {
         serviceButton: "RETOURNEZ VERS TOUS LES SERVICES",
         getInTouch: "Appelez-nous",
-        mailUs: "Contactez-nous",
+        mailUs: "Nous contacter",
         navbarItem1: "ACCEUIL",
         navbarItem2: "SERVICES",
         navbarItem3: "QUI SOMMES NOUS",
@@ -559,7 +559,7 @@ const _MOBILEtext = {
     french: {
         serviceButton: "RETOUR AUX SERVICES",
         getInTouch: "Appelez-nous",
-        mailUs: "Écrivez-nous",
+        mailUs: "Nous contacter",
         navbarItem1: "ACCUEIL",
         navbarItem2: "SERVICES",
         navbarItem3: "QUI SOMMES NOUS",

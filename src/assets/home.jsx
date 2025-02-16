@@ -10,8 +10,7 @@ const Home = () => {
     return (
         <>
             <div
-                className="mx-auto
-            "
+                className="mx-auto"
             >
                 <div className="intro px-4 flex flex-col content-center">
                     <h1 className="text-center">
