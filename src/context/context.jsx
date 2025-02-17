@@ -437,7 +437,7 @@ const _MOBILEtext = {
         mailUs: "Email us",
         navbarItem1: "HOME",
         navbarItem2: "SERVICES",
-        navbarItem3: "OVER ONS",
+        navbarItem3: "ABOUT US",
         navbarItem4: "CONTACT",
         navbarLanguage: "LANGUAGE",
         onePage: "ONE-PAGE SITE",
