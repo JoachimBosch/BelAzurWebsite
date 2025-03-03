@@ -11,7 +11,7 @@ const WhyUs = () => {
                     className="mx-auto lg:columns-3 columns-1 mx-4"
                     style={{ maxWidth: "1600px" }}
                 >
-                    <div className="whyUsSmall px-4 pb-10">
+                    <div className="whyUsSmall ps-8 pe-4 pb-10">
                         <h1 className="py-10">{text[language].whyUsHeader1}</h1>
                         <p className="text-justify">
                             {text[language].whyUsText1}
@@ -23,7 +23,7 @@ const WhyUs = () => {
                             {text[language].whyUsText2}
                         </p>
                     </div>
-                    <div className="whyUsSmall px-4 pb-10">
+                    <div className="whyUsSmall ps-8 pe-4 pb-10">
                         <h1 className="py-10">{text[language].whyUsHeader3}</h1>
                         <p className="text-justify">
                             {text[language].whyUsText3}
