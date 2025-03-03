@@ -319,7 +319,7 @@ const _DESKTOPtext = {
 
         whyUsHeader3: "Taal is onze troef",
         whyUsText3:
-            "Bij Bel'Azur Coding geloven we in duidelijke communicatie, in welke taal dan ook. Of u nu Nederlands, Frans of Engels spreekt, wij zorgen ervoor dat iedereen op dezelfde golflengte zit en dat uw project vlekkeloos verloopt. Onze meertalige service maakt samenwerken eenvoudig, of u nu om de hoek zit of aan de andere kant van de wereld. We passen ons aan uw voorkeuren aan en zorgen ervoor dat elke stap in het proces helder wordt gecommuniceerd. Met onze taalkundige veelzijdigheid overbruggen we grenzen en creëren we verbinding. Bij Bel'Azur Coding is taal geen obstakel, maar een brug naar succes. Samen realiseren we uw digitale dromen, zonder compromissen.",
+            "Communicatie is de sleutel tot elk succesvol project, en bij Bel'Azur Coding maken we het moeiteloos. Wij bieden onze diensten aan in het Nederlands, Frans en Engels. Onze taalkundige veelzijdigheid zorgt ervoor dat we efficiënt kunnen samenwerken met een breed scala aan klanten, zowel lokale als internationale bedrijven. Onze toewijding aan duidelijke en consistente communicatie betekent dat u altijd op de hoogte blijft, waar u zich ook bevindt in de wereld.",
         allServicesSubHeader:
             "Diensten gebaseerd op uw daadwerkelijke behoeften",
         allServicesText:
@@ -415,10 +415,10 @@ const _DESKTOPtext = {
         contactCompany: "Bedrijf",
         contactInterest: "Ik ben geïnteresseerd in",
         contactInterestOption1: "Selecteer een optie",
-        contactInterestOption2: "Eenpagina-website",
-        contactInterestOption3: "Meerdere pagina's website",
-        contactInterestOption4: "E-commerce website",
-        contactInterestOption5: "Anders",
+        contactInterestOption2: "One-Page Website",
+        contactInterestOption3: "Multi-Page Website",
+        contactInterestOption4: "E-commerce Website",
+        contactInterestOption5: "Andere",
         contactAdditionalInfo: "Aanvullende informatie",
         contactButton: "Verzenden",
         contactIsRequired: "is verplicht",
@@ -795,7 +795,7 @@ const _MOBILEtext = {
         contactInterestOption2: "One-Page Website",
         contactInterestOption3: "Multi-Page Website",
         contactInterestOption4: "E-commerce",
-        contactInterestOption5: "Anders",
+        contactInterestOption5: "Andere",
         contactAdditionalInfo: "Extra informatie",
         contactButton: "Verstuur",
         contactIsRequired: "is verplicht",

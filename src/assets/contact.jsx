@@ -173,7 +173,7 @@ const Contact = () => {
 
                         <button
                             type="submit"
-                            className="bg-white hover:bg-belazurblue text-belazurblue font-semibold hover:text-white rounded button-contact"
+                            className="bg-white text-belazurblue hover:bg-belazurblue hover:text-white font-semibold hover:text-white rounded"
                         >
                             {text[language].contactButton}
                         </button>

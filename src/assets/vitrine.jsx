@@ -1,10 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
-import GetInTouch from "../components/getintouch";
-import MailUs from "../components/mailUs";
 import { useContext } from "react";
 import MyContext from "../context/context";
 import onepager from "../../public/media/img/onepager.png";
+import ServiceContact from "../components/serviceContact";
 
 const Vitrine = () => {
     const { language, text } = useContext(MyContext);
@@ -39,9 +38,7 @@ const Vitrine = () => {
                         <img src={onepager} />
                     </div>
                 </div>
-                <div className="text-center">
-                    <MailUs />
-                </div>
+                <ServiceContact />
                 <div
                     className="perfectBenefits gap-4 mx-auto"
                     style={{ maxWidth: "1240px" }}
@@ -79,6 +76,7 @@ const Vitrine = () => {
                             <br />
                         </div>
                     </div>
+
                 </div>
             </div>
         </>

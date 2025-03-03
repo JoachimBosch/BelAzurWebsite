@@ -8,7 +8,7 @@ const WhyUs = () => {
         <>
             <div className="whyUs py-8 gap-8 d-block text-belazurblue">
                 <div
-                    className="mx-auto lg:columns-3 columns-1 mx-4"
+                    className="mx-auto grid lg:grid-cols-3 gap-8 px-4"
                     style={{ maxWidth: "1600px" }}
                 >
                     <div className="whyUsSmall ps-8 pe-4 pb-10">

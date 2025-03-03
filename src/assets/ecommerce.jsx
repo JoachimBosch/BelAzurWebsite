@@ -1,7 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
-import GetInTouch from "../components/getintouch";
-import MailUs from "../components/mailUs";
 import { useContext } from "react";
 import MyContext from "../context/context";
 import webshop from "../../public/media/img/webshop.png";
@@ -38,9 +36,7 @@ const Ecommerce = () => {
                         <img src={webshop} />
                     </div>
                 </div>
-                <div className="text-center">
-                    <MailUs />
-                </div>
+                <ServiceContact />
                 <div
                     className="perfectBenefits gap-4 mx-auto"
                     style={{ maxWidth: "1240px" }}

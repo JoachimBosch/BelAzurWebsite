@@ -2,14 +2,13 @@ import { Link } from "react-router-dom";
 import { useContext } from "react";
 import MyContext from "../context/context";
 
-const MailUs = () => {
+const ServiceContact = () => {
     const { language, text } = useContext(MyContext);
     return (
         <>
             <div className="text-center">
                 <Link to="/contact">
-                    <button class="button-home bg-white text-belazurblue hover:bg-belazurblue hover:text-white font-semibold hover:text-white rounded">
-                        
+                    <button class="button-services bg-white hover:bg-belazurblue hover:text-white text-belazurblue font-semibold py-2 px-4 border-none border-blue-500">
                         {text[language].mailUs}
                     </button>
                 </Link>
@@ -18,4 +17,4 @@ const MailUs = () => {
     );
 };
 
-export default MailUs;
+export default ServiceContact;

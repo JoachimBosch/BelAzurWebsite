@@ -30,7 +30,7 @@ const Navbar = () => {
                 className="flex justify-between items-center px-8 pt-2"
             >
                 {/* Logo */}
-                <div className="flex items-center">
+                <div className="logo flex items-center">
                     <a href="/" className="-m-1.5 p-1.5">
                         <span className="sr-only">Bel'Azur Coding</span>
                         <img src={Azur} alt="Bel'Azur Coding Logo" className="h-24 w-auto" />
@@ -60,7 +60,6 @@ const Navbar = () => {
                 <div className="fixed inset-0 z-50" />
                 <DialogPanel
                     className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 navbar-background"
-                    /*style={{ backgroundColor: "#f2bb05" }}*/
                 >
                     <div className="flex items-center justify-between">
                         <button
@@ -71,7 +70,7 @@ const Navbar = () => {
                             <span className="sr-only">Close menu</span>
                             <XMarkIcon
                                 aria-hidden="true"
-                                className="h-6 w-6 social-links"
+                                className="icon h-6 w-6 social-links"
                             />
                         </button>
                     </div>

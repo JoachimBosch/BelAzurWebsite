@@ -1,10 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
-import GetInTouch from "../components/getintouch";
-import MailUs from "../components/mailUs";
 import { useContext } from "react";
 import MyContext from "../context/context";
 import multipage from "../../public/media/img/multipage.png";
+import ServiceContact from "../components/serviceContact";
 
 const Website = () => {
     const { language, text } = useContext(MyContext);
@@ -36,9 +35,7 @@ const Website = () => {
                         <img src={multipage} />
                     </div>
                 </div>
-                <div className="text-center">
-                    <MailUs />
-                </div>
+                <ServiceContact />
                 <div
                     class="perfectBenefits gap-4 mx-auto"
                     style={{ maxWidth: "1240px" }}
