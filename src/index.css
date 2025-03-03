@@ -62,7 +62,6 @@ button:hover {
     width: 100%;
 }
 
-
 .intro {
     font-size: 20px;
     font-style: italic;
@@ -222,7 +221,6 @@ label {
 .perfectBenefits {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    margin-top: 48px;
     margin-bottom: 48px;
 }
 
@@ -234,6 +232,10 @@ label {
 
 .allServicesButton:hover {
     transform: scale(1.2);
+}
+
+.benefits {
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 @media (max-width: 1023px) {
@@ -277,8 +279,14 @@ label {
     .perfectBenefits {
         display: grid;
         grid-template-columns: repeat(1, minmax(0, 1fr));
-        width: 90vw;
+        gap: 0;
+        justify-items: center;
     }
+
+    .benefits {
+        width: 400px;
+    }
+
     .navbar {
         margin-left: -10px;
         margin-right: -10px;
