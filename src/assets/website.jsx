@@ -4,6 +4,7 @@ import { useContext } from "react";
 import MyContext from "../context/context";
 import multipage from "../../public/media/img/multipage.png";
 import ServiceContact from "../components/serviceContact";
+import ListItem from "../components/listItem";
 
 const Website = () => {
     const { language, text } = useContext(MyContext);
@@ -37,40 +38,57 @@ const Website = () => {
                 </div>
                 <ServiceContact />
                 <div
-                    class="perfectBenefits gap-4 mx-auto"
-                    style={{ maxWidth: "1240px" }}
+                    className="perfectBenefits gap-28 mx-auto"
+                    style={{ maxWidth: "900px" }}
                 >
-                    <div className="border p-4 mb-12">
+                    <div className="benefits p-4 mb-12 text-left text-belazurblue ">
                         <h2>{text[language].websitePerfect}</h2>
-                        <div className="mx-auto ">
-                            <FontAwesomeIcon icon={faCheck} />{" "}
-                            {text[language].websitePerfectFor[0]}
-                            <br />
-                            <FontAwesomeIcon icon={faCheck} />{" "}
-                            {text[language].websitePerfectFor[1]}
-                            <br />
-                            <FontAwesomeIcon icon={faCheck} />{" "}
-                            {text[language].websitePerfectFor[2]}
-                            <br />
-                            <FontAwesomeIcon icon={faCheck} />{" "}
-                            {text[language].websitePerfectFor[3]} <br />
+                        <div className="ps-8">
+                            <div className="w-full">
+                                <ul className="space-y-3">
+                                    <ListItem
+                                        text={
+                                            text[language].websitePerfectFor[0]
+                                        }
+                                    />
+                                    <ListItem
+                                        text={
+                                            text[language].websitePerfectFor[1]
+                                        }
+                                    />
+                                    <ListItem
+                                        text={
+                                            text[language].websitePerfectFor[2]
+                                        }
+                                    />
+                                    <ListItem
+                                        text={
+                                            text[language].websitePerfectFor[3]
+                                        }
+                                    />
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div className="border p-4 mb-12">
+                    <div className="benefits p-4 mb-12 text-left text-belazurblue">
                         <h2>{text[language].websiteBenefitsHeader}</h2>
-                        <div className="mx-auto ">
-                            <FontAwesomeIcon icon={faCheck} />{" "}
-                            {text[language].websiteBenefits[0]}
-                            <br />
-                            <FontAwesomeIcon icon={faCheck} />{" "}
-                            {text[language].websiteBenefits[1]}
-                            <br />
-                            <FontAwesomeIcon icon={faCheck} />{" "}
-                            {text[language].websiteBenefits[2]}
-                            <br />
-                            <FontAwesomeIcon icon={faCheck} />{" "}
-                            {text[language].websiteBenefits[3]}
-                            <br />
+                        <div className="ps-8">
+                            <div className="w-full">
+                                <ul className="space-y-3">
+                                    <ListItem
+                                        text={text[language].websiteBenefits[0]}
+                                    />
+                                    <ListItem
+                                        text={text[language].websiteBenefits[1]}
+                                    />
+                                    <ListItem
+                                        text={text[language].websiteBenefits[2]}
+                                    />
+                                    <ListItem
+                                        text={text[language].websiteBenefits[3]}
+                                    />
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
