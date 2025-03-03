@@ -24,6 +24,7 @@ const AuthRoutes = () => {
             <Route path="/policy" element={<Policies />} />
             <Route path="/cgu" element={<Conditions />} />
             <Route path="/mentions-legales" element={<MentionsLegales />} />
+            
         </Routes>
     );
 };

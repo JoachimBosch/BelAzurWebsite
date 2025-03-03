@@ -62,7 +62,6 @@ button:hover {
     width: 100%;
 }
 
-
 .intro {
     font-size: 20px;
     font-style: italic;
@@ -236,6 +235,13 @@ label {
     transform: scale(1.2);
 }
 
+.icon:hover {
+    transform: rotate(180deg);
+    -webkit-transition: -webkit-transform 2s ease-in;
+}
+
+
+
 @media (max-width: 1023px) {
     .whyUs p {
         font-size: 20px;
@@ -283,11 +289,6 @@ label {
         margin-left: -10px;
         margin-right: -10px;
     }
-}
-
-.icon:hover {
-    transform: rotate(180deg);
-    -webkit-transition: -webkit-transform 2s ease-in;
 }
 
 /* Scrollbar */

@@ -1,7 +1,7 @@
 import WhyUs from "../components/whyUs";
 import Typewriter from "typewriter-effect";
 import MailUs from "../components/mailUs";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import MyContext from "../context/context";
 
 const Home = () => {
@@ -9,9 +9,7 @@ const Home = () => {
 
     return (
         <>
-            <div
-                className="mx-auto"
-            >
+            <div className="mx-auto">
                 <div className="intro px-4 flex flex-col content-center">
                     <h1 className="text-center">
                         <Typewriter
@@ -57,7 +55,6 @@ const Home = () => {
                         {text[language].philosophyClosing}
                     </h2>
                 </div>
-
             </div>
         </>
     );
