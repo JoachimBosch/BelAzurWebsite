@@ -10,7 +10,7 @@ const AllServices = () => {
 
     return (
         <>
-            <div className="services serviceIntro">
+            <div className="services serviceIntro" style={{ height: "95%"}}>
                 <div className="flex flex-wrap justify-center">
                     <button className="allServicesButton">
                         <Link

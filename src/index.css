@@ -11,12 +11,20 @@
 
 body {
     margin: 0;
+    height: 100%;
     overflow-x: hidden;
     font-family: "Lato-Regular";
     font-weight: 300;
     background-image: url("/media/img/3.png");
     background-size: cover;
     background-attachment: fixed;
+}
+
+#root,
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 h1 {
@@ -120,9 +128,9 @@ input {
     background-color: rgb(0, 0, 0);
     color: white;
     width: 100%;
-    bottom: 0%;
     padding-top: 10px;
     padding-bottom: 15px;
+
 }
 
 .reference {
@@ -201,6 +209,7 @@ label {
     font-size: 20px;
     font-style: italic;
     color: white;
+    flex: 1;
 }
 
 .card {
@@ -238,8 +247,6 @@ label {
     transform: rotate(180deg);
     -webkit-transition: -webkit-transform 2s ease-in;
 }
-
-
 
 .benefits {
     background-color: rgba(255, 255, 255, 0.8);
