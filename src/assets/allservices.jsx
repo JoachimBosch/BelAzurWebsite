@@ -24,7 +24,7 @@ const AllServices = () => {
                     </p>
                 </div>
                 <div className="flex flex-wrap justify-center gap-12 pb-20">
-                    <div className="pricing px-8 py-14">
+                    <div className="pricing">
                         <button className="allServicesButton">
                             <Link
                                 to="/services/single"
@@ -65,7 +65,7 @@ const AllServices = () => {
                             </Link>
                         </button>
                     </div>
-                    <div className="pricing px-8 py-14">
+                    <div className="pricing">
                         <button className="allServicesButton">
                             <Link
                                 to="/services/multi"
@@ -106,7 +106,7 @@ const AllServices = () => {
                             </Link>
                         </button>
                     </div>
-                    <div className="pricing px-8 py-14">
+                    <div className="pricing">
                         <button className="allServicesButton">
                             <Link
                                 to="/services/ecommerce"
