@@ -1,50 +1,43 @@
 import { useState, useEffect } from "react";
-import { useCookies } from "react-cookie";
-import { Button, Modal } from "flowbite-react";
-import cookies from "../../public/media/img/cookies.png"; // Ensure the path is correct
 
-const CookieModal = () => {
-    const [cookies, setCookie] = useCookies(["cookieConsent"]);
-    const [show, setShow] = useState(false);
+const CookieBanner = () => {
+    const [showBanner, setShowBanner] = useState(false);
 
     useEffect(() => {
-        if (!cookies.cookieConsent) {
-            setShow(true);
+        if (!document.cookie.includes("cookieConsent=true")) {
+            setShowBanner(true);
         }
-    }, [cookies]);
+    }, []);
 
     const handleAccept = () => {
-        setCookie("cookieConsent", true, { path: "/", maxAge: 31536000 }); // Expires in 1 year
-        setShow(false);
+        document.cookie = "cookieConsent=true; path=/; max-age=" + 60 * 60 * 24 * 365; // 1 year
+        setShowBanner(false);
     };
 
+    const handleDecline = () => {
+        setShowBanner(false);
+    };
+
+    if (!showBanner) return null; // Don't render anything if banner is dismissed
+
     return (
-        <Modal
-            className="fixed top-0 left-0 right-0 z-50 p-4 overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full"
-            dismissible
-            show={show}
-            onClose={() => setShow(false)}
-        >
-            <Modal.Header>
-                <div className="cookieHeader">
-                    <img src={cookies} style={{ height: "50px" }} alt="Cookies" />
-                </div>
-            </Modal.Header>
-            <Modal.Body>
-                <div className="flex text-center">
-                    <p>We use cookies to enhance your experience. By accepting, you agree to our cookie policy.</p>
-                </div>
-            </Modal.Body>
-            <Modal.Footer>
-                <Button color="gray" onClick={handleAccept}>
-                    Accept
-                </Button>
-                <Button color="gray" onClick={() => setShow(false)}>
-                    Decline
-                </Button>
-            </Modal.Footer>
-        </Modal>
+        <div className="cookieModal">
+            <h3 className="text-lg font-semibold text-gray-700">
+                Nous respectons votre vie privée 🍪
+            </h3>
+            <p className="text-sm text-gray-500 py-4">
+                Ce site Web utilise des cookies pour améliorer votre expérience.
+            </p>
+            <div className="flex justify-center gap-4">
+                <button onClick={handleAccept} className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+                    Accepter
+                </button>
+                <button onClick={handleDecline} className="px-4 py-2 bg-gray-300 text-gray-700 rounded-lg hover:bg-gray-400 transition">
+                    Refuser
+                </button>
+            </div>
+        </div>
     );
 };
 
-export default CookieModal;
+export default CookieBanner;

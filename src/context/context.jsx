@@ -42,6 +42,8 @@ const _DESKTOPtext = {
             "At Bel'Azur Coding, we are passionate about delivering exceptional web development solutions that help your business stand out in the digital landscape. We take a personalized approach to every project, ensuring that the final product aligns perfectly with your goals and vision. From single-page websites to complex e-commerce platforms, we are equipped to bring your ideas to life.",
         vitrineHeader: "Simple, Impactful One-Page Websites for Your Business.",
         vitrinePrice: "Your online experience from €750 excl. VAT",
+        vitrinePriceShort: "€750",
+        vitrinePriceShortIntro: "From",
         vitrineIntro1:
             "A one-page website is a simple concept. It's an affordable web design that actually consists of two pages: a front page and a contact page.",
         vitrineIntro2:
@@ -68,6 +70,8 @@ const _DESKTOPtext = {
         websiteHeader:
             "Tailored Multi-Page Websites That Grow With Your Business",
         websitePrice: "Full online visibility starting from €1850 excl. VAT",
+        websitePriceShort: "€1850",
+        websitePriceShortIntro: "From",
         websiteIntro1:
             "A multi-page website is ideal for businesses that need to present a lot of information in an organized, engaging way.",
         websiteIntro2:
@@ -92,7 +96,8 @@ const _DESKTOPtext = {
         ],
         ecommerceHeader:
             "Drive Sales and Reach New Customers with a Seamless Online Shopping Experience",
-        ecommercePrice: "Price available on demand",
+        ecommercePrice: "Price available on request",
+        ecommercePriceShort: "On request",
         ecommerceIntro1:
             "E-commerce websites are designed to help you start selling online easily and effectively.",
         ecommerceIntro2:
@@ -183,6 +188,8 @@ const _DESKTOPtext = {
         vitrineHeader:
             "Des sites web simples et percutants pour votre entreprise.",
         vitrinePrice: "Votre expérience en ligne à partir de 750€ HT",
+        vitrinePriceShort: "750€",
+        vitrinePriceShortIntro: "à partir de ",
         vitrineIntro1:
             "Un site web d'une page est un concept simple. C'est une conception web abordable qui se compose en réalité de deux pages : une page d'accueil et une page de contact.",
         vitrineIntro2:
@@ -209,6 +216,8 @@ const _DESKTOPtext = {
         websiteHeader:
             "Des sites web multi-pages qui évoluent avec votre entreprise",
         websitePrice: "Visibilité totale à partir de 1850€ HT",
+        websitePriceShort: "1850€",
+        websitePriceShortIntro: "à partir de ",
         websiteIntro1:
             "Un site Web multi-pages est idéal pour les entreprises qui ont besoin de présenter beaucoup d'informations d'une manière organisée et attrayante,",
         websiteIntro2:
@@ -234,6 +243,7 @@ const _DESKTOPtext = {
         ecommerceHeader:
             "Stimuler les ventes et atteindre de nouveaux clients grâce à une expérience d'achat en ligne transparente",
         ecommercePrice: "Prix ​​disponible sur demande",
+        ecommercePriceShort: "Sur demande",
         ecommerceIntro1:
             "Les sites de commerce électronique sont conçus pour vous aider à vendre en ligne facilement et efficacement.",
         ecommerceIntro2:
@@ -307,7 +317,7 @@ const _DESKTOPtext = {
         philosophyText1:
             "Bij Bel'Azur Coding draait alles om eenvoud, kwaliteit en samenwerking. We geloven in propere code, strak design en open communicatie.",
         philosophyText2:
-            "Van het eerste idee tot de grote lancering: wij zorgen ervoor dat uw digitale aanwezigheid niet alleen gezien wordt, maar ook écht indruk maakt.",
+            "Van het eerste idee tot de grote lancering; wij zorgen ervoor dat uw digitale aanwezigheid niet alleen gezien wordt, maar ook écht indruk maakt.",
         philosophyClosing:
             "< Samen maken we van uw idee een unieke digitale ervaring />",
         whyUsHeader1: "Ontwerp op maat",
@@ -327,6 +337,8 @@ const _DESKTOPtext = {
         vitrineHeader:
             "Eenvoudige, impactvolle single-page websites voor uw bedrijf.",
         vitrinePrice: "Uw online ervaring vanaf € 750,- excl. BTW",
+        vitrinePriceShort: "€ 750",
+        vitrinePriceShortIntro: "Vanaf",
         vitrineIntro1:
             "Een single-page website is een eenvoudig concept. Het is een betaalbaar webdesign dat eigenlijk uit twee pagina's bestaat: een voorpagina en een contactpagina.",
         vitrineIntro2:
@@ -353,6 +365,8 @@ const _DESKTOPtext = {
         websiteHeader:
             "Op maat gemaakte Multi-Page Websites die meegroeien met uw bedrijf",
         websitePrice: "Volledige online zichtbaarheid vanaf € 1850,- excl. BTW",
+        websitePriceShort: "€ 1850",
+        websitePriceShortIntro: "Vanaf",
         websiteIntro1:
             "Een website met meerdere pagina's is ideaal voor bedrijven die veel informatie op een georganiseerde, boeiende manier moeten presenteren.",
         websiteIntro2:
@@ -378,6 +392,7 @@ const _DESKTOPtext = {
         ecommerceHeader:
             "Verkoop stimuleren en nieuwe klanten bereiken met een naadloze online winkelervaring",
         ecommercePrice: "Prijs op aanvraag",
+        ecommercePriceShort: "Op aanvraag",
         ecommerceIntro1:
             "E-commerce websites zijn ontworpen om u te helpen eenvoudig en effectief te beginnen met online verkopen.",
         ecommerceIntro2:
@@ -399,7 +414,7 @@ const _DESKTOPtext = {
             "Lokale en wereldwijde verkoop",
             "24/7 inkomsten",
             "Veilige betalingen",
-            "Aantrekkelijke, merkgerichte ontwerpen",
+            "Merkgerichte ontwerpen",
         ],
 
         aboutUsHeader: "Wie zijn wij?",
@@ -466,6 +481,8 @@ const _MOBILEtext = {
             "We deliver personalized websites to help your business stand out. From simple sites to complex platforms, we bring your ideas to life.",
         vitrineHeader: "Simple, impactful websites.",
         vitrinePrice: "Starting from €750 excl. VAT",
+        vitrinePriceShort: "€750",
+        vitrinePriceShortIntro: "From",
         vitrineIntro1: "Affordable design: front and contact pages.",
         vitrineIntro2: "Introduce your business, services, and more.",
         vitrineIntro3: "Easy contact options: forms, links, and more.",
@@ -488,6 +505,8 @@ const _MOBILEtext = {
         ],
         websiteHeader: "Websites that grow with you.",
         websitePrice: "Starting from €1850 excl. VAT",
+        websitePriceShort: "€1850",
+        websitePriceShortIntro: "From",
         websiteIntro1: "Ideal for detailed, organized business info.",
         websiteIntro2: "From services to resources, showcase your work.",
         websiteIntro3: "Easy to navigate and explore.",
@@ -509,6 +528,7 @@ const _MOBILEtext = {
         ],
         ecommerceHeader: "Boost sales with seamless online shopping.",
         ecommercePrice: "Price on demand",
+        ecommercePriceShort: "On demand",
         ecommerceIntro1: "Easy, effective e-commerce sites.",
         ecommerceIntro2: "From local shops to global brands.",
         ecommerceIntro3: "Secure, user-friendly stores for smooth management.",
@@ -591,6 +611,8 @@ const _MOBILEtext = {
             "Sites personnalisés pour mettre en valeur votre entreprise.",
         vitrineHeader: "Sites simples et impactants.",
         vitrinePrice: "à partir de 750€ HT",
+        vitrinePriceShort: "750€",
+        vitrinePriceShortIntro: "à partir de ",
         vitrineIntro1: "Design abordable : page d'accueil et contact.",
         vitrineIntro2: "Présentez votre activité, vos services, etc.",
         vitrineIntro3: "Options de contact faciles : formulaires, liens, etc.",
@@ -612,6 +634,8 @@ const _MOBILEtext = {
         ],
         websiteHeader: "Sites qui évoluent avec vous.",
         websitePrice: "à partir de 1850€ HT",
+        websitePriceShort: "1850€",
+        websitePriceShortIntro: "à partir de ",
         websiteIntro1: "Idéal pour des infos détaillées et organisées.",
         websiteIntro2: "Présentez vos services et ressources.",
         websiteIntro3: "Navigation simple et intuitive.",
@@ -632,6 +656,7 @@ const _MOBILEtext = {
         ],
         ecommerceHeader: "Boostez vos ventes en ligne.",
         ecommercePrice: "Prix ​​disponible sur demande",
+        ecommercePriceShort: "Sur demande",
         ecommerceIntro1: "Sites e-commerce simples et efficaces.",
         ecommerceIntro2: "Pour les boutiques locales et marques globales.",
         ecommerceIntro3: "Boutiques sécurisées et conviviales.",
@@ -698,7 +723,7 @@ const _MOBILEtext = {
         philosophyText1:
             "Bij Bel'Azur Coding draait alles om eenvoud, kwaliteit en samenwerking. We geloven in propere code, strak design en open communicatie.",
         philosophyText2:
-            "Van het eerste idee tot de grote lancering: wij zorgen ervoor dat uw digitale aanwezigheid niet alleen gezien wordt, maar ook écht indruk maakt.",
+            "Van het eerste idee tot de grote lancering; wij zorgen ervoor dat uw digitale aanwezigheid niet alleen gezien wordt, maar ook écht indruk maakt.",
         philosophyClosing:
             "< Samen maken we van uw idee een unieke digitale ervaring />",
         whyUsHeader1: "Maatwerk Ontwikkeling",
@@ -715,6 +740,8 @@ const _MOBILEtext = {
             "We leveren gepersonaliseerde websites om uw bedrijf te onderscheiden van de rest.",
         vitrineHeader: "Eenvoudige, impactvolle websites.",
         vitrinePrice: "Vanaf € 750,- excl. BTW",
+        vitrinePriceShort: "€ 750",
+        vitrinePriceShortIntro: "Vanaf",
         vitrineIntro1: "Betaalbaar ontwerp: homepagina en contactpagina.",
         vitrineIntro2: "Stel uw bedrijf, diensten en meer voor.",
         vitrineIntro3: "Eenvoudige contactopties: formulieren, links, enz.",
@@ -736,6 +763,8 @@ const _MOBILEtext = {
         ],
         websiteHeader: "Websites die met u meegroeien.",
         websitePrice: "Vanaf € 1850,- excl. BTW",
+        websitePriceShort: "€ 1850",
+        websitePriceShortIntro: "Vanaf",
         websiteIntro1:
             "Ideaal voor gedetailleerde en georganiseerde bedrijfsinformatie.",
         websiteIntro2: "Van diensten tot resources, toon uw werk.",
@@ -758,6 +787,7 @@ const _MOBILEtext = {
         ],
         ecommerceHeader: "Verhoog uw verkoop met online shoppen.",
         ecommercePrice: "Prijs op aanvraag",
+        ecommercePriceShort: "Op aanvraag",
         ecommerceIntro1: "Eenvoudige en effectieve e-commerce sites.",
         ecommerceIntro2: "Van lokale winkels tot wereldwijde merken.",
         ecommerceIntro3: "Veilige en gebruiksvriendelijke winkels.",

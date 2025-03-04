@@ -55,7 +55,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="serviceIntro text-white flex flex-1 flex-col justify-center px-6 py-12 lg:px-8">
+        <div className="serviceIntro text-white flex flex-1 flex-col justify-center px-6 pb-12 lg:px-8">
             <div className="mx-auto w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl text-center">
                 <h1>{text[language].contactHeader}</h1>
             </div>
@@ -168,7 +168,7 @@ const Contact = () => {
                             as="textarea"
                             id="freeText"
                             name="freeText"
-                            className="mb-4 border-none rounded-md shadow-md"
+                            className="mb-6 border-none rounded-md shadow-md"
                         />
 
                         <button

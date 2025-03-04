@@ -4,8 +4,6 @@ import MyContext from "../context/context";
 const Conditions = () => {
     const { language, text } = useContext(MyContext);
 
-    // {text[language].aboutLisa}
-
     return (
         <div className="intro px-4 flex flex-col text-center content-center pb-20 text-belazurblue">
             <div>
