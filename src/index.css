@@ -272,7 +272,6 @@ label {
     padding: 60px;
     height: auto;
     box-sizing: border-box;
-    width: 100%;
 }
 
 .flex-wrap {
@@ -352,6 +351,7 @@ label {
         padding-right: 5vw;
         max-width: 90vw;
         border: 1px solid white;
+        height: fit-content;
     }
 
     .pricing:hover {
