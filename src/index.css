@@ -229,7 +229,6 @@ label {
 
 .allServicesButton {
     width: 300px;
-    height: 350px;
     transition: transform 0.2s;
     border-width: 1px;
     border-style: solid;
