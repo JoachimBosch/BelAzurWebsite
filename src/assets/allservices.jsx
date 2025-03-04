@@ -146,7 +146,9 @@ const AllServices = () => {
                     </div>
                 </div>
 
-                <div></div>
+                <div className="text-center pb-4" style={{fontSize:"10px"}}>
+                    <p>{text[language].taxWarning}</p>
+                </div>
             </div>
         </>
     );

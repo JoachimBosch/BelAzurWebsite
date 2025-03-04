@@ -42,7 +42,7 @@ const _DESKTOPtext = {
             "At Bel'Azur Coding, we are passionate about delivering exceptional web development solutions that help your business stand out in the digital landscape. We take a personalized approach to every project, ensuring that the final product aligns perfectly with your goals and vision. From single-page websites to complex e-commerce platforms, we are equipped to bring your ideas to life.",
         vitrineHeader: "Simple, Impactful One-Page Websites for Your Business.",
         vitrinePrice: "Your online experience from €750 excl. VAT",
-        vitrinePriceShort: "€750",
+        vitrinePriceShort: "€750 *",
         vitrinePriceShortIntro: "From",
         vitrineIntro1:
             "A one-page website is a simple concept. It's an affordable web design that actually consists of two pages: a front page and a contact page.",
@@ -70,7 +70,7 @@ const _DESKTOPtext = {
         websiteHeader:
             "Tailored Multi-Page Websites That Grow With Your Business",
         websitePrice: "Full online visibility starting from €1850 excl. VAT",
-        websitePriceShort: "€1850",
+        websitePriceShort: "€1850 *",
         websitePriceShortIntro: "From",
         websiteIntro1:
             "A multi-page website is ideal for businesses that need to present a lot of information in an organized, engaging way.",
@@ -146,6 +146,7 @@ const _DESKTOPtext = {
         contactEmailRequired: "Email is required",
         contactEmailSentSuccess: "Email sent successfully!",
         contactEmailSentError: "Failed to send email. Please try again.",
+        taxWarning: "* Price excluding taxes",
     },
     french: {
         serviceButton: "RETOURNEZ VERS TOUS LES SERVICES",
@@ -188,7 +189,7 @@ const _DESKTOPtext = {
         vitrineHeader:
             "Des sites web simples et percutants pour votre entreprise.",
         vitrinePrice: "Votre expérience en ligne à partir de 750€ HT",
-        vitrinePriceShort: "750€",
+        vitrinePriceShort: "750€ *",
         vitrinePriceShortIntro: "à partir de ",
         vitrineIntro1:
             "Un site web d'une page est un concept simple. C'est une conception web abordable qui se compose en réalité de deux pages : une page d'accueil et une page de contact.",
@@ -216,7 +217,7 @@ const _DESKTOPtext = {
         websiteHeader:
             "Des sites web multi-pages qui évoluent avec votre entreprise",
         websitePrice: "Visibilité totale à partir de 1850€ HT",
-        websitePriceShort: "1850€",
+        websitePriceShort: "1850€ *",
         websitePriceShortIntro: "à partir de ",
         websiteIntro1:
             "Un site Web multi-pages est idéal pour les entreprises qui ont besoin de présenter beaucoup d'informations d'une manière organisée et attrayante,",
@@ -294,6 +295,7 @@ const _DESKTOPtext = {
         contactEmailSentSuccess: "E-mail envoyé avec succès !",
         contactEmailSentError:
             "Échec de l'envoi de l'e-mail. Veuillez réessayer.",
+        taxWarning: "* Prix hors TVA",
     },
 
     dutch: {
@@ -337,7 +339,7 @@ const _DESKTOPtext = {
         vitrineHeader:
             "Eenvoudige, impactvolle single-page websites voor uw bedrijf.",
         vitrinePrice: "Uw online ervaring vanaf € 750,- excl. BTW",
-        vitrinePriceShort: "€ 750",
+        vitrinePriceShort: "€ 750 *",
         vitrinePriceShortIntro: "Vanaf",
         vitrineIntro1:
             "Een single-page website is een eenvoudig concept. Het is een betaalbaar webdesign dat eigenlijk uit twee pagina's bestaat: een voorpagina en een contactpagina.",
@@ -365,7 +367,7 @@ const _DESKTOPtext = {
         websiteHeader:
             "Op maat gemaakte Multi-Page Websites die meegroeien met uw bedrijf",
         websitePrice: "Volledige online zichtbaarheid vanaf € 1850,- excl. BTW",
-        websitePriceShort: "€ 1850",
+        websitePriceShort: "€ 1850 *",
         websitePriceShortIntro: "Vanaf",
         websiteIntro1:
             "Een website met meerdere pagina's is ideaal voor bedrijven die veel informatie op een georganiseerde, boeiende manier moeten presenteren.",
@@ -442,6 +444,7 @@ const _DESKTOPtext = {
         contactEmailRequired: "E-mailadres is verplicht",
         contactEmailSentSuccess: "E-mail succesvol verzonden!",
         contactEmailSentError: "E-mail verzenden mislukt. Probeer het opnieuw.",
+        taxWarning: "* Prijzen zonder BTW",
     },
 };
 
@@ -481,7 +484,7 @@ const _MOBILEtext = {
             "We deliver personalized websites to help your business stand out. From simple sites to complex platforms, we bring your ideas to life.",
         vitrineHeader: "Simple, impactful websites.",
         vitrinePrice: "Starting from €750 excl. VAT",
-        vitrinePriceShort: "€750",
+        vitrinePriceShort: "€750 *",
         vitrinePriceShortIntro: "From",
         vitrineIntro1: "Affordable design: front and contact pages.",
         vitrineIntro2: "Introduce your business, services, and more.",
@@ -505,7 +508,7 @@ const _MOBILEtext = {
         ],
         websiteHeader: "Websites that grow with you.",
         websitePrice: "Starting from €1850 excl. VAT",
-        websitePriceShort: "€1850",
+        websitePriceShort: "€1850 *",
         websitePriceShortIntro: "From",
         websiteIntro1: "Ideal for detailed, organized business info.",
         websiteIntro2: "From services to resources, showcase your work.",
@@ -575,6 +578,7 @@ const _MOBILEtext = {
         contactEmailRequired: "Email required",
         contactEmailSentSuccess: "Email sent!",
         contactEmailSentError: "Email failed. Try again.",
+        taxWarning: "* Price excluding taxes",
     },
     french: {
         serviceButton: "RETOUR AUX SERVICES",
@@ -611,7 +615,7 @@ const _MOBILEtext = {
             "Sites personnalisés pour mettre en valeur votre entreprise.",
         vitrineHeader: "Sites simples et impactants.",
         vitrinePrice: "à partir de 750€ HT",
-        vitrinePriceShort: "750€",
+        vitrinePriceShort: "750€ *",
         vitrinePriceShortIntro: "à partir de ",
         vitrineIntro1: "Design abordable : page d'accueil et contact.",
         vitrineIntro2: "Présentez votre activité, vos services, etc.",
@@ -634,7 +638,7 @@ const _MOBILEtext = {
         ],
         websiteHeader: "Sites qui évoluent avec vous.",
         websitePrice: "à partir de 1850€ HT",
-        websitePriceShort: "1850€",
+        websitePriceShort: "1850 *€",
         websitePriceShortIntro: "à partir de ",
         websiteIntro1: "Idéal pour des infos détaillées et organisées.",
         websiteIntro2: "Présentez vos services et ressources.",
@@ -702,6 +706,7 @@ const _MOBILEtext = {
         contactEmailRequired: "Email requis",
         contactEmailSentSuccess: "Email envoyé !",
         contactEmailSentError: "Échec de l'envoi. Réessayez.",
+        taxWarning: "* Prix hors TVA",
     },
 
     dutch: {
@@ -740,7 +745,7 @@ const _MOBILEtext = {
             "We leveren gepersonaliseerde websites om uw bedrijf te onderscheiden van de rest.",
         vitrineHeader: "Eenvoudige, impactvolle websites.",
         vitrinePrice: "Vanaf € 750,- excl. BTW",
-        vitrinePriceShort: "€ 750",
+        vitrinePriceShort: "€ 750 *",
         vitrinePriceShortIntro: "Vanaf",
         vitrineIntro1: "Betaalbaar ontwerp: homepagina en contactpagina.",
         vitrineIntro2: "Stel uw bedrijf, diensten en meer voor.",
@@ -763,7 +768,7 @@ const _MOBILEtext = {
         ],
         websiteHeader: "Websites die met u meegroeien.",
         websitePrice: "Vanaf € 1850,- excl. BTW",
-        websitePriceShort: "€ 1850",
+        websitePriceShort: "€ 1850 *",
         websitePriceShortIntro: "Vanaf",
         websiteIntro1:
             "Ideaal voor gedetailleerde en georganiseerde bedrijfsinformatie.",
@@ -834,6 +839,7 @@ const _MOBILEtext = {
         contactEmailRequired: "E-mail is verplicht",
         contactEmailSentSuccess: "E-mail verzonden!",
         contactEmailSentError: "E-mail verzenden mislukt. Probeer opnieuw.",
+        taxWarning: "* Prijzen zonder BTW",
     },
 };
 
