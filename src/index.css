@@ -25,6 +25,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    max-width: 100%;
 }
 
 h1 {
@@ -264,6 +265,11 @@ label {
 }
 
 @media (max-width: 1023px) {
+    html,
+    body {
+        overflow-x: hidden;
+        max-width: 100%;
+    }
     .whyUs p {
         font-size: 20px;
         text-align: center;
@@ -312,11 +318,6 @@ label {
         width: 400px;
     }
 
-    .navbar {
-        margin-left: -10px;
-        margin-right: -10px;
-    }
-
     .cookieModal {
         max-width: 400px;
         text-align: center;
@@ -333,6 +334,11 @@ label {
     .pricing {
         padding-left: 5vw;
         padding-right: 5vw;
+        max-width: 90vw;
+    }
+
+    .pricing:hover {
+        transform: none;
     }
 }
 

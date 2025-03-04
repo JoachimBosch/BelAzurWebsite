@@ -37,7 +37,7 @@ const Home = () => {
                 <div>
                     <MailUs />
                 </div>
-                <div style={{ width:"100vw"}}>
+                <div style={{ width: "100vw" }}>
                     <WhyUs />
                 </div>
                 <div className="philosophy px-8">
