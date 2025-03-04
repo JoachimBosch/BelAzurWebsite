@@ -24,7 +24,7 @@ const AllServices = () => {
                     </p>
                 </div>
                 <div className="flex flex-wrap justify-center gap-12 pb-20">
-                    <div className="pricing border border-4 rounded px-8 py-14">
+                    <div className="pricing px-8 py-14">
                         <button className="allServicesButton">
                             <Link
                                 to="/services/single"
@@ -65,7 +65,7 @@ const AllServices = () => {
                             </Link>
                         </button>
                     </div>
-                    <div className="pricing border border-4 rounded px-8 py-14">
+                    <div className="pricing px-8 py-14">
                         <button className="allServicesButton">
                             <Link
                                 to="/services/multi"
@@ -106,7 +106,7 @@ const AllServices = () => {
                             </Link>
                         </button>
                     </div>
-                    <div className="pricing border border-4 rounded px-8 py-14">
+                    <div className="pricing px-8 py-14">
                         <button className="allServicesButton">
                             <Link
                                 to="/services/ecommerce"
@@ -120,25 +120,33 @@ const AllServices = () => {
                                 <img src={webshop} />
                                 <div className="flex flex-col justify-center">
                                     <p style={{ fontSize: "12px" }}>
-                                        <sub>
-                                            &nbsp;
-                                        </sub>
+                                        <sub>&nbsp;</sub>
                                     </p>
-                                    <h1>{text[language].ecommercePriceShort}</h1>
+                                    <h1>
+                                        {text[language].ecommercePriceShort}
+                                    </h1>
                                 </div>
 
                                 <ul className="space-y-3">
                                     <ListItem
-                                        text={text[language].ecommerceBenefits[0]}
+                                        text={
+                                            text[language].ecommerceBenefits[0]
+                                        }
                                     />
                                     <ListItem
-                                        text={text[language].ecommerceBenefits[1]}
+                                        text={
+                                            text[language].ecommerceBenefits[1]
+                                        }
                                     />
                                     <ListItem
-                                        text={text[language].ecommerceBenefits[2]}
+                                        text={
+                                            text[language].ecommerceBenefits[2]
+                                        }
                                     />
                                     <ListItem
-                                        text={text[language].ecommerceBenefits[3]}
+                                        text={
+                                            text[language].ecommerceBenefits[3]
+                                        }
                                     />
                                 </ul>
                             </Link>
@@ -146,7 +154,7 @@ const AllServices = () => {
                     </div>
                 </div>
 
-                <div className="text-center pb-4" style={{fontSize:"10px"}}>
+                <div className="text-center pb-4" style={{ fontSize: "10px" }}>
                     <p>{text[language].taxWarning}</p>
                 </div>
             </div>
