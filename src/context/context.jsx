@@ -638,7 +638,7 @@ const _MOBILEtext = {
         ],
         websiteHeader: "Sites qui évoluent avec vous.",
         websitePrice: "à partir de 1850€ HT",
-        websitePriceShort: "1850 *€",
+        websitePriceShort: "1850 €*",
         websitePriceShortIntro: "à partir de ",
         websiteIntro1: "Idéal pour des infos détaillées et organisées.",
         websiteIntro2: "Présentez vos services et ressources.",
