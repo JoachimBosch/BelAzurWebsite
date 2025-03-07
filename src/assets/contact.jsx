@@ -73,7 +73,7 @@ const Contact = () => {
                             type="text"
                             id="fname"
                             name="fname"
-                            className="border-none rounded-md shadow-md"
+                            className="border-none rounded-md shadow-md contactfield"
                         />
                         <ErrorMessage
                             name="fname"
@@ -88,7 +88,7 @@ const Contact = () => {
                             type="text"
                             id="lname"
                             name="lname"
-                            className="border-none rounded-md shadow-md"
+                            className="border-none rounded-md shadow-md contactfield"
                         />
                         <ErrorMessage
                             name="lname"
@@ -103,7 +103,7 @@ const Contact = () => {
                             type="text"
                             id="phone"
                             name="phone"
-                            className="border-none rounded-md shadow-md"
+                            className="border-none rounded-md shadow-md contactfield"
                         />
                         <ErrorMessage
                             name="phone"
@@ -118,7 +118,7 @@ const Contact = () => {
                             type="email"
                             id="email"
                             name="email"
-                            className="border-none rounded-md shadow-md"
+                            className="border-none rounded-md shadow-md contactfield"
                         />
                         <ErrorMessage
                             name="email"
@@ -133,7 +133,7 @@ const Contact = () => {
                             type="text"
                             id="company"
                             name="company"
-                            className="border-none rounded-md shadow-md"
+                            className="border-none rounded-md shadow-md contactfield"
                         />
 
                         <label htmlFor="interest" className="pt-4 pb-2">
@@ -142,7 +142,7 @@ const Contact = () => {
                         <Field
                             as="select"
                             name="interest"
-                            className="custom-select mb-2 border-none rounded-md shadow-md text-belazurblue"
+                            className="custom-select mb-2 border-none rounded-md shadow-md text-belazurblue contactfield"
                         >
                             <option value="">
                                 {text[language].contactInterestOption1}
@@ -168,7 +168,7 @@ const Contact = () => {
                             as="textarea"
                             id="freeText"
                             name="freeText"
-                            className="mb-6 border-none rounded-md shadow-md"
+                            className="mb-6 border-none rounded-md shadow-md contactfield"
                         />
 
                         <button

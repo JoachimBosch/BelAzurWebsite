@@ -56,7 +56,7 @@ button {
 .button-services {
     margin-top: 100px;
     margin-bottom: 100px;
-    padding: 20px 40px;
+    padding: 20px 60px;
     width: auto;
 }
 
@@ -208,11 +208,13 @@ label {
 
 .card {
     width: 425px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     opacity: 90%;
     margin-top: 50px;
     margin-right: 30px;
     padding: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .serviceImage {
@@ -248,6 +250,8 @@ label {
 .benefits {
     background-color: rgba(255, 255, 255, 0.8);
 }
+
+    
 
 .cookieModal {
     max-width: 400px;
