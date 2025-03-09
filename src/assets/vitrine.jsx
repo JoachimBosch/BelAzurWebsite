@@ -36,7 +36,7 @@ const Vitrine = () => {
                         </p>
                     </div>
                     <div className="serviceImage">
-                        <img src={onepager} />
+                        <img src={onepager} alt="One-Page Website image"/>
                     </div>
                 </div>
                 <ServiceContact />

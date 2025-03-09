@@ -35,7 +35,7 @@ const Ecommerce = () => {
                         </p>
                     </div>
                     <div className="serviceImage">
-                        <img src={webshop} />
+                        <img src={webshop} alt="E-commerce Website image"/>
                     </div>
                 </div>
                 <ServiceContact />

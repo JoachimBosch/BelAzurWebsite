@@ -33,7 +33,7 @@ const Website = () => {
                         </p>
                     </div>
                     <div className="serviceImage">
-                        <img src={multipage} />
+                        <img src={multipage} alt="Multi-Page Website image"/>
                     </div>
                 </div>
                 <ServiceContact />

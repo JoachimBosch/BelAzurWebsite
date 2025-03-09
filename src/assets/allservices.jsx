@@ -16,7 +16,7 @@ const AllServices = () => {
                     className="text-center mx-auto mb-12"
                     style={{ maxWidth: "1280px" }}
                 >
-                    <h1 className="text-center pt-8">
+                    <h1 className="text-center">
                         {text[language].allServicesSubHeader}
                     </h1>
                     <p className="ps-8 pe-8 pb-8">
@@ -35,7 +35,7 @@ const AllServices = () => {
                                 <p className="serviceHeader">
                                     {text[language].onePage}
                                 </p>
-                                <img src={onepager} />
+                                <img src={onepager} alt="One-Page Website image" />
                                 <div className="flex flex-col justify-center">
                                     <p style={{ fontSize: "12px" }}>
                                         <sub>
@@ -76,7 +76,7 @@ const AllServices = () => {
                                 <p className="serviceHeader">
                                     {text[language].multiPage}
                                 </p>
-                                <img src={multipage} />
+                                <img src={multipage} alt="Multi-Page Website image" />
                                 <div className="flex flex-col justify-center">
                                     <p style={{ fontSize: "12px" }}>
                                         <sub>
@@ -117,7 +117,7 @@ const AllServices = () => {
                                 <p className="serviceHeader">
                                     {text[language].ecommerce}
                                 </p>
-                                <img src={webshop} />
+                                <img src={webshop} alt="E-commerce Website image" />
                                 <div className="flex flex-col justify-center">
                                     <p style={{ fontSize: "12px" }}>
                                         <sub>&nbsp;</sub>

@@ -34,7 +34,7 @@ const About = () => {
                                 <img
                                     className="aboutProfilePic m-auto"
                                     src="/media/img/Lisa.jpeg"
-                                    alt="Lisa Lowagie"
+                                    alt="Picture of Lisa Lowagie"
                                 ></img>
                             </Link>
                         </div>
@@ -56,7 +56,7 @@ const About = () => {
                                 <img
                                     className="aboutProfilePic m-auto"
                                     src="/media/img/Joachim.jpeg"
-                                    alt="Joachim Bosch"
+                                    alt="Picture of Joachim Bosch"
                                 ></img>
                             </Link>
                         </div>

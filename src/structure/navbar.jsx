@@ -50,6 +50,7 @@ const Navbar = () => {
                     >
                         <img
                             src={MENU}
+                            alt="Bel'Azur Coding MENU image"
                             className="menu m-2"
                             style={{
                                 width: `${logoWidth}`,

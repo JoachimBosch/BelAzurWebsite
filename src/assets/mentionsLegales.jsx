@@ -5,7 +5,7 @@ const MentionsLegales = () => {
     return (
         <div className="intro px-4 flex flex-col text-center content-center pb-20 mx-auto" style={{ maxWidth: "1280px" }}>
             <div>
-                <h2>Mentions légales</h2>
+                <h1>Mentions légales</h1>
                 <h3>En vigueur au 01/01/2025</h3>
                 <p className="pt-4">
                     Conformément aux dispositions de la loi n°2004-575 du 21
