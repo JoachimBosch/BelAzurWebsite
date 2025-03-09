@@ -5,6 +5,11 @@ const MyContext = createContext();
 
 const _DESKTOPtext = {
     english: {
+        respectPrivacy: "We respect your privacy ",
+        cookies: "This website uses cookies to improve your experience.",
+        accept: "Accept",
+        decline: "Decline",
+        followUs: "Follow us on Facebook",
         serviceButton: "BACK TO ALL SERVICES",
         getInTouch: "Call us today",
         mailUs: "Contact us",
@@ -149,6 +154,11 @@ const _DESKTOPtext = {
         taxWarning: "* Price excluding taxes",
     },
     french: {
+        respectPrivacy: "Nous respectons votre vie privée ",
+        cookies: "Ce site Web utilise des cookies pour améliorer votre expérience.",
+        accept: "Accepter",
+        decline: "Refuser",
+        followUs: "Suivez-nous sur Facebook",
         serviceButton: "RETOURNEZ VERS TOUS LES SERVICES",
         getInTouch: "Appelez-nous",
         mailUs: "Nous contacter",
@@ -299,6 +309,11 @@ const _DESKTOPtext = {
     },
 
     dutch: {
+        respectPrivacy: "Wij respecteren uw privacy",
+        cookies: "Deze website maakt gebruik van cookies om uw ervaring te verbeteren.",
+        accept: "Accepteren",
+        decline: "Afwijzen",
+        followUs: "Volg ons op Facebook",
         serviceButton: "TERUG NAAR ALLE DIENSTEN",
         getInTouch: "Bel ons vandaag",
         mailUs: "Contacteer ons",
@@ -450,6 +465,11 @@ const _DESKTOPtext = {
 
 const _MOBILEtext = {
     english: {
+        respectPrivacy: "We respect your privacy ",
+        cookies: "This website uses cookies to improve your experience.",
+        accept: "Accept",
+        decline: "Decline",
+        followUs: "Follow us on Facebook",
         serviceButton: "BACK TO SERVICES",
         getInTouch: "Call us",
         mailUs: "Email us",
@@ -581,6 +601,11 @@ const _MOBILEtext = {
         taxWarning: "* Price excluding taxes",
     },
     french: {
+        respectPrivacy: "Nous respectons votre vie privée ",
+        cookies: "Ce site Web utilise des cookies pour améliorer votre expérience.",
+        accept: "Accepter",
+        decline: "Refuser",
+        followUs: "Suivez-nous sur Facebook",
         serviceButton: "RETOUR AUX SERVICES",
         getInTouch: "Appelez-nous",
         mailUs: "Nous contacter",
@@ -710,6 +735,11 @@ const _MOBILEtext = {
     },
 
     dutch: {
+        respectPrivacy: "Wij respecteren uw privacy ",
+        cookies: "Deze website maakt gebruik van cookies om uw ervaring te verbeteren.",
+        accept: "Accepteren",
+        decline: "Afwijzen",
+        followUs: "Volg ons op Facebook",
         serviceButton: "TERUG NAAR DIENSTEN",
         getInTouch: "Bel ons",
         mailUs: "Mail ons",

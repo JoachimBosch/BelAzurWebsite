@@ -14,14 +14,14 @@ import MyContext from "../context/context";
 
 const Navbar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-    const { language, setLanguage, text, logoWidth, logoHeight } = useContext(MyContext);
+    const { language, setLanguage, text, logoWidth, logoHeight } =
+        useContext(MyContext);
     const navigation = [
         { name: text[language].navbarItem1, href: "/" },
         { name: text[language].navbarItem2, href: "/services" },
         { name: text[language].navbarItem3, href: "/about" },
         { name: text[language].navbarItem4, href: "/contact" },
     ];
-
 
     return (
         <header className="absolute inset-x-0 top-0 z-100 transition-all duration-300 navbar">
@@ -33,7 +33,11 @@ const Navbar = () => {
                 <div className="logo flex items-center">
                     <a href="/" className="-m-1.5 p-1.5">
                         <span className="sr-only">Bel'Azur Coding</span>
-                        <img src={Azur} alt="Bel'Azur Coding Logo" className="h-24 w-auto" />
+                        <img
+                            src={Azur}
+                            alt="Bel'Azur Coding Logo"
+                            className="h-24 w-auto"
+                        />
                     </a>
                 </div>
 
@@ -47,7 +51,10 @@ const Navbar = () => {
                         <img
                             src={MENU}
                             className="menu m-2"
-                            style={{ width: `${logoWidth}`, height: `${logoHeight}` }}
+                            style={{
+                                width: `${logoWidth}`,
+                                height: `${logoHeight}`,
+                            }}
                         />
                     </button>
                 </div>
@@ -58,9 +65,7 @@ const Navbar = () => {
                 className=""
             >
                 <div className="fixed inset-0 z-50" />
-                <DialogPanel
-                    className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 navbar-background"
-                >
+                <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 navbar-background h-full flex flex-col">
                     <div className="flex items-center justify-between">
                         <button
                             type="button"
@@ -74,39 +79,19 @@ const Navbar = () => {
                             />
                         </button>
                     </div>
-                    <div className="mt-6 flow-root">
-                        <div className="-my-6 divide-y divide-gray-500/10">
-                            <div className="space-y-2 py-6">
-                                {navigation.map((item) => (
-                                    <a
-                                        key={item.name}
-                                        href={item.href}
-                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:text-belazurpink"
-                                    >
-                                        {item.name}
-                                    </a>
-                                ))}
-                            </div>
-                            <div className="flex justify-evenly pt-4 social-links">
-                                <button>
-                                    <Link
-                                        to="https://www.facebook.com"
-                                        target="_blank"
-                                    >
-                                        <FontAwesomeIcon icon={faFacebook} />{" "}
-                                        Facebook
-                                    </Link>
-                                </button>
-                                <button>
-                                    <Link
-                                        to="https://www.instagram.com"
-                                        target="_blank"
-                                    >
-                                        <FontAwesomeIcon icon={faInstagram} />{" "}
-                                        Instagram
-                                    </Link>
-                                </button>
-                            </div>
+                    <div className="mt-6 flex-grow flex flex-col">
+                        <div className="space-y-2 py-6">
+                            {navigation.map((item) => (
+                                <a
+                                    key={item.name}
+                                    href={item.href}
+                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:text-belazurpink"
+                                >
+                                    {item.name}
+                                </a>
+                            ))}
+                        </div>
+                        <div className="mt-auto pb-6">
                             <div>
                                 <div className="pt-8">
                                     <p className="-mx-3 block text-center rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white">
@@ -150,6 +135,30 @@ const Navbar = () => {
                                             style={{ height: "30px" }}
                                         />
                                     </button>
+                                </div>
+                                <div className="flex justify-evenly pt-4 social-links">
+                                    <button className="hover:text-belazurpink">
+                                        <Link
+                                            to="https://www.facebook.com"
+                                            target="_blank"
+                                        >
+                                            <FontAwesomeIcon
+                                                icon={faFacebook}
+                                            />{" "}
+                                            {text[language].followUs}
+                                        </Link>
+                                    </button>
+                                    {/* <button className="hover:text-belazurpink">
+                                        <Link
+                                            to="https://www.instagram.com"
+                                            target="_blank"
+                                        >
+                                            <FontAwesomeIcon
+                                                icon={faInstagram}
+                                            />{" "}
+                                            Instagram
+                                        </Link>
+                                    </button> */}
                                 </div>
                             </div>
                         </div>

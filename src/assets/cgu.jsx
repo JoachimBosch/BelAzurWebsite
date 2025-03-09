@@ -7,7 +7,7 @@ const Conditions = () => {
     return (
         <div className="intro px-4 flex flex-col text-center content-center pb-20 mx-auto" style={{ maxWidth: "1280px" }}>
             <div>
-                <h2>Conditions générales d'utilisation</h2>
+                <h1>Conditions générales d'utilisation</h1>
                 <h3>En vigueur au 01/01/2025</h3>
                 <p className="pt-4">
                     Les présentes conditions générales d'utilisation (dites «
