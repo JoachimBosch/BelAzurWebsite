@@ -8,7 +8,7 @@ import Footer from "./structure/footer";
 import CookieModal from "./components/cookieModal";
 
 createRoot(document.getElementById("root")).render(
-    <Router>
+    <Router basename="/BelAzurWebsite">
         <MyProvider>
             <Navbar />
             <AuthRoutes />
