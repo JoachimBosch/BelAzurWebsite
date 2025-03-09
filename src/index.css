@@ -107,10 +107,17 @@ input {
     padding-bottom: 2px;
 }
 
-.social-links {
+.language-links {
     color: white;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+.social-links {
+    color: white;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 

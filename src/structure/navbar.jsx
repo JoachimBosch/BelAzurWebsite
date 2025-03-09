@@ -99,7 +99,7 @@ const Navbar = () => {
                                         {text[language].navbarLanguage}
                                     </p>
                                 </div>
-                                <div className="flex justify-evenly pt-4 social-links">
+                                <div className="flex justify-evenly pt-4 language-links">
                                     <button
                                         onClick={() => {
                                             setLanguage("french");
@@ -137,29 +137,29 @@ const Navbar = () => {
                                         />
                                     </button>
                                 </div>
-                                <div className="flex justify-evenly pt-4 social-links">
+                                <div className="flex justify-evenly pt-4 social-links pb-0">
                                     <button className="hover:text-belazurpink">
                                         <Link
-                                            to="https://www.facebook.com"
+                                            to="https://www.facebook.com/belazurcoding"
                                             target="_blank"
                                         >
                                             <FontAwesomeIcon
                                                 icon={faFacebook}
                                             />{" "}
-                                            {text[language].followUs}
+                                            {text[language].followUs} Facebook
                                         </Link>
                                     </button>
-                                    {/* <button className="hover:text-belazurpink">
+                                    <button className="hover:text-belazurpink pt-0">
                                         <Link
-                                            to="https://www.instagram.com"
+                                            to="https://www.instagram.com/belazurcoding/"
                                             target="_blank"
                                         >
                                             <FontAwesomeIcon
                                                 icon={faInstagram}
                                             />{" "}
-                                            Instagram
+                                            {text[language].followUs} Instagram
                                         </Link>
-                                    </button> */}
+                                    </button>
                                 </div>
                             </div>
                         </div>
