@@ -11,7 +11,7 @@ const AllServices = () => {
 
     return (
         <>
-            <div className="services serviceIntro" style={{ height: "95%" }}>
+            <div className="services serviceIntro">
                 <div
                     className="text-center mx-auto mb-12"
                     style={{ maxWidth: "1280px" }}
