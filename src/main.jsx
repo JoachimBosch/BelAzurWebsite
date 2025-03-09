@@ -1,4 +1,3 @@
-import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter as Router } from "react-router-dom";
 import { MyProvider } from "./context/context";
@@ -9,14 +8,12 @@ import Footer from "./structure/footer";
 import CookieModal from "./components/cookieModal";
 
 createRoot(document.getElementById("root")).render(
-    <StrictMode>
-        <Router>
-            <MyProvider>
-                <Navbar />
-                <AuthRoutes />
-                <CookieModal />
-                <Footer />
-            </MyProvider>
-        </Router>
-    </StrictMode>
+    <Router>
+        <MyProvider>
+            <Navbar />
+            <AuthRoutes />
+            <CookieModal />
+            <Footer />
+        </MyProvider>
+    </Router>
 );
