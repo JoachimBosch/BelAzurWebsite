@@ -1,11 +1,13 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import emailjs from "emailjs-com";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import MyContext from "../context/context";
 
 const Contact = () => {
     const { language, text } = useContext(MyContext);
+    const [confirmation, setConfirmation] = useState("");
+    const [textColor, setTextColor] = useState("red")
 
     const initialValues = {
         fname: "",
@@ -45,12 +47,14 @@ const Contact = () => {
         emailjs
             .send(serviceID, templateID, values, userID)
             .then(() => {
-                alert(`${text[language].contactEmailSentSuccess}`);
+                setConfirmation(`${text[language].contactEmailSentSuccess}`);
+                setTextColor("green")
                 resetForm();
             })
             .catch((error) => {
                 console.error("Error sending email:", error);
-                alert(`${text[language].contactEmailSentError}`);
+                setConfirmation(`${text[language].contactEmailSentError}`);
+                setTextColor("red");
             });
     };
 
@@ -58,6 +62,9 @@ const Contact = () => {
         <div className="serviceIntro text-white flex flex-1 flex-col justify-center px-6 pb-12 lg:px-8">
             <div className="mx-auto w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl text-center">
                 <h1>{text[language].contactHeader}</h1>
+            </div>
+            <div className="mx-auto w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl text-center" style={{ color: "textColor" }}>
+                {!confirmation ? "" : confirmation}
             </div>
             <div className="mx-auto w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl text-belazurblue">
                 <Formik
@@ -170,7 +177,6 @@ const Contact = () => {
                             name="freeText"
                             className="mb-6 border-none rounded-md shadow-md contactfield"
                         />
-
                         <button
                             type="submit"
                             className="bg-white text-belazurblue hover:bg-belazurblue hover:text-white font-semibold hover:text-white rounded"
