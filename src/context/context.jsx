@@ -152,6 +152,7 @@ const _DESKTOPtext = {
         contactEmailSentSuccess: "Email sent successfully!",
         contactEmailSentError: "Failed to send email. Please try again.",
         taxWarning: "* Price excluding taxes",
+        allowAnalytics: "Cookies for Marketing purposes",
     },
     french: {
         respectPrivacy: "Nous respectons votre vie privée ",
@@ -306,6 +307,7 @@ const _DESKTOPtext = {
         contactEmailSentError:
             "Échec de l'envoi de l'e-mail. Veuillez réessayer.",
         taxWarning: "* Prix hors TVA",
+        allowAnalytics: "Cookies à des Fins Marketing",
     },
 
     dutch: {
@@ -460,6 +462,7 @@ const _DESKTOPtext = {
         contactEmailSentSuccess: "E-mail succesvol verzonden!",
         contactEmailSentError: "E-mail verzenden mislukt. Probeer het opnieuw.",
         taxWarning: "* Prijzen zonder BTW",
+        allowAnalytics: "Cookies voor Marketingdoeleinden",
     },
 };
 
@@ -599,6 +602,7 @@ const _MOBILEtext = {
         contactEmailSentSuccess: "Email sent!",
         contactEmailSentError: "Email failed. Try again.",
         taxWarning: "* Price excluding taxes",
+        allowAnalytics: "Cookies for Marketing purposes",
     },
     french: {
         respectPrivacy: "Nous respectons votre vie privée ",
@@ -732,6 +736,7 @@ const _MOBILEtext = {
         contactEmailSentSuccess: "Email envoyé !",
         contactEmailSentError: "Échec de l'envoi. Réessayez.",
         taxWarning: "* Prix hors TVA",
+        allowAnalytics: "Cookies à des Fins Marketing",
     },
 
     dutch: {
@@ -870,6 +875,7 @@ const _MOBILEtext = {
         contactEmailSentSuccess: "E-mail verzonden!",
         contactEmailSentError: "E-mail verzenden mislukt. Probeer opnieuw.",
         taxWarning: "* Prijzen zonder BTW",
+        allowAnalytics: "Cookies voor Marketingdoeleinden",
     },
 };
 

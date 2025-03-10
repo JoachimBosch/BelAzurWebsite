@@ -1,7 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "../assets/home";
 import About from "../assets/about";
-import Policies from "../assets/policies";
 import Contact from "../assets/contact";
 import Vitrine from "../assets/vitrine";
 import Website from "../assets/website";
@@ -9,6 +8,8 @@ import Ecommerce from "../assets/ecommerce";
 import AllServices from "../assets/allservices";
 import Conditions from "../assets/cgu";
 import MentionsLegales from "../assets/mentionsLegales"
+import CookiePolicy from "../assets/cookiePolicy";
+import PrivacyPolicy from "../assets/privacyPolicy";
 
 const AuthRoutes = () => {
     return (
@@ -21,10 +22,10 @@ const AuthRoutes = () => {
             <Route path="/services/single" element={<Vitrine />} />
             <Route path="/services/multi" element={<Website />} />
             <Route path="/services/ecommerce" element={<Ecommerce />} />
-            <Route path="/policy" element={<Policies />} />
             <Route path="/cgu" element={<Conditions />} />
             <Route path="/mentions-legales" element={<MentionsLegales />} />
-            
+            <Route path="/cookiepolicy" element={<CookiePolicy />} />
+            <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         </Routes>
     );
 };

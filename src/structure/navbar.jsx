@@ -24,7 +24,7 @@ const Navbar = () => {
     ];
 
     return (
-        <header className="absolute inset-x-0 top-0 z-100 transition-all duration-300 navbar">
+        <header className="inset-x-0 top-0 z-100 transition-all duration-300 navbar">
             <nav
                 aria-label="Global"
                 className="flex justify-between items-center px-8 pt-2"

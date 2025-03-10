@@ -1,8 +1,5 @@
-import { useContext } from "react";
-import MyContext from "../context/context";
 
 const Conditions = () => {
-    const { language, text } = useContext(MyContext);
 
     return (
         <div className="intro px-4 flex flex-col text-center content-center pb-20 mx-auto" style={{ maxWidth: "1280px" }}>
