@@ -127,7 +127,7 @@ const AllServices = () => {
                                     </h1>
                                 </div>
 
-                                <ul className="space-y-3">
+                                <ul className="space-y-3 text-left">
                                     <ListItem
                                         text={
                                             text[language].ecommerceBenefits[0]
