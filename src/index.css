@@ -344,9 +344,10 @@ label {
     .cookieModal {
         max-width: 400px;
         text-align: center;
-        position: sticky;
+        position: fixed;
         bottom: 40px;
-        margin: 10px auto;
+        right: 40px;
+        left: 40px;
         background-color: white;
         padding: 20px;
         border-radius: 5px;
@@ -365,6 +366,8 @@ label {
     .pricing:hover {
         transform: none;
     }
+
+    
 }
 
 /* Scrollbar */

@@ -846,9 +846,9 @@ const _MOBILEtext = {
 
         aboutUsHeader: "The team",
         aboutLisa:
-            "Lisa is the driving force behind Bel'Azur Coding. Without her, this site probably wouldn’t exist. Lisa has an eye for design, loves solving tough challenges, and doesn’t shy away from tackling difficulties. Thanks to her training at SheCodes, she is perfectly capable of building beautiful, mobile-friendly, and interactive websites that showcase your business in a new light.",
+            "Lisa is de drijvende Kracht achter Bel'Azur Coding. Zonder haar had deze website waarschijnlijk niet eens bestaan. Lisa heeft oog voor design, lost graag de moeilijkste vraagstukken op en gaat geen enkele uitdaging uit de weg. Dankzij haar opleiding via SheCodes is zij perfect in staat om mooie, mobile-friendly en interactieve websites te bouwen die uw bedrijf in een nieuw daglicht stellen.",
         aboutJoachim:
-            "Joachim is the geek of the duo. He has always had a strong interest in web design and continuously acquires new skills. With a Full Stack certificate from 4Geeks Academy and a recent course on React Native, he is capable of developing complex and modern websites, e-commerce platforms, and mobile applications.",
+            "Joachim is de nerd van het duo. Hij heeft altijd een sterke interesse gehad in webdesign en is continu bezig met het vergaren van nieuwe kennis. Dankzij een Full Stack certificaat uitgegeven door 4Geeks Academy en een recente cursus in React Native, is hij in staat complexe en moderne websites, e-commerce platformen en mobiele applicaties te ontwikkelen.",
         contactHeader: "Neem contact op",
         contactFirstName: "Voornaam",
         contactLastName: "Achternaam",
