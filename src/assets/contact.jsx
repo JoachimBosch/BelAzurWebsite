@@ -5,7 +5,7 @@ import { useContext, useState } from "react";
 import MyContext from "../context/context";
 import ReCAPTCHA from "react-google-recaptcha";
 
-console.log("ReCAPTCHA Key in Production:", import.meta.env.VITE_USER_ID);
+console.log("ReCAPTCHA Key in Production:", import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
 
 const Contact = () => {
     const { language, text } = useContext(MyContext);

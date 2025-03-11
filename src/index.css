@@ -282,7 +282,7 @@ label {
 }
 
 .cookieModal {
-    width: 40vw;
+    width: 500px;
     text-align: center;
     position: fixed;
     bottom: 40px;
@@ -295,7 +295,7 @@ label {
 }
 
 .languageModal {
-    width: 40vw;
+    width: 500px;
     text-align: center;
     background-color: white;
     padding: 20px;
