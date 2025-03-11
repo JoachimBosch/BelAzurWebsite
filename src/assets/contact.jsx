@@ -59,7 +59,7 @@ const Contact = () => {
                 serviceID,
                 templateID,
                 { ...values, recaptcha: recaptchaValue },
-                publicKey
+                {publicKey: publicKey}
             )
             .then(() => {
                 setConfirmation(`${text[language].contactEmailSentSuccess}`);

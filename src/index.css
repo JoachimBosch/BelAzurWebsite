@@ -92,7 +92,7 @@ button {
     font-size: 20px;
     font-style: italic;
     color: white;
-    padding-top: 170px;
+    padding-top: 100px;
 }
 
 .philosophy {
@@ -104,7 +104,7 @@ button {
 }
 
 .serviceIntro {
-    padding-top: 170px;
+    padding-top: 100px;
 }
 
 .serviceHeader {
@@ -282,7 +282,7 @@ label {
 }
 
 .cookieModal {
-    max-width: 500px;
+    width: 40vw;
     text-align: center;
     position: fixed;
     bottom: 40px;
@@ -295,7 +295,7 @@ label {
 }
 
 .languageModal {
-    min-width: 500px;
+    width: 40vw;
     text-align: center;
     background-color: white;
     padding: 20px;
@@ -381,12 +381,11 @@ label {
     }
 
     .cookieModal {
-        max-width: 80vw;
+        width: 100vw;
         text-align: center;
-        position: fixed;
+        position: sticky;
         bottom: 40px;
-        right: 10vw;
-        left: 10vw;
+
         background-color: white;
         padding: 20px;
         border-radius: 5px;
@@ -395,7 +394,7 @@ label {
     }
 
     .languageModal {
-        min-width: 60vw;
+        width: 90vw;
         text-align: center;
         background-color: white;
         padding: 20px;
