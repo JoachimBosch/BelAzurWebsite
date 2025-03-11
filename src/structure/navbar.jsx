@@ -103,6 +103,10 @@ const Navbar = () => {
                                     <button
                                         onClick={() => {
                                             setLanguage("french");
+                                            localStorage.setItem(
+                                                "selectedLanguage",
+                                                "french"
+                                            );
                                         }}
                                     >
                                         <img
@@ -115,6 +119,10 @@ const Navbar = () => {
                                     <button
                                         onClick={() => {
                                             setLanguage("english");
+                                            localStorage.setItem(
+                                                "selectedLanguage",
+                                                "english"
+                                            );
                                         }}
                                     >
                                         <img
@@ -127,6 +135,10 @@ const Navbar = () => {
                                     <button
                                         onClick={() => {
                                             setLanguage("dutch");
+                                            localStorage.setItem(
+                                                "selectedLanguage",
+                                                "dutch"
+                                            );
                                         }}
                                     >
                                         <img

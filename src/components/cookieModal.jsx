@@ -36,6 +36,13 @@ const CookieBanner = () => {
         }
     };
 
+    const handleAcceptAll = () => {
+        document.cookie = "cookieConsent=true; path=/; max-age=" + 60 * 60 * 24 * 365;
+        document.cookie = "analyticsConsent=true; path=/; max-age=" + 60 * 60 * 24 * 365;
+        loadGoogleAnalytics();
+        setShowBanner(false);
+    };
+
     const handleAccept = () => {
         document.cookie =
             "cookieConsent=true; path=/; max-age=" + 60 * 60 * 24 * 365;
@@ -66,28 +73,46 @@ const CookieBanner = () => {
     if (!showBanner) return null;
 
     return (
-        <div className="cookieModal">
-            <h3 className="text-lg font-semibold text-gray-700">
+        <div className="cookieModal text-belazurblue">
+            <h3 className="text-lg font-semibold">
                 {text[language].respectPrivacy} 🍪
             </h3>
-            <p className="text-sm text-gray-500 py-4">
+            <p className="text-sm py-4">
                 {text[language].cookies}
             </p>
 
-            <div className="flex items-center justify-between gap-2">
-                <label htmlFor="analytics" className="text-sm text-gray-500">
-                    {text[language].allowAnalytics}
-                </label>
-                <input
-                    type="checkbox"
-                    id="analytics"
-                    checked={allowAnalytics}
-                    onChange={() => setAllowAnalytics(!allowAnalytics)}
-                    className="w-4 h-4"
-                />
+            <div className="flex items-center justify-between py-2">
+                <span className="text-sm">
+                    {text[language].functionalCookies}
+                </span>
+                <div className="relative">
+                    <input type="checkbox" checked className="sr-only" disabled />
+                    <div className="block w-10 h-6 bg-belazurblue rounded-full cursor-not-allowed"></div>
+                    <div className="dot absolute right-1 top-1 w-4 h-4 bg-white rounded-full transition"></div>
+                </div>
             </div>
-
+            <div className="flex items-center justify-between py-2">
+                <span className="text-sm">
+                    {text[language].allowAnalytics}
+                </span>
+                <label className="relative inline-flex items-center cursor-pointer">
+                    <input
+                        type="checkbox"
+                        className="sr-only peer"
+                        checked={allowAnalytics}
+                        onChange={() => setAllowAnalytics(!allowAnalytics)}
+                    />
+                    <div className="w-10 h-6 bg-gray-300 rounded-full peer-checked:bg-belazurblue"></div>
+                    <div className={`dot absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition ${allowAnalytics ? "translate-x-4" : ""}`}></div>
+                </label>
+            </div>
             <div className="flex justify-center gap-4 mt-4">
+                <button
+                    onClick={handleAcceptAll}
+                    className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition"
+                >
+                    {text[language].acceptAll}
+                </button>
                 <button
                     onClick={handleAccept}
                     className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"

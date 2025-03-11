@@ -3,11 +3,13 @@ import * as Yup from "yup";
 import emailjs from "emailjs-com";
 import { useContext, useState } from "react";
 import MyContext from "../context/context";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = () => {
     const { language, text } = useContext(MyContext);
     const [confirmation, setConfirmation] = useState("");
-    const [textColor, setTextColor] = useState("red")
+    const [textColor, setTextColor] = useState("red");
+    const [recaptchaValue, setRecaptchaValue] = useState(null);
 
     const initialValues = {
         fname: "",
@@ -40,15 +42,27 @@ const Contact = () => {
     });
 
     const handleSubmit = (values, { resetForm }) => {
-        const serviceID = "PK_BelAzurCoding";
-        const templateID = "template_jzgb55s";
-        const userID = "zcRAvqelahig8lMvs";
+        if (!recaptchaValue) {
+            setConfirmation(`${text[language].contactRecaptchaError}`);
+            setTextColor("red");
+            return;
+        }
+        const serviceID = import.meta.env.VITE_SERVICE_ID;
+        const templateID = import.meta.env.VITE_TEMPLATE_ID;
+        const userID = import.meta.env.VITE_USER_ID;
+        const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
         emailjs
-            .send(serviceID, templateID, values, userID)
+            .send(
+                serviceID,
+                templateID,
+                { ...values, recaptcha: recaptchaValue },
+                userID,
+                publicKey
+            )
             .then(() => {
                 setConfirmation(`${text[language].contactEmailSentSuccess}`);
-                setTextColor("green")
+                setTextColor("green");
                 resetForm();
             })
             .catch((error) => {
@@ -63,7 +77,10 @@ const Contact = () => {
             <div className="mx-auto w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl text-center">
                 <h1>{text[language].contactHeader}</h1>
             </div>
-            <div className="mx-auto w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl text-center" style={{ color: "textColor" }}>
+            <div
+                className="mx-auto w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl text-center"
+                style={{ color: textColor }}
+            >
                 {!confirmation ? "" : confirmation}
             </div>
             <div className="mx-auto w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl text-belazurblue">
@@ -177,6 +194,12 @@ const Contact = () => {
                             name="freeText"
                             className="mb-6 border-none rounded-md shadow-md contactfield"
                         />
+                        <div className="pt-4 mb-6 flex justify-center">
+                            <ReCAPTCHA
+                                sitekey={import.meta.env.VITE_RECAPTCHA_KEY}
+                                onChange={setRecaptchaValue}
+                            />
+                        </div>
                         <button
                             type="submit"
                             className="bg-white text-belazurblue hover:bg-belazurblue hover:text-white font-semibold hover:text-white rounded"

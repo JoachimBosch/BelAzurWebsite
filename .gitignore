@@ -25,3 +25,6 @@ dist-ssr
 
 config.py
 app.py
+
+.env
+

@@ -6,12 +6,14 @@ import "./index.css";
 import Navbar from "./structure/navbar";
 import Footer from "./structure/footer";
 import CookieModal from "./components/cookieModal";
+import LanguageModal from "./components/languageModal";
 
 createRoot(document.getElementById("root")).render(
     <Router>
         <MyProvider>
             <Navbar />
             <AuthRoutes />
+            <LanguageModal />
             <CookieModal />
             <Footer />
         </MyProvider>

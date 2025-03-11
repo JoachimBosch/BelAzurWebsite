@@ -69,6 +69,12 @@ button {
     width: auto;
 }
 
+.button-language {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+}
+
 .button-services {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -276,7 +282,7 @@ label {
 }
 
 .cookieModal {
-    max-width: 400px;
+    max-width: 500px;
     text-align: center;
     position: fixed;
     bottom: 40px;
@@ -286,6 +292,15 @@ label {
     border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     z-index: 3000;
+}
+
+.languageModal {
+    min-width: 500px;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .pricing {
@@ -366,17 +381,26 @@ label {
     }
 
     .cookieModal {
-        max-width: 400px;
+        max-width: 80vw;
         text-align: center;
         position: fixed;
         bottom: 40px;
-        right: 40px;
-        left: 40px;
+        right: 10vw;
+        left: 10vw;
         background-color: white;
         padding: 20px;
         border-radius: 5px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         z-index: 1000;
+    }
+
+    .languageModal {
+        min-width: 60vw;
+        text-align: center;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 
     .pricing {
