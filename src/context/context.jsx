@@ -156,6 +156,7 @@ const _DESKTOPtext = {
         contactEmailSentError: "Failed to send email. Please try again.",
         taxWarning: "* Price excluding taxes",
         continue: "Continue in English",
+        contactRecaptchaError: "ReCaptcha Error, please try again",
     },
     french: {
         respectPrivacy: "Nous respectons votre vie privée ",
@@ -314,6 +315,7 @@ const _DESKTOPtext = {
             "Échec de l'envoi de l'e-mail. Veuillez réessayer.",
         taxWarning: "* Prix hors TVA",
         continue: "Continuer en français",
+        contactRecaptchaError: "Erreur ReCaptcha, veuillez réessayer",
     },
 
     dutch: {
@@ -472,6 +474,7 @@ const _DESKTOPtext = {
         contactEmailSentError: "E-mail verzenden mislukt. Probeer het opnieuw.",
         taxWarning: "* Prijzen zonder BTW",
         continue: "Doorgaan in het Nederlands",
+        contactRecaptchaError: "ReCaptcha Error, gelieve opnieuw te proberen",
     },
 };
 
@@ -615,6 +618,7 @@ const _MOBILEtext = {
         contactEmailSentError: "Email failed. Try again.",
         taxWarning: "* Price excluding taxes",
         continue: "Continue in English",
+        contactRecaptchaError: "ReCaptcha Error, please try again",
     },
     french: {
         respectPrivacy: "Nous respectons votre vie privée ",
@@ -752,6 +756,7 @@ const _MOBILEtext = {
         contactEmailSentError: "Échec de l'envoi. Réessayez.",
         taxWarning: "* Prix hors TVA",
         continue: "Continuer en français",
+        contactRecaptchaError: "Erreur ReCaptcha, veuillez réessayer",
     },
 
     dutch: {
@@ -894,6 +899,7 @@ const _MOBILEtext = {
         contactEmailSentError: "E-mail verzenden mislukt. Probeer opnieuw.",
         taxWarning: "* Prijzen zonder BTW",
         continue: "Doorgaan in het Nederlands",
+        contactRecaptchaError: "ReCaptcha Error, gelieve opnieuw te proberen",
     },
 };
 

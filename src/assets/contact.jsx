@@ -41,36 +41,35 @@ const Contact = () => {
         freeText: Yup.string(),
     });
 
-    const handleSubmit = (values, { resetForm }) => {
+    const handleSubmit = async (values, { resetForm }) => {
         if (!recaptchaValue) {
             setConfirmation(`${text[language].contactRecaptchaError}`);
             setTextColor("red");
             return;
         }
+
         const serviceID = import.meta.env.VITE_SERVICE_ID;
         const templateID = import.meta.env.VITE_TEMPLATE_ID;
-        const userID = import.meta.env.VITE_USER_ID;
         const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
-        const templateParams = { ...values, "g-recaptcha-response": recaptchaValue }
-        const options = { ...publicKey }
 
-        emailjs
-            .send(
-                serviceID,
-                templateID,
-                templateParams,
-                options
-            )
-            .then(() => {
-                setConfirmation(`${text[language].contactEmailSentSuccess}`);
+        const templateParams = {
+            ...values,
+        };
+
+        emailjs.send(serviceID, templateID, templateParams, publicKey).then(
+            () => {
+                console.log("success");
                 setTextColor("green");
+                setConfirmation(`${text[language].contactEmailSentSuccess}`);
+
                 resetForm();
-            })
-            .catch((error) => {
+            },
+            (error) => {
                 console.error("Error sending email:", error);
                 setConfirmation(`${text[language].contactEmailSentError}`);
                 setTextColor("red");
-            });
+            }
+        );
     };
 
     return (
@@ -198,7 +197,7 @@ const Contact = () => {
                         <div className="pt-4 mb-6 flex justify-center">
                             <ReCAPTCHA
                                 sitekey={import.meta.env.VITE_RECAPTCHA_KEY}
-                                onChange={setRecaptchaValue}
+                                onChange={(token) => setRecaptchaValue(token)}
                             />
                         </div>
                         <button
