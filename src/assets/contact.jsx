@@ -51,13 +51,15 @@ const Contact = () => {
         const templateID = import.meta.env.VITE_TEMPLATE_ID;
         const userID = import.meta.env.VITE_USER_ID;
         const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+        const templateParams = { ...values, "g-recaptcha-response": recaptchaValue }
+        const options = { ...publicKey }
 
         emailjs
             .send(
                 serviceID,
                 templateID,
-                values,
-                publicKey
+                templateParams,
+                options
             )
             .then(() => {
                 setConfirmation(`${text[language].contactEmailSentSuccess}`);
