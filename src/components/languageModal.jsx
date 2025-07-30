@@ -28,6 +28,7 @@ const LanguageModal = () => {
                         onClick={() => {
                             setLanguage("french");
                             localStorage.setItem("selectedLanguage", "french");
+                            setShowLanguageModal(false);
                         }}
                     >
                         <img
@@ -41,6 +42,7 @@ const LanguageModal = () => {
                         onClick={() => {
                             setLanguage("english");
                             localStorage.setItem("selectedLanguage", "english");
+                            setShowLanguageModal(false);
                         }}
                     >
                         <img
@@ -54,6 +56,7 @@ const LanguageModal = () => {
                         onClick={() => {
                             setLanguage("dutch");
                             localStorage.setItem("selectedLanguage", "dutch");
+                            setShowLanguageModal(false);
                         }}
                     >
                         <img
@@ -64,14 +67,6 @@ const LanguageModal = () => {
                         />
                     </button>
                 </div>
-                <button
-                    className="button-language text-belazurblue bg-white font-semibold"
-                    onClick={() => {
-                        setShowLanguageModal(false);
-                    }}
-                >
-                    {text[language].continue}
-                </button>
             </div>
         </div>
     );
